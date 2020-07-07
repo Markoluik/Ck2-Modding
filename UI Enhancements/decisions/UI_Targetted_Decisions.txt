@@ -1,0 +1,238 @@
+targetted_decisions = {
+
+	make_first_wife = {
+		only_playable = yes
+		filter = spouse
+		ai_target_filter = spouse
+		ai_check_interval = 6
+		diplomacy_icon = GFX_make_first_wife #Edited Given Picure
+
+		from_potential = {
+			is_female = no
+			has_polygamy = yes
+		}
+
+		potential = {
+			is_female = yes
+			is_main_spouse = no
+			any_spouse = {
+				character = FROM
+			}
+		}
+
+		allow = { }
+
+		effect = {
+			FROM = {
+				random_spouse = {
+					limit = { is_main_spouse = yes }
+					opinion = {
+						who = prev
+						modifier = opinion_very_disappointed
+						years = 4
+					}
+					hidden_tooltip = {
+						character_event = { id = 89011 days = 16 }
+					}
+				}
+			}
+			make_primary_spouse = yes
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+			}
+		}
+	}
+		
+	adept_continence = {
+		filter = self
+		ai_target_filter = self
+		diplomacy_icon = GFX_adept_continence
+		
+		potential = {
+			ai = no
+			is_adult = yes
+			is_married = yes
+			NOT = { trait = celibate }
+			NOT = { trait = continence }
+		}
+		
+		allow = {
+			prisoner = no
+			NOT = { trait = incapable }
+		}	
+		
+		effect = {
+			piety = 10
+			prestige = -10
+			add_trait = continence
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+    }
+	
+	unadept_continence = {
+		filter = self
+		ai_target_filter = self
+		diplomacy_icon = GFX_unadept_continence
+		
+		potential = {
+			ai = no
+			trait = continence
+		}
+		
+		allow = {
+		    prisoner = no
+			 NOT = { trait = incapable }
+		}
+		
+		effect = {
+			piety = -10
+			prestige = 10
+			remove_trait = continence
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+    }
+
+	add_chastity_belt = {
+		filter = home_court
+		ai_target_filter = home_court
+		diplomacy_icon = GFX_add_chastity_belt #Edited Given Picure
+		
+		from_potential = {
+			ai = no
+			is_ruler = yes
+		}
+		
+		potential = {
+			age = 12
+			liege = { character = FROM }
+			is_female = yes
+			NOT = { trait = chastity_belt }
+			is_married = no
+			dynasty = FROM
+		}
+		
+		allow = {
+			is_female = yes # The target is female
+			age = 12
+			is_married = no
+			in_command = no # The target shouldn't be off leading troops somewhere
+		}	
+		
+		effect = {
+			add_trait = chastity_belt
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+    }
+	
+	remove_chastity_belt = {
+		filter = home_court
+		ai_target_filter = home_court
+		diplomacy_icon = GFX_remove_chastity_belt #Edited Given Picure
+		
+		from_potential = {
+			ai = no
+			is_ruler = yes
+			prisoner = no
+		}
+		
+		potential = {			
+			liege = { character = FROM }
+			trait = chastity_belt
+			is_married = no	
+			dynasty = FROM
+		}
+		allow = {
+			is_female = yes
+			trait = chastity_belt
+		}	
+		
+		effect = {
+			remove_trait = chastity_belt
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+ 	}
+	
+	send_money = {
+		filter = all
+		ai = no
+		
+		from_potential = {
+			ai = no
+		}
+		
+        potential = {
+        }
+		
+		allow = {
+			FROM = {
+				NOT = { has_character_flag = send_money_action }
+			}
+		}
+		
+		effect = {
+			ROOT = {
+				save_event_target_as = money_receiver
+			}
+			FROM = {
+				save_event_target_as = money_giver
+				character_event = { id = money.1 }
+				set_character_flag = send_money_action
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	correct_dynasty = {
+		filter = close_relatives
+		ai_target_filter = none
+		ai = no
+		diplomacy_icon = GFX_correct_dynasty #Edited Given Picure
+		
+		from_potential = { }
+		
+		potential = {
+			is_child_of = FROM
+			NOT = { dynasty = FROM }
+		}
+		
+		allow = {
+			NOT = { dynasty = FROM }
+		}
+		
+		effect = {
+			dynasty = FROM
+			if = {
+				limit = {
+					trait = bastard
+				}
+				remove_trait = bastard
+			}
+			FROM = { recalc_succession = yes }
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

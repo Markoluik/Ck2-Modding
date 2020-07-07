@@ -1,93 +1,24 @@
-#######################
-### UI Enhancements ###
-#######################
-
-###########
 ### 1.2 ###
-###########
+Targetted Decisions:
+	- Send Money - Choose from 6 different amounts of money to send.
+	- Choose Your First Wife - A choice where you can choose your first wife between all your wives. For any religion has polygamy.
+	- Correct Childrens Dynasty - There are times where for no apparent reason CK2 will not make a child of your bloodline. This will pull them back into your bloodline as legitimate heirs.
+	- Adept Continence - You may adapt sexual abstinence thus preventing your realm from falling apart due to gavelkind succession.
+	- Chastity Belt - To stop your daughters/sisters from whoring about while unmarried
 
-Send Money Targeted Decision - Choose from 6 different amounts of money to send.
-
-###########
 ### 1.1 ###
-###########
+Mods added to mod list:
+	- Interface Century Gothic:
+	- Real Father + Visible Health and Fertility [Achievement compatible]:
+	- Viking/Bloodthirsty Counter (Ironman):
 
-Interface Century Gothic:
-	gfx/fonts/Arial12.fnt
-	gfx/fonts/Arial12.tga
-	gfx/fonts/Arial12_bold.fnt
-	gfx/fonts/Arial12_bold.tga
-	gfx/fonts/crap.fnt
-	gfx/fonts/crap.tga
-	gfx/fonts/ubuntu_16.fnt
-	gfx/fonts/ubuntu_16.tga
-	gfx/fonts/vic_18.fnt
-	gfx/fonts/vic_18.tga
-	gfx/fonts/vic_22.fnt
-	gfx/fonts/vic_22.tga
-	gfx/fonts/vic_36.fnt
-	gfx/fonts/vic_36.tga
-	interface/font_ubuntu_16.gfx
-	interface/outliner.gui
-	
-Real Father + Visible Health and Fertility [Achievement compatible]:
-	localization/customizable_localisation/00_customizable_localisation_VHFBastardof.txt
-	localization/00_VHFBastardof.csv
-	
-Viking/Bloodthirsty Counter (Ironman):
-	localization/00_PI_ER.csv
-	
-###########
 ### 1.0 ###
-###########
-	
-A Revolutionary Borders Mod:
-	map/terrain/optionals/barely visible county border/border1.dds
-	map/terrain/border0.dds
-	map/terrain/border1.dds
-	map/terrain/border3.dds
-	map/terrain/border3corner.dds
-	map/terrain/border3cornerdata.dds
-	map/terrain/border3cornerdata.tga
-	map/terrain/border4.dds
-	map/terrain/border4data.dds
-	map/terrain/border5.dds
-	map/terrain/border5corner.dds
-	map/terrain/border5cornerdata.tga
-	map/terrain/border5cornerdata.dds
-	map/terrain/border5data.dds
-	map/terrain/FogofWar.dds
-	map/terrain/portage.dds
-	map/terrain/strait.dds
-	
-A Revolutionary Map Font Mod:
-	gfx/fonts/Mapfont.fnt
-	gfx/fonts/mapfont.dds
-	
-A Revolutionary Water Mod:
-	map/terrain/colormap_water.dds
-	map/terrain/fractal_noise.dds
-	map/terrain/RiverSurface_diffuse.dds
-	map/terrain/water_border.dds
-	map/terrain/waternormal.bmp
-	map/terrain/waternormal.dds
-	gfx/fx/pdxwater.lua
-	
-Blue Duke:
-	gfx/interface/ all the charframes
-	
-darkerMap:
-	map/terrain/colormap.dds
-	
-Interface Stellaris Colors:
-	interface/z_stellaris_colors.gfx
-	gfx/fonts/century_gothic_bold_18.fnt
-	gfx/fonts/century_gothic_bold_18.tga
-	gfx/fonts/ubuntu_16.fnt
-	gfx/fonts/ubuntu_16.tga
-	
-Orange Ransom Button:
-	gfx/interface/charview_goto_wiki.dds
-	
-Orange Wikipedia Icon:
-	gfx/interface/plots_action_ransom.dds
+Mods added to mod list:
+	- A Revolutionary Borders Mod:
+	- A Revolutionary Map Font Mod:
+	- A Revolutionary Water Mod:
+	- Blue Duke:
+	- darkerMap:
+	- Interface Stellaris Colors:
+	- Orange Ransom Button:
+	- Orange Wikipedia Icon:

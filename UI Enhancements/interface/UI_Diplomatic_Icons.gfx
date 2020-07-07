@@ -1,6 +1,200 @@
 spriteTypes = {
+	#################
+	### HARDCODED ###
+	#################
+	spriteType = {
+		name = "GFX_REQUEST_SUPPORT_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_request_support.dds"
+	}
+	spriteType = {
+		name = "GFX_ABSORB_CLAN_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_absorb_clan.dds"
+	}
+	spriteType = {
+		name = "GFX_APPOINT_COMMANDER_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_appoint_commander.dds"
+	}
+	spriteType = {
+		name = "GFX_APPOINT_TO_OFFICE_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_appoint_councilor.dds"
+	}
+	spriteType = {
+		name = "GFX_ASK_FOR_CLAIM_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_request_claim.dds"
+	}
+	spriteType = {
+		name = "GFX_ASK_FOR_DIVORCE_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_ask_for_divorce.dds"
+	}
+	spriteType = {
+		name = "GFX_ASK_FOR_EXCOMMUNICATION_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_request_excomminication.dds"
+	}
+	spriteType = {
+		name = "GFX_ASK_FOR_INVASION_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_ask_for_invasion.dds"
+	}
+	spriteType = {
+		name = "GFX_ASK_TO_RANSOM_CHARACTER_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_ransom.dds"
+	}
+	spriteType = {
+		name = "GFX_AWARD_HONORARY_TITLE_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_award_honorary_title.dds"
+	}
+	spriteType = {
+		name = "GFX_BUY_FAVOR_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_favor.dds"
+	}
+	spriteType = {
+		name = "GFX_CALL_IN_FAVOR_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_favor.dds"
+	}
+	spriteType = {
+		name = "GFX_CLAIM_TITLE_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_banish.dds"
+	}
+	spriteType = {
+		name = "GFX_DECLARE_WAR_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_diplomatic.dds"
+	}
+	spriteType = {
+		name = "GFX_DEMAND_RELIGIOUS_CONVERSION_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_demand_religious_conversion.dds"
+	}
+	spriteType = {
+		name = "GFX_DISMISS_CONSORT_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_concubine.dds"
+	}
+	spriteType = {
+		name = "GFX_DISSOLVE_ALLIANCE_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_dissolve_alliance.dds"
+	}	
+	spriteType = {
+		name = "GFX_EDUCATE_CHARACTER_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_educate.dds"
+	}
+	spriteType = {
+		name = "GFX_EXECUTE_IMPRISONED_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_execute_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_EXILE_IMPRISONED_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_banish.dds"
+	}	
+	spriteType = {
+		name = "GFX_FORM_ALLIANCE_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_alliance.dds"
+	}
+	spriteType = {
+		name = "GFX_FORM_NON_AGGRESSION_PACT_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_pact.dds"
+	}
+	spriteType = {
+		name = "GFX_GIVE_ARTIFACT_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_give_artifact.dds"
+	}
+	spriteType = {
+		name = "GFX_GRANT_LANDED_TITLE_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_grant_land.dds"
+	}
+	spriteType = {
+		name = "GFX_IMPRISON_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_imprison.dds"
+	}
+	spriteType = {
+		name = "GFX_INVITE_TO_COURT_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_invite.dds"
+	}
+	spriteType = {
+		name = "GFX_MAKE_CONSORT_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_concubine.dds"
+	}
+	spriteType = {
+		name = "GFX_OFFER_CONSORT_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_concubine.dds"
+	}
+	spriteType = {
+		name = "GFX_OFFER_PEACE_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_offer_peace.dds"
+	}
+	spriteType = {
+		name = "GFX_OFFER_VASSALIZATION_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_vassalize.dds"
+	}
+	spriteType = {
+		name = "GFX_PREPARE_INVASION_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_prepare_invasion.dds" #Edit to check if chistians don't get ship
+	}
+	spriteType = {
+		name = "GFX_RANSOM_CHARACTER_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_ransom.dds"
+	}
+	spriteType = {
+		name = "GFX_RELEASE_FROM_PRISON_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_release.dds"
+	}
+	spriteType = {
+		name = "GFX_RELEASE_VASSAL_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_grant_independence.dds"
+	}
+	spriteType = {
+		name = "GFX_REVOKE_HONORARY_TITLE_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_revoke_honorary_title.dds"
+	}
+	spriteType = {
+		name = "GFX_REVOKE_TITLE_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_vassal_retract.dds"
+	}
+	spriteType = {
+		name = "GFX_SEND_ASSASSIN_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_send_assassin.dds"
+	}
+	spriteType = {
+		name = "GFX_SEND_GIFT_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_wealth.dds"
+	}
+	spriteType = {
+		name = "GFX_TRANSFER_VASSAL_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_vassal_transfer.dds"
+	}
+	spriteType = {
+		name = "GFX_RETRACT_VASSAL_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_vassal_retract.dds"
+	}
+	spriteType = {
+		name = "GFX_ASK_FOR_VASSALIZATION_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_ask_for_vassalization.dds"
+	}
+	############
+	### MEIN ###
+	############
+	spriteType = {
+		name = "GFX_add_chastity_belt"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_chastity_belt.dds"
+	}
+	spriteType = {
+		name = "GFX_remove_chastity_belt"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_chastity_belt.dds"
+	}
+	spriteType = {
+		name = "GFX_adept_continence"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_continence.dds"
+	}
+	spriteType = {
+		name = "GFX_unadept_continence"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_continence.dds"
+	}
 	spriteType = {
 		name = "GFX_send_money"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_wealth.dds"
+	}
+	spriteType = {
+		name = "GFX_correct_dynasty"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_correct_dynasty.dds"
+	}
+	spriteType = {
+		name = "GFX_make_first_wife"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_make_first_wife.dds"
 	}
 }
