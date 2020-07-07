@@ -3,6 +3,12 @@
 #######################
 
 ###########
+### 1.2 ###
+###########
+
+Send Money Targeted Decision - Choose from 6 different amounts of money to send.
+
+###########
 ### 1.1 ###
 ###########
 

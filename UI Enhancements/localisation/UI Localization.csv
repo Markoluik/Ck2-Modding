@@ -1,0 +1,13 @@
+send_money;Send Money;;;;;;;;;;;;;x,,,,
+send_money_desc;Send money to §Y[Root.GetFullName]§!. You can choose from 6 different amounts.;;;;;;;;;;;;;x,,,,
+desc_send_money.1;§GChoose§! amount of gold to send. The gold amounts you can send are §G25§!, §G50§!, §G100§!, §G200§!, §G500§! or §G1000§!.;;;;;;;;;;;;;x
+OptAmoney.1;§G25§!;;;;;;;;;;;;;x,,,,
+OptBmoney.1;§G50§!;;;;;;;;;;;;;x,,,,
+OptCmoney.1;§G100§!;;;;;;;;;;;;;x,,,,
+OptAmoney.2;§G200§!;;;;;;;;;;;;;x,,,,
+OptBmoney.2;§G500§!;;;;;;;;;;;;;x,,,,
+OptCmoney.2;§G1000§!;;;;;;;;;;;;;x,,,,
+OptDmoney.1;More;;;;;;;;;;;;;x,,,,
+OptDmoney.2;Never Mind;;;;;;;;;;;;;x,,,,
+OptAmoney.3;Gratitude;;;;;;;;;;;;;x,,,,
+DescMoney.3;Dear §Y[money_receiver.GetFullName]§!, for far too long have I grown powerful while your own realm has stagnated. Please accept this small token of §Y[Root.money_given.GetValue]§! gold coins as reward for still existing. From your biggest rival \nLove §Y[money_giver.GetFullName]§!;;;;;;;;;;;;;x,,,

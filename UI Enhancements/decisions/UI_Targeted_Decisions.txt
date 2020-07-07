@@ -1,0 +1,34 @@
+targetted_decisions = {
+	send_money = {
+		filter = all
+		ai = no
+		
+		from_potential = {
+			ai = no
+		}
+		
+        potential = {
+        }
+		
+		allow = {
+			FROM = {
+				NOT = { has_character_flag = send_money_action }
+			}
+		}
+		
+		effect = {
+			ROOT = {
+				save_event_target_as = money_receiver
+			}
+			FROM = {
+				save_event_target_as = money_giver
+				character_event = { id = money.1 }
+				set_character_flag = send_money_action
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

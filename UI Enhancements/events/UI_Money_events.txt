@@ -1,0 +1,181 @@
+namespace = money
+	
+character_event = {
+	id = money.1
+	desc = "desc_send_money.1"
+	picture = GFX_evt_gift
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+	option = {
+		name = "OptAmoney.1"
+		if = {
+			limit = {
+				wealth = 25
+			}
+			wealth = -25
+			hidden_tooltip = {
+				set_variable = { which = money_given value = 25 }
+			}	
+			event_target:money_giver = {
+				character_event = { id = money.3 }
+			}
+			clr_character_flag = send_money_action
+			event_target:money_receiver = {
+				wealth = 25
+				character_event = { id = money.3 }
+			}
+		}
+	}
+	
+	option = {
+		name = "OptBmoney.1"
+		if = {
+			limit = {
+				wealth = 50
+			}
+			wealth = -50
+			hidden_tooltip = {
+				set_variable = { which = money_given value = 50 }
+			}	
+			event_target:money_giver = {
+				character_event = { id = money.3 }
+			}
+			clr_character_flag = send_money_action
+			event_target:money_receiver = {
+				wealth = 50
+				character_event = { id = money.3 }
+			}
+		}
+	}
+	
+	option = {
+		name = "OptCmoney.1"
+		if = {
+			limit = {
+				wealth = 100
+			}
+			wealth = -100
+			hidden_tooltip = {
+				set_variable = { which = money_given value = 100 }
+			}	
+			event_target:money_giver = {
+				character_event = { id = money.3 }
+			}
+			clr_character_flag = send_money_action
+			event_target:money_receiver = {
+				wealth = 100
+				character_event = { id = money.3 }
+			}
+		}
+	}
+	
+	option = {
+		name = "OptDmoney.1"
+		#if = {
+		#	limit = {
+		#		wealth = 101
+		#	}
+			character_event = { id = money.2 }
+		#}
+	}
+	
+	option = {
+		name = "OptDmoney.2"
+		clr_character_flag = send_money_action
+	}
+}
+
+character_event = {
+	id = money.2
+	desc = "desc_send_money.1"
+	picture = GFX_evt_gift
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+	option = {
+		name = "OptAmoney.2"
+		if = {
+			limit = {
+				wealth = 200
+			}
+			wealth = -200
+			hidden_tooltip = {
+				set_variable = { which = money_given value = 200 }
+			}	
+			event_target:money_giver = {
+				character_event = { id = money.3 }
+			}
+			clr_character_flag = send_money_action
+			event_target:money_receiver = {
+				wealth = 200
+				character_event = { id = money.3 }
+			}
+		}
+	}
+	
+	option = {
+		name = "OptBmoney.2"
+		if = {
+			limit = {
+				wealth = 500
+			}
+			wealth = -500
+			hidden_tooltip = {
+				set_variable = { which = money_given value = 500 }
+			}	
+			event_target:money_giver = {
+				character_event = { id = money.3 }
+			}
+			clr_character_flag = send_money_action
+			event_target:money_receiver = {
+				wealth = 500
+				character_event = { id = money.3 }
+			}
+		}
+	}
+	
+	option = {
+		name = "OptCmoney.2"
+		if = {
+			limit = {
+				ROOT = {
+					wealth = 1000
+				}
+			}
+			wealth = -1000
+			hidden_tooltip = {
+				set_variable = { which = money_given value = 1000 }
+			}	
+			event_target:money_giver = {
+				character_event = { id = money.3 }
+			}
+			clr_character_flag = send_money_action
+			event_target:money_receiver = {
+				wealth = 1000
+				character_event = { id = money.3 }
+			}
+		}
+	}
+	
+	option = {
+		name = "OptDmoney.2"
+		clr_character_flag = send_money_action
+	}
+}
+
+letter_event = {
+	id = money.3
+	is_triggered_only = yes
+	
+	desc = {
+		text = "DescMoney.3"
+	}	
+	option = {
+		name = "OptAmoney.3"
+	}
+}
