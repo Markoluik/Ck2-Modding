@@ -5,7 +5,7 @@ targetted_decisions = {
 		filter = spouse
 		ai_target_filter = spouse
 		ai_check_interval = 6
-		diplomacy_icon = GFX_make_first_wife #Edited Given Picure
+		diplomacy_icon = GFX_make_first_wife
 
 		from_potential = {
 			is_female = no
@@ -107,7 +107,7 @@ targetted_decisions = {
 	add_chastity_belt = {
 		filter = home_court
 		ai_target_filter = home_court
-		diplomacy_icon = GFX_add_chastity_belt #Edited Given Picure
+		diplomacy_icon = GFX_add_chastity_belt
 		
 		from_potential = {
 			ai = no
@@ -142,7 +142,7 @@ targetted_decisions = {
 	remove_chastity_belt = {
 		filter = home_court
 		ai_target_filter = home_court
-		diplomacy_icon = GFX_remove_chastity_belt #Edited Given Picure
+		diplomacy_icon = GFX_remove_chastity_belt
 		
 		from_potential = {
 			ai = no
@@ -170,9 +170,10 @@ targetted_decisions = {
 		}
  	}
 	
-	send_money = {
+	send_gold = {
 		filter = all
 		ai = no
+		diplomacy_icon = GFX_send_gold
 		
 		from_potential = {
 			ai = no
@@ -183,18 +184,18 @@ targetted_decisions = {
 		
 		allow = {
 			FROM = {
-				NOT = { has_character_flag = send_money_action }
+				NOT = { has_character_flag = send_gold_action }
 			}
 		}
 		
 		effect = {
 			ROOT = {
-				save_event_target_as = money_receiver
+				save_event_target_as = gold_receiver
 			}
 			FROM = {
-				save_event_target_as = money_giver
-				character_event = { id = money.1 }
-				set_character_flag = send_money_action
+				save_event_target_as = gold_giver
+				character_event = { id = gold.1 }
+				set_character_flag = send_gold_action
 			}
 		}
 		
@@ -207,7 +208,7 @@ targetted_decisions = {
 		filter = close_relatives
 		ai_target_filter = none
 		ai = no
-		diplomacy_icon = GFX_correct_dynasty #Edited Given Picure
+		diplomacy_icon = GFX_correct_dynasty
 		
 		from_potential = { }
 		

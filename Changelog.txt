@@ -5,6 +5,7 @@ Targetted Decisions:
 	- Correct Childrens Dynasty - There are times where for no apparent reason CK2 will not make a child of your bloodline. This will pull them back into your bloodline as legitimate heirs.
 	- Adept Continence - You may adapt sexual abstinence thus preventing your realm from falling apart due to gavelkind succession.
 	- Chastity Belt - To stop your daughters/sisters from whoring about while unmarried
+	- Replaced Orange Wikipedia Icon with a Blue Wikipedia Icon
 
 ### 1.1 ###
 Mods added to mod list:

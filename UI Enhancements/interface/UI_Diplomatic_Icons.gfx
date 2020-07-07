@@ -186,8 +186,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_continence.dds"
 	}
 	spriteType = {
-		name = "GFX_send_money"
-		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_wealth.dds"
+		name = "GFX_send_gold"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_send_gold.dds"
 	}
 	spriteType = {
 		name = "GFX_correct_dynasty"
