@@ -6,7 +6,8 @@ Targetted Decisions:
 	- Adept Continence - You may adapt sexual abstinence thus preventing your realm from falling apart due to gavelkind succession.
 	- Chastity Belt - To stop your daughters/sisters from whoring about while unmarried
 	- Replaced Orange Wikipedia Icon with a Blue Wikipedia Icon
-
+	- Trait Softcap Exterminated - No more random events to remove personality traits when have over 5 of them
+	
 ### 1.1 ###
 Mods added to mod list:
 	- Interface Century Gothic:
