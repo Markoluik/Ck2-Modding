@@ -230,6 +230,7 @@ targetted_decisions = {
 				remove_trait = bastard
 			}
 			FROM = { recalc_succession = yes }
+			ROOT = { recalc_succession = yes }
 		}
 
 		ai_will_do = {
