@@ -7,6 +7,7 @@ Insert the mod into %userprofile%\documents\Paradox Interactive\Crusader Kings I
 
 ## Task list
 Multiplayer Cheats
+
 Diplomatic Icons missing for decisions: 
 
 	dynasty_decisions:
