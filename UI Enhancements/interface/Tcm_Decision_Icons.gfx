@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_open_employment"
+		texturefile = "gfx/interface/Decision_Icons/decision_submenu_employment_open.dds"
+	}
+	spriteType = {
+		name = "GFX_close_employment"
+		texturefile = "gfx/interface/Decision_Icons/decision_submenu_employment_close.dds"
+	}
+}

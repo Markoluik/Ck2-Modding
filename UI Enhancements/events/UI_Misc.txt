@@ -1,15 +1,19 @@
 namespace = misc
 	
-character_event = { #Remove Continence
+character_event = { #Remove Continence/Chastity Belt
 	id = misc.1
 	is_triggered_only = yes
 	hide_window = yes
 	
 	trigger = {
-		trait = continence
+		OR = {
+			trait = chastity_belt
+			trait = continence
+		}
 	}
 	
 	immediate = {
+		remove_trait = chastity_belt
 		remove_trait = continence
 	}
 }

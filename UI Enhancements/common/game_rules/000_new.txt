@@ -1,0 +1,29 @@
+#cheats = {
+#	name = "RULE_CHEATS"
+#	group = "RULE_GROUP_TCM"
+#	option = {
+#		name = Yes
+#		text = "RULE_CHEATS_YES"
+#		desc = "RULE_CHEATS_YES_DESC"
+#	}
+#	option = {
+#		name = No
+#		text = "RULE_CHEATS_NO"
+#		desc = "RULE_CHEATS_NO_DESC"
+#	}
+#}
+
+plot_assassinate_own_children = {
+	name = "PLOT_ASSASSINATE_OWN_CHILDREN"
+	group = "RULE_GROUP_TCM"
+	option = {
+		name = Yes
+		text = "PLOT_ASSASSINATE_OWN_CHILDREN_YES"
+		desc = "PLOT_ASSASSINATE_OWN_CHILDREN_YES_DESC"
+	}
+	option = {
+		name = No
+		text = "PLOT_ASSASSINATE_OWN_CHILDREN_NO"
+		desc = "PLOT_ASSASSINATE_OWN_CHILDREN_NO_DESC"
+	}
+}

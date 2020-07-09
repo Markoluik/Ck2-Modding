@@ -1,5 +1,5 @@
 on_death = {
 	events = {
-		misc.1 #Remove Continence
+		misc.1 #Remove Continence/Chastity Belt
 	}
 }

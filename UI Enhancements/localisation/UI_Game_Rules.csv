@@ -1,0 +1,11 @@
+RULE_GROUP_UI;UI Mod;;;;;;;;;;;;;x,,
+RULE_CHEATS;§BUI:§! Cheats;;;;;;;;;;;;;x,,
+RULE_CHEATS_YES;Yes;;;;;;;;;;;;;x,,
+RULE_CHEATS_YES_DESC;Cheats are §Genabled§!, meaning you can spawn in event troops and money via decisions, change character mid-game etc.;;;;;;;;;;;;;x
+RULE_CHEATS_NO;No;;;;;;;;;;;;;x,,
+RULE_CHEATS_NO_DESC;Cheats are §Rdisabled.§!;;;;;;;;;;;;;x,,
+PLOT_ASSASSINATE_OWN_CHILDREN;§BUI:§! Plot Assassinate Own Children;;;;;;;;;;;;;x,,
+PLOT_ASSASSINATE_OWN_CHILDREN_YES;Yes;;;;;;;;;;;;;x,,
+PLOT_ASSASSINATE_OWN_CHILDREN_YES_DESC;You are §Bable§! to plot assassinate your own children.;;;;;;;;;;;;;x,,
+PLOT_ASSASSINATE_OWN_CHILDREN_NO;No;;;;;;;;;;;;x,,
+PLOT_ASSASSINATE_OWN_CHILDREN_NO_DESC;You are §Rnot§! able to plot assassinate your own children.;;;;;;;;;;;;;x,,

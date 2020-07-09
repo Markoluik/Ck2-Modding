@@ -1,0 +1,3 @@
+has_submenu_open = {
+	has_character_flag = employment_open
+}

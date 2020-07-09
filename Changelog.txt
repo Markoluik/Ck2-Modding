@@ -1,5 +1,5 @@
 ### 1.2 ###
-Targetted Decisions:
+New targetted decisions:
 	- Send Money - Choose from 6 different amounts of money to send.
 	- Choose Your First Wife - A choice where you can choose your first wife between all your wives. For any religion has polygamy.
 	- Correct Childrens Dynasty - There are times where for no apparent reason CK2 will not make a child of your bloodline. This will pull them back into your bloodline as legitimate heirs.
@@ -7,20 +7,21 @@ Targetted Decisions:
 	- Chastity Belt - To stop your daughters/sisters from whoring about while unmarried
 	- Replaced Orange Wikipedia Icon with a Blue Wikipedia Icon
 	- Trait Softcap Exterminated - No more random events to remove personality traits when have over 5 of them
-	
+	- Plot Assassinate Your Children - A Game Rule to allow you to plot to kill your own children
+
 ### 1.1 ###
 Mods added to mod list:
-	- Interface Century Gothic:
-	- Real Father + Visible Health and Fertility [Achievement compatible]:
-	- Viking/Bloodthirsty Counter (Ironman):
+	- Interface Century Gothic
+	- Real Father + Visible Health and Fertility [Achievement compatible]
+	- Viking/Bloodthirsty Counter (Ironman)
 
 ### 1.0 ###
 Mods added to mod list:
-	- A Revolutionary Borders Mod:
-	- A Revolutionary Map Font Mod:
-	- A Revolutionary Water Mod:
-	- Blue Duke:
-	- darkerMap:
-	- Interface Stellaris Colors:
-	- Orange Ransom Button:
-	- Orange Wikipedia Icon:
+	- A Revolutionary Borders Mod
+	- A Revolutionary Map Font Mod
+	- A Revolutionary Water Mod
+	- Blue Duke
+	- darkerMap
+	- Interface Stellaris Colors
+	- Orange Ransom Button
+	- Orange Wikipedia Icon

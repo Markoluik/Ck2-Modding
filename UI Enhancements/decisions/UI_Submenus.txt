@@ -1,0 +1,14 @@
+decisions = {
+	
+	open_employment = {
+		potential = { has_submenu_open = no }
+		effect = { set_character_flag = employment_open }
+		ai_will_do = { factor = 0 }
+	}
+	
+	close_employment = {
+		potential = { has_submenu_open = yes }
+		effect = { clr_character_flag = employment_open }
+		ai_will_do = { factor = 0 }
+	}
+}
