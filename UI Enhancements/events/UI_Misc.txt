@@ -1,0 +1,15 @@
+namespace = misc
+	
+character_event = { #Remove Continence
+	id = misc.1
+	is_triggered_only = yes
+	hide_window = yes
+	
+	trigger = {
+		trait = continence
+	}
+	
+	immediate = {
+		remove_trait = continence
+	}
+}
