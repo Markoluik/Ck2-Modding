@@ -21,7 +21,7 @@ targetted_decisions = {
 		filter = home_court
 		ai_target_filter = home_court
 		ai_check_interval = 36
-		diplomacy_icon = GFX_create_mercenary_company #Edited Given Picure
+		diplomacy_icon = GFX_create_mercenary_company #Edited Given Picture
 		
 		from_potential = {
 			is_playable = yes

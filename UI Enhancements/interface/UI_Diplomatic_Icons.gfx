@@ -178,6 +178,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_hiding_send_into.dds"
 	}
 	spriteType = {
+		name = "GFX_diplo_action_negotiate_with_adventurer"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_negotiate_with_adventurer.dds"
+	}
+	spriteType = {
 		name = "GFX_take_out_of_hiding"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_hiding_take_out.dds"
 	}

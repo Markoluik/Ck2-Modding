@@ -27,9 +27,6 @@ Diplomatic Icons missing for decisions:
 	HL_mercenary_decisions:
 		dissolve_mercenary_company
 		
-	jd_decisions:
-		negotiate_with_adventurer
-	
 	mnm_secret_religious_societies_decisions:
 		secret_religions_conduct_secret_ceremony
 		secret_religions_induct_child
@@ -41,20 +38,12 @@ Diplomatic Icons missing for decisions:
 		secretly_convert_to_close_relations_religion
 		
 	mnm_society_decisions:
-		assassins_recruit
 		assassins_scare_ruler
 		assassins_mark_for_death
 		assassins_clear_marked_for_death_target
 		train_assassin_protege
 		devil_worshipers_dark_healing
 		devil_worshipers_demonic_possession
-		satanists_recruit
-		trollcrafters_recruit
-		cult_of_kali_recruit
-		cold_ones_recruit
-		plaguebringers_recruit
-		vodouns_recruit
-		bacchants_recruit
 		prisoner_dark_sacrifice
 		DW_demonic_impregnation
 		DW_prolong_life
@@ -82,7 +71,6 @@ Diplomatic Icons missing for decisions:
 		interfere_in_vassal_war_defender_use_favor
 		demand_gavelkind
 		demand_gavelkind_use_favor
-		ask_to_leave_court
 		exchange_land_for_hospital
 		commit_suicide_immortal
 		

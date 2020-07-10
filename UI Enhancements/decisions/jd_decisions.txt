@@ -1236,6 +1236,7 @@ decisions = {
 targeted_decisions = {
 	negotiate_with_adventurer = {
 		only_playable = yes
+		diplomacy_icon = GFX_diplo_action_negotiate_with_adventurer #Edited Given Picture
 		
 		filter = independent_rulers
 		ai_target_filter = independent_rulers
