@@ -7,11 +7,12 @@ Insert the mod into %userprofile%\documents\Paradox Interactive\Crusader Kings I
 ## Changelog
 
 ### 13-07-2020
-#### Changed
+#### Added:
+- The Suez Canal -  Unites the Indian and European Ocean. Now Indian navies aren't trapped in their own minigame
+#### Changed:
 - Send Gold interaction: 
 	- Minimum of 25 gold needed to be able to activate the targetted interaction
 	- Cant't spam the interaction, added a tooltip to explain why 
-
 ## 1.2 ###
 #### New targetted decisions:
  - Send Money - Choose from 6 different amounts of money to send.
@@ -23,10 +24,8 @@ Insert the mod into %userprofile%\documents\Paradox Interactive\Crusader Kings I
 
 #### Gameplay:
 - Trait Softcap Exterminated - No more random events to remove personality traits when have over 5 of them	
-
 #### Decisions:
 - Added a Submenu where you can find all your retainers
-
 #### UI:
 - Changed Orange Wikipedia Icon to a Blue Wikipedia Icon
 
