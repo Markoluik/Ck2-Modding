@@ -7,14 +7,17 @@ Insert the mod into %userprofile%\documents\Paradox Interactive\Crusader Kings I
 ## Changelog
 
 ### 13-07-2020
-#### Changed
-- Send Gold interaction: 
-	- Minimum of 25 gold needed to be able to activate the targetted interaction
-	- Cant't spam the interaction, added a tooltip to explain why 
-
+#### Added:
+- The Suez Canal -  Unites the Indian and European Ocean. Now Indian navies aren't trapped in their own minigame
+#### Changed:
+- Send Gold targetted decision: 
+	- Minimum of 25 gold needed to activate the interaction
+	- Cant't spam the interaction, added a tooltip to explain why
+#### Fixed:
+- The Employment List submenu now properly hides every decision that has nothing to do with hiring people
 ## 1.2 ###
 #### New targetted decisions:
- - Send Money - Choose from 6 different amounts of money to send.
+ - Send Money - Choose from 6 different amounts of money to send. Amounts are 25, 50, 100, 200, 500 and 1000.
  - Choose Your First Wife - A choice where you can choose your first wife between all your wives. For any religion has polygamy.
  - Correct Childrens Dynasty - There are times where for no apparent reason CK2 will not make a child of your bloodline. This will pull them back into your bloodline as legitimate heirs.
  - Adept Continence - You may adapt sexual abstinence thus preventing your realm from falling apart due to gavelkind succession.
@@ -23,10 +26,8 @@ Insert the mod into %userprofile%\documents\Paradox Interactive\Crusader Kings I
 
 #### Gameplay:
 - Trait Softcap Exterminated - No more random events to remove personality traits when have over 5 of them	
-
 #### Decisions:
-- Added a Submenu where you can find all your retainers
-
+- Added a "Employment List" submenu where you can find all your retainers. It hides all other decisions in the game
 #### UI:
 - Changed Orange Wikipedia Icon to a Blue Wikipedia Icon
 
