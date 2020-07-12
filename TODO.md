@@ -1,8 +1,8 @@
 
-## Task list
-Multiplayer Cheats
+# Task list
 
-Diplomatic Icons missing for decisions: 
+Multiplayer Cheats
+## Diplomatic Icons missing for decisions: 
 
 	dynasty_decisions:
 		Commit Suicide, Convince to straighten up
