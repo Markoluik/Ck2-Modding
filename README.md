@@ -15,7 +15,7 @@ Insert the mod into %userprofile%\documents\Paradox Interactive\Crusader Kings I
 	- Cant't spam the interaction, added a tooltip to explain why 
 ## 1.2 ###
 #### New targetted decisions:
- - Send Money - Choose from 6 different amounts of money to send.
+ - Send Money - Choose from 6 different amounts of money to send. Amounts are 25, 50, 100, 200, 500 and 1000.
  - Choose Your First Wife - A choice where you can choose your first wife between all your wives. For any religion has polygamy.
  - Correct Childrens Dynasty - There are times where for no apparent reason CK2 will not make a child of your bloodline. This will pull them back into your bloodline as legitimate heirs.
  - Adept Continence - You may adapt sexual abstinence thus preventing your realm from falling apart due to gavelkind succession.
