@@ -8,41 +8,40 @@ Insert the mod into %userprofile%\documents\Paradox Interactive\Crusader Kings I
 
 ### 13-07-2020
 #### Changed
-
 Send Gold interaction: 
-	Minimum of 25 gold needed to be able to activate interaction
-	Can't spam the interaction, added a tooltip
+- Minimum of 25 gold needed to be able to activate interaction
+- Cant 't spam the interaction, added a tooltip
 	
 ### 1.2 ###
-New targetted decisions:
-	- Send Money - Choose from 6 different amounts of money to send.
-	- Choose Your First Wife - A choice where you can choose your first wife between all your wives. For any religion has polygamy.
-	- Correct Childrens Dynasty - There are times where for no apparent reason CK2 will not make a child of your bloodline. This will pull them back into your bloodline as legitimate heirs.
-	- Adept Continence - You may adapt sexual abstinence thus preventing your realm from falling apart due to gavelkind succession.
-	- Chastity Belt - To stop your daughters/sisters from whoring about while unmarried
-	- Plot Assassinate Your Children - A Game Rule to allow you to plot to kill your own children
+#### New targetted decisions:
+ - Send Money - Choose from 6 different amounts of money to send.
+ - Choose Your First Wife - A choice where you can choose your first wife between all your wives. For any religion has polygamy.
+ - Correct Childrens Dynasty - There are times where for no apparent reason CK2 will not make a child of your bloodline. This will pull them back into your bloodline as legitimate heirs.
+ - Adept Continence - You may adapt sexual abstinence thus preventing your realm from falling apart due to gavelkind succession.
+ - Chastity Belt - To stop your daughters/sisters from whoring about while unmarried
+ - Plot Assassinate Your Children - A Game Rule to allow you to plot to kill your own children
 
 Gameplay:
-	- Trait Softcap Exterminated - No more random events to remove personality traits when have over 5 of them
+ - Trait Softcap Exterminated - No more random events to remove personality traits when have over 5 of them
 	
-Decisions
-	- Added a Submenu where you can find all your retainers
+Decisions:
+ - Added a Submenu where you can find all your retainers
 
 UI:
-	- Blue Wikipedia Icon
+ - Blue Wikipedia Icon
 
 ### 1.1 ###
-Mods added to mod list:
-	- Interface Century Gothic
-	- Real Father + Visible Health and Fertility [Achievement compatible]
-	- Viking/Bloodthirsty Counter (Ironman)
+#### Mods added:
+ - Interface Century Gothic
+ - Visible Health and Fertility
+ - Viking/Bloodthirsty Counter (Ironman)
 
 ### 1.0 ###
 #### Mods added:
-	- A Revolutionary Borders Mod
-	- A Revolutionary Map Font Mod
-	- A Revolutionary Water Mod
-	- Blue Duke
-	- darkerMap
-	- Interface Stellaris Colors
-	- Orange Ransom Button	
+ - A Revolutionary Borders Mod
+ - A Revolutionary Map Font Mod
+ - A Revolutionary Water Mod
+ - Blue Duke
+ - darkerMap
+ - Interface Stellaris Colors
+ - Orange Ransom Button	
