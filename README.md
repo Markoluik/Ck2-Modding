@@ -9,8 +9,8 @@ Insert the mod into %userprofile%\documents\Paradox Interactive\Crusader Kings I
 ### 13-07-2020
 #### Changed
 - Send Gold interaction: 
-	- Minimum of 25 gold needed to be able to activate interaction
-	- Cant 't spam the interaction, added a tooltip 
+	- Minimum of 25 gold needed to be able to activate the targetted interaction
+	- Cant't spam the interaction, added a tooltip to explain why 
 
 ## 1.2 ###
 #### New targetted decisions:
