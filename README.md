@@ -12,7 +12,9 @@ Insert the mod into %userprofile%\documents\Paradox Interactive\Crusader Kings I
 #### Changed:
 - Send Gold interaction: 
 	- Minimum of 25 gold needed to be able to activate the targetted interaction
-	- Cant't spam the interaction, added a tooltip to explain why 
+	- Cant't spam the interaction, added a tooltip to explain why
+#### Fixed:
+- The Employment List submenu now properly hides every decision that has nothing to do with hiring people
 ## 1.2 ###
 #### New targetted decisions:
  - Send Money - Choose from 6 different amounts of money to send. Amounts are 25, 50, 100, 200, 500 and 1000.
@@ -25,7 +27,7 @@ Insert the mod into %userprofile%\documents\Paradox Interactive\Crusader Kings I
 #### Gameplay:
 - Trait Softcap Exterminated - No more random events to remove personality traits when have over 5 of them	
 #### Decisions:
-- Added a Submenu where you can find all your retainers
+- Added a "Employment List" submenu where you can find all your retainers. It hides all other decisions in the game
 #### UI:
 - Changed Orange Wikipedia Icon to a Blue Wikipedia Icon
 
