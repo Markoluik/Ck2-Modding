@@ -8,11 +8,11 @@ Insert the mod into %userprofile%\documents\Paradox Interactive\Crusader Kings I
 
 ### 13-07-2020
 #### Changed
-Send Gold interaction: 
+- Send Gold interaction: 
 - Minimum of 25 gold needed to be able to activate interaction
-- Cant 't spam the interaction, added a tooltip
+- Cant 't spam the interaction, added a tooltip 
 	
-### 1.2 ###
+## 1.2 ###
 #### New targetted decisions:
  - Send Money - Choose from 6 different amounts of money to send.
  - Choose Your First Wife - A choice where you can choose your first wife between all your wives. For any religion has polygamy.
@@ -21,27 +21,27 @@ Send Gold interaction:
  - Chastity Belt - To stop your daughters/sisters from whoring about while unmarried
  - Plot Assassinate Your Children - A Game Rule to allow you to plot to kill your own children
 
-Gameplay:
- - Trait Softcap Exterminated - No more random events to remove personality traits when have over 5 of them
-	
-Decisions:
- - Added a Submenu where you can find all your retainers
+#### Gameplay:
+- Trait Softcap Exterminated - No more random events to remove personality traits when have over 5 of them	
 
-UI:
- - Blue Wikipedia Icon
+#### Decisions:
+- Added a Submenu where you can find all your retainers
 
-### 1.1 ###
+#### UI:
+- Blue Wikipedia Icon
+
+## 1.1 ###
 #### Mods added:
- - Interface Century Gothic
- - Visible Health and Fertility
- - Viking/Bloodthirsty Counter (Ironman)
+- Interface Century Gothic
+- Visible Health and Fertility
+- Viking/Bloodthirsty Counter (Ironman)
 
-### 1.0 ###
+## 1.0 ###
 #### Mods added:
- - A Revolutionary Borders Mod
- - A Revolutionary Map Font Mod
- - A Revolutionary Water Mod
- - Blue Duke
- - darkerMap
- - Interface Stellaris Colors
- - Orange Ransom Button	
+- A Revolutionary Borders Mod
+- A Revolutionary Map Font Mod
+- A Revolutionary Water Mod
+- Blue Duke
+- darkerMap
+- Interface Stellaris Colors
+- Orange Ransom Button
