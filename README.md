@@ -11,7 +11,7 @@ Insert the mod into %userprofile%\documents\Paradox Interactive\Crusader Kings I
 - The Suez Canal -  Unites the Indian and European Ocean. Now Indian navies aren't trapped in their own minigame
 #### Changed:
 - Send Gold targetted decision: 
-	- Minimum of 25 gold needed to be able to activate the targetted interaction
+	- Minimum of 25 gold needed to activate the interaction
 	- Cant't spam the interaction, added a tooltip to explain why
 #### Fixed:
 - The Employment List submenu now properly hides every decision that has nothing to do with hiring people
