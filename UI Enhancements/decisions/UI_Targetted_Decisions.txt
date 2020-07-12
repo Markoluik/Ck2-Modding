@@ -184,8 +184,17 @@ targetted_decisions = {
 		
 		allow = {
 			FROM = {
-				NOT = { has_character_flag = send_gold_action }
-				is_within_diplo_range = ROOT
+				wealth = 25
+				custom_tooltip = {
+					text = Tooltip_not_already_open
+					NOT = {
+						has_character_flag = send_gold_action 
+					}
+				}
+				ROOT = { 
+					is_landed = yes 
+					is_within_diplo_range = FROM
+				}
 			}
 		}
 		
