@@ -1,10 +1,10 @@
 
 # Task list
-### Multiplayer Cheats
+### Multiplayer Cheats - can wait
 ### Diplomatic Icons missing for decisions: 
 
 	dynasty_decisions:
-		Commit Suicide, Convince to straighten up
+		Commit Suicide, Convince to straighten up - Needed
 		
 	HF_realm_decisions:
 		reconquista_beneficiary_self
@@ -53,7 +53,7 @@
 		embrace_ashari
 		
 	rip_torture_decisions:
-		prisoner_humiliation
+		prisoner_humiliation - Needed
 		
 	rip_various_decisions:
 		release_tributary
@@ -65,25 +65,25 @@
 		demand_gavelkind
 		demand_gavelkind_use_favor
 		exchange_land_for_hospital
-		commit_suicide_immortal
+		commit_suicide_immortal - Needed
 		
 	vassal_decisions:
 		vassal_fatwa_decision
 		vassal_zun_judgement_decision
-		prisoner_to_oubilette
+		prisoner_to_oubilette - Needed
 		
 	way_of_life_decisions:
-		break_up_with_lover
+		break_up_with_lover - Needed
 		stop_seduce_decision
-		stop_seduce_decision_target
-		decision_spy_on
+		stop_seduce_decision_target - Needed
+		decision_spy_on - Needed
 		stop_spy_on_decision
 		stop_spy_on_decision_target
 		decision_break_free
-		invite_to_party
+		invite_to_party - Needed
 		
 	ze_decisions:
-		create_mercenary_company_feudal
+		create_mercenary_company_feudal - Needed
 		dissolve_mercenary_company_feudal
 		ask_wards_liege_to_allow_culture_religion_swap
 		change_wards_focus_to_heritage
