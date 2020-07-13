@@ -11,6 +11,7 @@ character_event = {
 	
 	option = {
 		name = "OptAgold.1"
+		clr_character_flag = send_gold_action
 		if = {
 			limit = {
 				wealth = 25
@@ -19,11 +20,13 @@ character_event = {
 			hidden_tooltip = {
 				set_variable = { which = gold_given value = 25 }
 			}
-			clr_character_flag = send_gold_action
 			event_target:gold_receiver = {
+				wealth = 25
+				character_event = { id = gold.3 }
 				if = {
 					limit = {
-						NOR = {
+						NOT = {
+							has_opinion_modifier = { who = ROOT modifier = opinion_sent_gold_25 }
 							has_opinion_modifier = { who = ROOT modifier = opinion_sent_gold_50 }
 							has_opinion_modifier = { who = ROOT modifier = opinion_sent_gold_100 }
 							has_opinion_modifier = { who = ROOT modifier = opinion_sent_gold_200 }
@@ -37,14 +40,13 @@ character_event = {
 						years = 5
 					}
 				}
-				wealth = 25
-				character_event = { id = gold.3 }
 			}
 		}
 	}
 	
 	option = {
 		name = "OptBgold.1"
+		clr_character_flag = send_gold_action
 		if = {
 			limit = {
 				wealth = 50
@@ -53,37 +55,38 @@ character_event = {
 			hidden_tooltip = {
 				set_variable = { which = gold_given value = 50 }
 			}
-			clr_character_flag = send_gold_action
 			event_target:gold_receiver = {
+				wealth = 50
+				character_event = { id = gold.3 }
 				if = {
 					limit = {
 						OR = {
-							has_opinion_modifier = { who = FROM modifier = opinion_sent_gold_25 }
+							has_opinion_modifier = { who = ROOT modifier = opinion_sent_gold_25 }
 							NOT = {
-								has_opinion_modifier = { who = FROM modifier = opinion_sent_gold_100 }
-								has_opinion_modifier = { who = FROM modifier = opinion_sent_gold_200 }
-								has_opinion_modifier = { who = FROM modifier = opinion_sent_gold_500 }
-								has_opinion_modifier = { who = FROM modifier = opinion_sent_gold_1000 }
+								has_opinion_modifier = { who = ROOT modifier = opinion_sent_gold_50 }
+								has_opinion_modifier = { who = ROOT modifier = opinion_sent_gold_100 }
+								has_opinion_modifier = { who = ROOT modifier = opinion_sent_gold_200 }
+								has_opinion_modifier = { who = ROOT modifier = opinion_sent_gold_500 }
+								has_opinion_modifier = { who = ROOT modifier = opinion_sent_gold_1000 }
 							}
 						}
+					}
+					hidden_tooltip = {
+						remove_opinion = { who = ROOT modifier = opinion_sent_gold_25 }
 					}
 					opinion = {
 						modifier = opinion_sent_gold_50
 						who = event_target:gold_giver
 						years = 10
 					}
-					hidden_tooltip = {
-						remove_opinion = { who = FROM modifier = opinion_sent_gold_25 }
-					}
 				}
-				wealth = 50
-				character_event = { id = gold.3 }
 			}
 		}
 	}
 	
 	option = {
 		name = "OptCgold.1"
+		clr_character_flag = send_gold_action
 		if = {
 			limit = {
 				wealth = 100
@@ -92,50 +95,39 @@ character_event = {
 			hidden_tooltip = {
 				set_variable = { which = gold_given value = 100 }
 			}
-			clr_character_flag = send_gold_action
 			event_target:gold_receiver = {
+				wealth = 100
+				character_event = { id = gold.3 }
 				if = {
 					limit = {
 						OR = {
 							has_opinion_modifier = { who = ROOT modifier = opinion_sent_gold_25 }
 							has_opinion_modifier = { who = ROOT modifier = opinion_sent_gold_50 }
-							has_opinion_modifier = { who = ROOT modifier = opinion_sent_gold_100 }
 							NOT = {
+								has_opinion_modifier = { who = ROOT modifier = opinion_sent_gold_100 }
 								has_opinion_modifier = { who = ROOT modifier = opinion_sent_gold_200 }
 								has_opinion_modifier = { who = ROOT modifier = opinion_sent_gold_500 }
 								has_opinion_modifier = { who = ROOT modifier = opinion_sent_gold_1000 }
 							}
 						}
 					}
+					hidden_tooltip = {
+						remove_opinion = { who = ROOT modifier = opinion_sent_gold_25 }
+						remove_opinion = { who = ROOT modifier = opinion_sent_gold_50 }
+					}
 					opinion = {
 						modifier = opinion_sent_gold_100
 						who = event_target:gold_giver
 						years = 10
 					}
-					hidden_tooltip = {
-						remove_opinion = { who = ROOT modifier = opinion_sent_gold_25 }
-						remove_opinion = { who = ROOT modifier = opinion_sent_gold_50 }
-					}
 				}
-				wealth = 100
-				character_event = { id = gold.3 }
 			}
 		}
 	}
 	
 	option = {
 		name = "OptDgold.1"
-		#if = {
-		#	limit = {
-		#		wealth = 101
-		#	}
-			character_event = { id = gold.2 }
-		#}
-	}
-	
-	option = {
-		name = "OptDgold.2"
-		clr_character_flag = send_gold_action
+		character_event = { id = gold.2 }
 	}
 }
 
@@ -150,6 +142,7 @@ character_event = {
 	
 	option = {
 		name = "OptAgold.2"
+		clr_character_flag = send_gold_action
 		if = {
 			limit = {
 				wealth = 200
@@ -158,25 +151,26 @@ character_event = {
 			hidden_tooltip = {
 				set_variable = { which = gold_given value = 200 }
 			}
-			clr_character_flag = send_gold_action
 			event_target:gold_receiver = {
+				wealth = 200
+					opinion = {
+						modifier = opinion_sent_gold_200
+						who = event_target:gold_giver
+						years = 12
+					}
+				character_event = { id = gold.3 }
 				if = {
 					limit = {
 						OR = {
 							has_opinion_modifier = { who = ROOT modifier = opinion_sent_gold_25 }
 							has_opinion_modifier = { who = ROOT modifier = opinion_sent_gold_50 }
 							has_opinion_modifier = { who = ROOT modifier = opinion_sent_gold_100 }
-							has_opinion_modifier = { who = ROOT modifier = opinion_sent_gold_200 }
 							NOT = {
+								has_opinion_modifier = { who = ROOT modifier = opinion_sent_gold_200 }
 								has_opinion_modifier = { who = ROOT modifier = opinion_sent_gold_500 }
 								has_opinion_modifier = { who = ROOT modifier = opinion_sent_gold_1000 }
 							}
 						}
-					}
-					opinion = {
-						modifier = opinion_sent_gold_200
-						who = event_target:gold_giver
-						years = 12
 					}
 					hidden_tooltip = {
 						remove_opinion = { who = ROOT modifier = opinion_sent_gold_25 }
@@ -184,14 +178,13 @@ character_event = {
 						remove_opinion = { who = ROOT modifier = opinion_sent_gold_100 }
 					}
 				}
-				wealth = 200
-				character_event = { id = gold.3 }
 			}
 		}
 	}
 	
 	option = {
 		name = "OptBgold.2"
+		clr_character_flag = send_gold_action
 		if = {
 			limit = {
 				wealth = 500
@@ -200,8 +193,9 @@ character_event = {
 			hidden_tooltip = {
 				set_variable = { which = gold_given value = 500 }
 			}
-			clr_character_flag = send_gold_action
 			event_target:gold_receiver = {
+				wealth = 500
+				character_event = { id = gold.3 }
 				if = {
 					limit = {
 						OR = {
@@ -215,26 +209,25 @@ character_event = {
 							}
 						}
 					}
-					opinion = {
-						modifier = opinion_sent_gold_500
-						who = event_target:gold_giver
-						years = 15
-					}
 					hidden_tooltip = {
 						remove_opinion = { who = ROOT modifier = opinion_sent_gold_25 }
 						remove_opinion = { who = ROOT modifier = opinion_sent_gold_50 }
 						remove_opinion = { who = ROOT modifier = opinion_sent_gold_100 }
 						remove_opinion = { who = ROOT modifier = opinion_sent_gold_200 }
 					}
+					opinion = {
+						modifier = opinion_sent_gold_500
+						who = event_target:gold_giver
+						years = 15
+					}
 				}
-				wealth = 500
-				character_event = { id = gold.3 }
 			}
 		}
 	}
 	
 	option = {
 		name = "OptCgold.2"
+		clr_character_flag = send_gold_action
 		if = {
 			limit = {
 				ROOT = {
@@ -245,22 +238,28 @@ character_event = {
 			hidden_tooltip = {
 				set_variable = { which = gold_given value = 1000 }
 			}
-			clr_character_flag = send_gold_action
 			event_target:gold_receiver = {
-				opinion = {
-					modifier = opinion_sent_gold_1000
-					who = event_target:gold_giver
-					years = 20
-				}
-				hidden_tooltip = {
-					remove_opinion = { who = ROOT modifier = opinion_sent_gold_25 }
-					remove_opinion = { who = ROOT modifier = opinion_sent_gold_50 }
-					remove_opinion = { who = ROOT modifier = opinion_sent_gold_100 }
-					remove_opinion = { who = ROOT modifier = opinion_sent_gold_200 }
-					remove_opinion = { who = ROOT modifier = opinion_sent_gold_500 }
-				}				
 				wealth = 1000
 				character_event = { id = gold.3 }
+				if = {
+					limit = {
+						NOT = {
+							has_opinion_modifier = { who = ROOT modifier = opinion_sent_gold_1000 }
+						}
+					}
+					hidden_tooltip = {
+						remove_opinion = { who = ROOT modifier = opinion_sent_gold_25 }
+						remove_opinion = { who = ROOT modifier = opinion_sent_gold_50 }
+						remove_opinion = { who = ROOT modifier = opinion_sent_gold_100 }
+						remove_opinion = { who = ROOT modifier = opinion_sent_gold_200 }
+						remove_opinion = { who = ROOT modifier = opinion_sent_gold_500 }
+					}				
+					opinion = {
+						modifier = opinion_sent_gold_1000
+						who = event_target:gold_giver
+						years = 20
+					}
+				}
 			}
 		}
 	}
