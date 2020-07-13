@@ -10,7 +10,7 @@ opinion_sent_gold_100 = {
 	opinion = 20
 	years = 10
 }
-opinion_sent_gold_250 = {
+opinion_sent_gold_200 = {
 	opinion = 50
 	years = 12
 }
