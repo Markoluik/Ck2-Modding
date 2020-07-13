@@ -1,7 +1,6 @@
 # Task list
 ### Known Issues:
-- Send Gold - 200 gold being sent does not give opinion modifier
-- Suez Canal not working
+- Add tooltip to Send Gold - Remove smaller opinion, can't get same opinion already have
 ### Multiplayer Cheats - can wait
 ### Diplomatic Icons missing for decisions: 
 
