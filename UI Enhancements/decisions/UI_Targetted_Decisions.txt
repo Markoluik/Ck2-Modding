@@ -1,17 +1,17 @@
 targetted_decisions = {
-
+	
 	make_first_wife = {
 		only_playable = yes
 		filter = spouse
 		ai_target_filter = spouse
 		ai_check_interval = 6
 		diplomacy_icon = GFX_make_first_wife
-
+		
 		from_potential = {
 			is_female = no
 			has_polygamy = yes
 		}
-
+		
 		potential = {
 			is_female = yes
 			is_main_spouse = no
@@ -19,9 +19,9 @@ targetted_decisions = {
 				character = FROM
 			}
 		}
-
+		
 		allow = { }
-
+		
 		effect = {
 			FROM = {
 				random_spouse = {
@@ -103,7 +103,7 @@ targetted_decisions = {
 			factor = 0
 		}
     }
-
+	
 	add_chastity_belt = {
 		filter = home_court
 		ai_target_filter = home_court
