@@ -153,11 +153,6 @@ character_event = {
 			}
 			event_target:gold_receiver = {
 				wealth = 200
-					opinion = {
-						modifier = opinion_sent_gold_200
-						who = event_target:gold_giver
-						years = 12
-					}
 				character_event = { id = gold.3 }
 				if = {
 					limit = {
@@ -176,6 +171,11 @@ character_event = {
 						remove_opinion = { who = ROOT modifier = opinion_sent_gold_25 }
 						remove_opinion = { who = ROOT modifier = opinion_sent_gold_50 }
 						remove_opinion = { who = ROOT modifier = opinion_sent_gold_100 }
+					}
+					opinion = {
+						modifier = opinion_sent_gold_200
+						who = event_target:gold_giver
+						years = 12
 					}
 				}
 			}
@@ -203,8 +203,8 @@ character_event = {
 							has_opinion_modifier = { who = ROOT modifier = opinion_sent_gold_50 }
 							has_opinion_modifier = { who = ROOT modifier = opinion_sent_gold_100 }
 							has_opinion_modifier = { who = ROOT modifier = opinion_sent_gold_200 }
-							has_opinion_modifier = { who = ROOT modifier = opinion_sent_gold_500 }
 							NOT = {
+								has_opinion_modifier = { who = ROOT modifier = opinion_sent_gold_500 }
 								has_opinion_modifier = { who = ROOT modifier = opinion_sent_gold_1000 }
 							}
 						}
