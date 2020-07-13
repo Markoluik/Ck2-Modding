@@ -1,0 +1,25 @@
+opinion_sent_gold_25 = {
+	opinion = 5
+	years = 5
+}
+opinion_sent_gold_50 = {
+	opinion = 10
+	years = 10
+}
+opinion_sent_gold_100 = {
+	opinion = 20
+	years = 10
+}
+opinion_sent_gold_250 = {
+	opinion = 50
+	years = 12
+}
+opinion_sent_gold_500 = {
+	opinion = 75
+	years = 15
+}
+
+opinion_sent_gold_1000 = {
+	opinion = 100
+	years = 20
+}
