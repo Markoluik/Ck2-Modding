@@ -250,6 +250,7 @@ targetted_decisions = {
 		filter = dynasty
 		ai_target_filter = dynasty
 		ai_check_interval = 36
+		diplomacy_icon = GFX_disband_mercenary_company #Edited Given Picture
 		
 		from_potential = {
 			is_playable = yes
