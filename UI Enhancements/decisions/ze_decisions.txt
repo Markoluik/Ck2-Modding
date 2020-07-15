@@ -4,6 +4,7 @@ targetted_decisions = {
 		filter = home_court
 		ai_target_filter = home_court
 		ai_check_interval = 60
+		diplomacy_icon = GFX_create_mercenary_company #Edited Given Picture
 		
 		from_potential = {
 			is_playable = yes
@@ -118,6 +119,7 @@ targetted_decisions = {
 		only_playable = yes
 		ai_target_filter = dynasty
 		ai_check_interval = 36
+		diplomacy_icon = GFX_disband_mercenary_company #Edited Given Picture
 		
 		from_potential = {
 			is_playable = yes
