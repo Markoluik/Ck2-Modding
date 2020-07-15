@@ -7,17 +7,20 @@
 
 - Needed:
 	- Convince to straighten up
-	- Break Betrothal
+	- Break Betrothal - GFX_BREAK_BETROTHAL_INTERACTION_icon
 	- Invite to Plot
 	- Prisoner Humiliation
 	- Prisoner to Oubilette
 	- break_up_with_lover
 	- stop_seduce_decision_target
 	- decision_spy_on
-	- invite_to_party	
-		
+	- invite_to_party
+	
+	- RESIGN_FROM_OFFICE_INTERACTION
+	- ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION
+	
 - Mercs:
-	- Replace Captain
+	- Replace Captain - REPLACE_MERCENARY_CAPTAIN_INTERACTION
 	- Send Equipment
 	- Send Troops
 
