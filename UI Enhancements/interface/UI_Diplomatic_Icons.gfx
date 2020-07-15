@@ -171,7 +171,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_join_war.dds"
 	}
 	spriteType = {
-		name = "GFX_CALL_ALLY_INTERACTION_Icon"
+		name = "GFX_CALL_ALLY_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_join_war.dds"
 	}
 	#######################
