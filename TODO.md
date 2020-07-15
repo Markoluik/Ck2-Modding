@@ -2,7 +2,7 @@
 ### Known Issues:
 - Add tooltip to Send Gold - Remove smaller opinion, can't get same opinion already have
 - Suez Canal has error "Strait First Parameter Not Valid", dunno what it means
-### Multiplayer Cheats - can wait
+### Multiplayer Cheats - Mostly done, just need to upload
 ### Diplomatic Icons missing for decisions: 
 
 - Needed:
