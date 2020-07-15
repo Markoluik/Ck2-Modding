@@ -166,6 +166,14 @@ spriteTypes = {
 		name = "GFX_ASK_FOR_VASSALIZATION_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_ask_for_vassalization.dds"
 	}
+	spriteType = {
+		name = "GFX_ASK_TO_JOIN_WAR_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_join_war.dds"
+	}
+	spriteType = {
+		name = "GFX_CALL_ALLY_INTERACTION_Icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_join_war.dds"
+	}
 	#######################
 	### Already in game ###
 	#######################
@@ -195,7 +203,11 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_create_mercenary_company"
-		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_create_mercenary_company.dds"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_mercenary_company_create.dds"
+	}
+	spriteType = {
+		name = "GFX_disband_mercenary_company"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_mercenary_company_disband.dds"
 	}
 	spriteType = {
 		name = "GFX_prisoner_torture"
@@ -248,6 +260,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_change_wards_focus_to_faith"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_change_wards_focus_to_faith.dds"
+	}
+	spriteType = {
+		name = "GFX_commit_suicide_ui"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_commit_suicide.dds"
 	}
 	############
 	### MEIN ###
