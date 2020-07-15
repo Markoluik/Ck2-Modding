@@ -124,7 +124,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_PREPARE_INVASION_INTERACTION_icon"
-		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_prepare_invasion.dds" #Edit to check if chistians don't get ship
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_prepare_invasion.dds"
 	}
 	spriteType = {
 		name = "GFX_RANSOM_CHARACTER_INTERACTION_icon"
