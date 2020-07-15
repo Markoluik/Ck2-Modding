@@ -15,7 +15,7 @@ Insert the mod into %userprofile%\documents\Paradox Interactive\Crusader Kings I
 	- Dissolve Mercenary Company Feudal
 	- Ask Wards Liege to Allow Faith Focus
 	
-- Replaced Diplomatic Icons for:
+- Replaced/Improved Diplomatic Icons for:
 	- Legitimize Bastard
 	- Request Excomminication
 	- Give Artifact
