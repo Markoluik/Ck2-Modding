@@ -5,7 +5,22 @@ This is a github for my UI Enhancement Mod to ezly download it
 Insert the mod into %userprofile%\documents\Paradox Interactive\Crusader Kings II\mod
 
 ## Changelog
-
+### 16-07-2020
+- Added Diplomatic Icons for:
+	- Commit Suicide
+	- Call to Arms
+	- Offer to Join War
+	- Disband Mercenary Company
+	- Create Mercenary Company Feudal
+	- Dissolve Mercenary Company Feudal
+	- Ask Wards Liege to Allow Faith Focus
+	
+- Replaced Diplomatic Icons for:
+	- Legitimize Bastard
+	- Request Excomminication
+	- Give Artifact
+	- Ask for Vassalization
+	
 ### 13-07-2020
 #### Added:
 - The Suez Canal -  Unites the Indian and European Ocean. Now Indian navies aren't trapped in their own minigame
@@ -35,7 +50,7 @@ Insert the mod into %userprofile%\documents\Paradox Interactive\Crusader Kings I
 #### Mods added:
 - Interface Century Gothic
 - Visible Health and Fertility
-- Viking/Bloodthirsty Counter (Ironman)
+- Viking/Bloodthirsty Counter
 
 ## 1.0 ###
 #### Mods added:
