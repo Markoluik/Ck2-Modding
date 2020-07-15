@@ -1,2 +1,0 @@
-#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x;;
-CHAR_AGE;Health: §Y[This.GetHealth]§!\nFertility: §Y[This.GetFertility]§!\nAge;Health: §Y[This.GetHealth]§!\nFertility: §Y[This.GetFertility]§!\nBâtard de §Y[This.GetRealFather]§!\nAge;Gesundheit: §Y[This.GetHealth]§!\nFruchtbarkeit: §Y[This.GetFertility]§!\nBastard von §Y[This.GetRealFather]§!\nAlter;;Health: §Y[This.GetHealth]§!\nFertility: §Y[This.GetFertility]§!\nBastardo de §Y[This.GetRealFather]§!\nEdad;;;;;;;;;x
