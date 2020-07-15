@@ -8,7 +8,7 @@ Insert the mod into %userprofile%\documents\Paradox Interactive\Crusader Kings I
 ### 16-07-2020
 - Added Diplomatic Icons for:
 	- Commit Suicide
-	- ~~Call to Arms~~
+	- Call to Arms
 	- Offer to Join War
 	- Disband Mercenary Company
 	- Create Mercenary Company Feudal
