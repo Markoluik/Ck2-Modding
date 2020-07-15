@@ -738,6 +738,7 @@ targeted_decisions = {
 		filter = self
 		ai_target_filter = self
 		ai = no
+		diplomacy_icon = GFX_commit_suicide_ui #Edited Given Picture
 		
 		potential = {
 			is_adult = yes
