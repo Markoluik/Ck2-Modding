@@ -177,7 +177,7 @@ targetted_decisions = {
 				custom_tooltip = {
 					text = Tooltip_not_already_open
 					NOT = {
-						has_character_flag = send_gold_action 
+						has_character_flag = send_gold_action
 					}
 				}
 				ROOT = { 
@@ -208,8 +208,6 @@ targetted_decisions = {
 		ai = no
 		diplomacy_icon = GFX_correct_dynasty
 		
-		from_potential = { }
-		
 		potential = {
 			is_child_of = FROM
 			NOT = { dynasty = FROM }
@@ -231,8 +229,8 @@ targetted_decisions = {
 				limit = {
 					FROM = {
 						NOT = {
-							at_location = ROOT 
-							is_landed = yes 
+							at_location = ROOT
+							is_landed = yes
 						}
 					}
 				}
