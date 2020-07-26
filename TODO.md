@@ -2,7 +2,7 @@
 ### Known Issues:
 - Add tooltip to Send Gold - Remove smaller opinion, can't get same opinion already have
 - Suez Canal has error "Strait First Parameter Not Valid", dunno what it means
-### Multiplayer Cheats - Mostly done, just need to upload
+- Change goverment is broken for nomads - Look at settlement_decisions to fix nomad feudalism
 ### Diplomatic Icons missing for decisions: 
 
 - Needed:
@@ -18,6 +18,13 @@
 	
 	- RESIGN_FROM_OFFICE_INTERACTION
 	- ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION
+	- Warrior Training
+	- Split Clan
+	- Relive Commander
+	- Appoint Councilor
+	- Fire Councilor
+	- Private Conversation
+
 	
 - Mercs:
 	- Replace Captain - REPLACE_MERCENARY_CAPTAIN_INTERACTION
