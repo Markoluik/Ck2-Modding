@@ -7,4 +7,8 @@ spriteTypes = {
 		name = "GFX_close_employment"
 		texturefile = "gfx/interface/Decision_Icons/decision_submenu_employment_close.dds"
 	}
+	spriteType = {
+		name = "GFX_cheats"
+		texturefile = "gfx/interface/Decision_Icons/decision_icon_cheat_menu.dds.dds"
+	}
 }
