@@ -1,0 +1,10 @@
+spriteTypes = {
+	############
+	### MEIN ###
+	############
+	spriteType = {
+		name = "GFX_evt_cheats"
+		texturefile = "gfx/event_pictures/cheats.dds"
+		allwaystransparent = yes
+	}
+}
