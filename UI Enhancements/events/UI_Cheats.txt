@@ -8,31 +8,26 @@ character_event = {
 	hide_from = yes
 	picture = GFX_evt_cheats
 	is_triggered_only = yes
-
-	trigger = {
-		has_character_flag = cheat_menu_open
-	}
 	
 	option = { #Event Troops
 		name = "EvtOptACheats.1"
 		character_event = { id = cheats.2 }
-		
 	}
 	
 	option = { #Event Money
 		name = "EvtOptBCheats.1"
 		character_event = { id = cheats.5 }
-		
 	}
 	
 	option = { #Event Government
 		name = "EvtOptCCheats.1"
 		character_event = { id = cheats.26 }
 	}
-
-	option = { #Remove
+	
+	option = { #Close
 		name = "EvtOptDCheats.1"
-		set_character_flag = remove_cheat_menu
+		#set_character_flag = remove_cheat_menu
+		clr_character_flag = cheat_menu_open
 	}
 }
 
@@ -42,12 +37,7 @@ character_event = {
 	desc = "EvtDescCheats.2"
 	picture = GFX_evt_cheats
 	hide_from = yes
-	
 	is_triggered_only = yes
-	
-	trigger = {
-		has_character_flag = cheat_menu_open
-	}
 	
 	option = {	#Spawn Light Infantry
 		name = "EvtOptACheats.2"
@@ -71,27 +61,22 @@ character_event = {
 #2nd event troops
 character_event = {
 	id = cheats.3
-	desc = "EvtDescCheats.3"
+	desc = "EvtDescCheats.2"
 	picture = GFX_evt_cheats
 	hide_from = yes
-	
 	is_triggered_only = yes
-	
-	trigger = {
-		has_character_flag = cheat_menu_open
-	}
 	
 	option = {	#Spawn Heavy Inf
 		name = "EvtOptACheats.3"
 		character_event = { id = cheats.14 }
 	}
-	option = {	#Spawn Heavy Cav
-		name = "EvtOptBCheats.3"
-		character_event = { id = cheats.16 }
-	}
 	option = {	#Spawn Light Cav
 		name = "EvtOptCCheats.3"
 		character_event = { id = cheats.18 }
+	}
+	option = {	#Spawn Heavy Cav
+		name = "EvtOptBCheats.3"
+		character_event = { id = cheats.16 }
 	}
 	option = {	#More
 		name = "EvtOptDCheats.2"
@@ -105,27 +90,23 @@ character_event = {
 	desc = "EvtDescCheats.2"
 	picture = GFX_evt_cheats
 	hide_from = yes
-	
 	is_triggered_only = yes
-	
-	trigger = {
-		has_character_flag = cheat_menu_open
-	}
 	
 	option = {	#Spawn Horse Archers
 		name = "EvtOptACheats.4"
 		character_event = { id = cheats.20 }
 	}
-	option = {	#Spawn Boats
-		name = "EvtOptBCheats.4"
-		character_event = { id = cheats.22 }
-	}
 	option = {	#Spawn War Elephants
 		name = "EvtOptCCheats.4"
 		character_event = { id = cheats.24 }
 	}
+	option = {	#Spawn Boats
+		name = "EvtOptBCheats.4"
+		character_event = { id = cheats.22 }
+	}
 	option = {	#Never Mind
 		name = "EvtOptDCheats.4"
+		clr_character_flag = cheat_menu_open
 	}
 }
 
@@ -135,27 +116,25 @@ character_event = {
 	desc = "EvtDescCheats.5"
 	picture = GFX_evt_cheats
 	hide_from = yes
-	
 	is_triggered_only = yes
-	
-	trigger = {
-		has_character_flag = cheat_menu_open
-	}
 	
 	option = {
 		name = "EvtOptACheats.5"
 		wealth = 50
+		clr_character_flag = cheat_menu_open
 	}
 	
 	option = {
 		name = "EvtOptBCheats.5"
 		wealth = 100
+		clr_character_flag = cheat_menu_open
 	}
 	
 	option = {
 		name = "EvtOptCCheats.5"
 		wealth = 500
-
+		clr_character_flag = cheat_menu_open
+	
 	}
 	option = {	#More
 		name = "EvtOptDCheats.2"
@@ -169,24 +148,26 @@ character_event = {
 	desc = "EvtDescCheats.5"
 	picture = GFX_evt_cheats
 	hide_from = yes
-	
 	is_triggered_only = yes
-
+	
 	option = {
 		name = "EvtOptDCheats.5"
+		clr_character_flag = cheat_menu_open
 		wealth = 1000
 	}
 	
 	option = {
 		name = "EvtOptECheats.5"
+		clr_character_flag = cheat_menu_open
 		wealth = 5000
 	}
 	
 	option = {
 		name = "EvtOptFCheats.5"
+		clr_character_flag = cheat_menu_open
 		wealth = 10000
 	}
-
+	
 	option = {	#More
 		name = "EvtOptDCheats.2"
 		character_event = { id = cheats.7 }
@@ -199,27 +180,30 @@ character_event = {
 	desc = "EvtDescCheats.5"
 	picture = GFX_evt_cheats
 	hide_from = yes
-	
 	is_triggered_only = yes
-
+	
 	option = {
 		name = "EvtOptGCheats.5"
+		clr_character_flag = cheat_menu_open
 		wealth = 50000
 	}
 	
 	option = {
 		name = "EvtOptHCheats.5"
+		clr_character_flag = cheat_menu_open
 		wealth = 100000
 	}
 	
 	option = {
 		name = "EvtOptICheats.5"
+		clr_character_flag = cheat_menu_open
 		wealth = 1000000
 	}
-
+	
 	option = {	#Never Mind
 		name = "EvtOptDCheats.4"
-	}	
+		clr_character_flag = cheat_menu_open
+	}
 }
 
 #event light infantry
@@ -228,12 +212,11 @@ character_event = {
 	desc = "EvtDescCheats.8"
 	picture = GFX_evt_cheats
 	hide_from = yes
-
 	is_triggered_only = yes
-
+	
 	option = { #Spawn 1000
 		name = "EvtOptACheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.1
 			hidden_tooltip = {
@@ -280,10 +263,10 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = { #Spawn 2500
 		name = "EvtOptBCheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.2
 			hidden_tooltip = {
@@ -340,10 +323,10 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = { #Spawn 5000
 		name = "EvtOptCCheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.3
 			hidden_tooltip = {
@@ -400,9 +383,9 @@ character_event = {
 			}
 		}	
 	}
+	
 	option = { #More
 		name = "EvtOptDCheats.2"
-
 		character_event = { id = cheats.9 }
 	}
 }
@@ -413,12 +396,11 @@ character_event = {
 	desc = "EvtDescCheats.9"
 	picture = GFX_evt_cheats
 	hide_from = yes
-	
 	is_triggered_only = yes
-
+	
 	option = { #Spawn 10000
 		name = "EvtOptDCheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.4
 			hidden_tooltip = {
@@ -465,9 +447,10 @@ character_event = {
 			}
 		}
 	}
+	
 	option = { #Spawn 50000
 		name = "EvtOptECheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.5
 			hidden_tooltip = {
@@ -524,10 +507,10 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptFCheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.6
 			hidden_tooltip = {
@@ -584,8 +567,10 @@ character_event = {
 			}
 		}
 	}
+	
 	option = {
 		name = "EvtOptDCheats.4"
+		clr_character_flag = cheat_menu_open
 	}
 }
 
@@ -595,12 +580,11 @@ character_event = {
 	desc = "EvtDescCheats.10"
 	picture = GFX_evt_cheats
 	hide_from = yes
-	
 	is_triggered_only = yes
-
+	
 	option = {
 		name = "EvtOptACheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.1
 			hidden_tooltip = {
@@ -647,10 +631,10 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptBCheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.2
 			hidden_tooltip = {
@@ -707,10 +691,10 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptCCheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.3
 			hidden_tooltip = {
@@ -767,9 +751,9 @@ character_event = {
 			}
 		}
 	}
+	
 	option = {
 		name = "EvtOptDCheats.2"
-
 		character_event = { id = cheats.11 }
 	}
 }
@@ -777,15 +761,14 @@ character_event = {
 #More Pikemen
 character_event = {
 	id = cheats.11
-	desc = "EvtDescCheats.11"
+	desc = "EvtDescCheats.10"
 	picture = GFX_evt_cheats
 	hide_from = yes
-	
 	is_triggered_only = yes
-
+	
 	option = {
 		name = "EvtOptDCheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.4
 			hidden_tooltip = {
@@ -832,10 +815,10 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptECheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.5
 			hidden_tooltip = {
@@ -892,10 +875,10 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptFCheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.6
 			hidden_tooltip = {
@@ -952,9 +935,10 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptDCheats.4"
+		clr_character_flag = cheat_menu_open
 	}
 }
 
@@ -964,12 +948,11 @@ character_event = {
 	desc = "EvtDescCheats.12"
 	picture = GFX_evt_cheats
 	hide_from = yes
-	
 	is_triggered_only = yes
-
+	
 	option = {
 		name = "EvtOptACheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.1
 			hidden_tooltip = {
@@ -1016,10 +999,10 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptBCheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.2
 			hidden_tooltip = {
@@ -1076,10 +1059,10 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptCCheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.3
 			hidden_tooltip = {
@@ -1136,10 +1119,9 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptDCheats.2"
-
 		character_event = { id = cheats.13 }
 	}
 }
@@ -1147,15 +1129,14 @@ character_event = {
 #more archers
 character_event = {
 	id = cheats.13
-	desc = "EvtDescCheats.13"
+	desc = "EvtDescCheats.12"
 	picture = GFX_evt_cheats
 	hide_from = yes
-	
 	is_triggered_only = yes
-
+	
 	option = {
 		name = "EvtOptDCheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.4
 			hidden_tooltip = {
@@ -1202,10 +1183,10 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptECheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.5
 			hidden_tooltip = {
@@ -1262,10 +1243,10 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptFCheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.6
 			hidden_tooltip = {
@@ -1322,10 +1303,11 @@ character_event = {
 			}
 		}
 	}
-
+	
 	#Nevermind
 	option = {
 		name = "EvtOptDCheats.4"
+		clr_character_flag = cheat_menu_open
 	}
 }
 
@@ -1335,12 +1317,11 @@ character_event = {
 	desc = "EvtDescCheats.14"
 	picture = GFX_evt_cheats
 	hide_from = yes
-	
 	is_triggered_only = yes
-
+	
 	option = {
 		name = "EvtOptACheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.1
 			hidden_tooltip = {
@@ -1387,10 +1368,10 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptBCheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.2
 			hidden_tooltip = {
@@ -1447,10 +1428,10 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptCCheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.3
 			hidden_tooltip = {
@@ -1507,10 +1488,9 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptDCheats.2"
-
 		character_event = { id = cheats.15 }
 	}
 }
@@ -1518,15 +1498,14 @@ character_event = {
 #more heavy infantry
 character_event = {
 	id = cheats.15
-	desc = "EvtDescCheats.6"
+	desc = "EvtDescCheats.14"
 	picture = GFX_evt_cheats
 	hide_from = yes
-
 	is_triggered_only = yes
-
+	
 	option = {
 		name = "EvtOptDCheats.14"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.4
 			hidden_tooltip = {
@@ -1573,10 +1552,10 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptECheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.5
 			hidden_tooltip = {
@@ -1633,10 +1612,10 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptFCheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.6
 			hidden_tooltip = {
@@ -1693,9 +1672,10 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptDCheats.4"
+		clr_character_flag = cheat_menu_open
 	}
 }
 
@@ -1705,12 +1685,11 @@ character_event = {
 	desc = "EvtDescCheats.16"
 	picture = GFX_evt_cheats
 	hide_from = yes
-
 	is_triggered_only = yes
-
+	
 	option = {
 		name = "EvtOptACheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.1
 			hidden_tooltip = {
@@ -1757,10 +1736,10 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptBCheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.2
 			hidden_tooltip = {
@@ -1817,10 +1796,10 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptCCheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.3
 			hidden_tooltip = {
@@ -1877,10 +1856,9 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptDCheats.2"
-
 		character_event = { id = cheats.17 }
 	}
 }
@@ -1888,15 +1866,14 @@ character_event = {
 #more knights
 character_event = {
 	id = cheats.17
-	desc = "EvtDescCheats.17"
+	desc = "EvtDescCheats.16"
 	picture = GFX_evt_cheats
 	hide_from = yes
-
 	is_triggered_only = yes
-
+	
 	option = {
 		name = "EvtOptDCheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.4
 			hidden_tooltip = {
@@ -1943,10 +1920,10 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptECheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.5
 			hidden_tooltip = {
@@ -2003,10 +1980,10 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptFCheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.6
 			hidden_tooltip = {
@@ -2063,9 +2040,10 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptDCheats.4"
+		clr_character_flag = cheat_menu_open
 	}
 }
 
@@ -2075,12 +2053,11 @@ character_event = {
 	desc = "EvtDescCheats.18"
 	picture = GFX_evt_cheats
 	hide_from = yes
-	
 	is_triggered_only = yes
 	
 	option = {
 		name = "EvtOptACheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.1
 			hidden_tooltip = {
@@ -2127,10 +2104,10 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptBCheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.2
 			hidden_tooltip = {
@@ -2187,9 +2164,10 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptCCheats.6"
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.3
 			hidden_tooltip = {
@@ -2246,10 +2224,9 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptDCheats.2"
-
 		character_event = { id = cheats.19 }
 	}
 }
@@ -2257,15 +2234,14 @@ character_event = {
 #more light cavalry
 character_event = {
 	id = cheats.19
-	desc = "EvtDescCheats.19"
+	desc = "EvtDescCheats.18"
 	picture = GFX_evt_cheats
 	hide_from = yes
-
 	is_triggered_only = yes
-
+	
 	option = {
 		name = "EvtOptDCheats.6"
-		
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.4
 			hidden_tooltip = {
@@ -2312,10 +2288,10 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptECheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.5
 			hidden_tooltip = {
@@ -2372,10 +2348,10 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptFCheats.6"
-		
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.6
 			hidden_tooltip = {
@@ -2431,10 +2407,11 @@ character_event = {
 				}
 			}
 		}
-	}	
-
+	}
+	
 	option = {
 		name = "EvtOptDCheats.4"
+		clr_character_flag = cheat_menu_open
 	}
 }
 
@@ -2444,12 +2421,11 @@ character_event = {
 	desc = "EvtDescCheats.20"
 	picture = GFX_evt_cheats
 	hide_from = yes
-
 	is_triggered_only = yes
-
+	
 	option = {
 		name = "EvtOptACheats.6"
-		
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.1
 			hidden_tooltip = {
@@ -2496,10 +2472,10 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptBCheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.2
 			hidden_tooltip = {
@@ -2556,10 +2532,10 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptCCheats.6"
-		
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.3
 			hidden_tooltip = {
@@ -2619,7 +2595,6 @@ character_event = {
 	
 	option = {
 		name = "EvtOptDCheats.2"
-
 		character_event = { id = cheats.21 }
 	}
 }
@@ -2627,15 +2602,14 @@ character_event = {
 #more horse archers
 character_event = {
 	id = cheats.21
-	desc = "EvtDescCheats.21"
+	desc = "EvtDescCheats.20"
 	picture = GFX_evt_cheats
 	hide_from = yes
-	
 	is_triggered_only = yes
-
+	
 	option = {
 		name = "EvtOptDCheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.4
 			hidden_tooltip = {
@@ -2685,7 +2659,7 @@ character_event = {
 	
 	option = {
 		name = "EvtOptECheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.5
 			hidden_tooltip = {
@@ -2742,10 +2716,10 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptFCheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.6
 			hidden_tooltip = {
@@ -2802,9 +2776,10 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptDCheats.4"
+		clr_character_flag = cheat_menu_open
 	}
 }
 
@@ -2814,26 +2789,30 @@ character_event = {
 	desc = "EvtDescCheats.22"
 	picture = GFX_evt_cheats
 	hide_from = yes
-
 	is_triggered_only = yes
-
+	
 	option = {
 		name = "EvtOptACheats.22"
-
-		capital_scope = {
-			PREV = {
-				spawn_fleet = {
-					province = closest
-					owner = ROOT
-					troops = { galleys = { 10 10 }}
+		clr_character_flag = cheat_menu_open
+		custom_tooltip = {
+			text = TOOLTIPSpawnBoats.1
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_fleet = {
+							owner = ROOT
+							province = closest
+							troops = { galleys = { 10 10 }}
+						}
+					}
 				}
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptBCheats.22"
-
+		clr_character_flag = cheat_menu_open
 		capital_scope = {
 			PREV = {
 				spawn_fleet = {
@@ -2844,10 +2823,10 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptCCheats.22"
-
+		clr_character_flag = cheat_menu_open
 		capital_scope = {
 			PREV = {
 				spawn_fleet = {
@@ -2858,26 +2837,24 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptDCheats.2"
-
 		character_event = { id = cheats.23 }
-	}	
+	}
 }
 
 #Even More Boats
 character_event = {
 	id = cheats.23
-	desc = "EvtDescCheats.23"
+	desc = "EvtDescCheats.22"
 	picture = GFX_evt_cheats
 	hide_from = yes
-
 	is_triggered_only = yes
-
+	
 	option = {
 		name = "EvtOptDCheats.22"
-
+		clr_character_flag = cheat_menu_open
 		capital_scope = {
 			PREV = {
 				spawn_fleet = {
@@ -2888,10 +2865,10 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptECheats.22"
-
+		clr_character_flag = cheat_menu_open
 		capital_scope = {
 			PREV = {
 				spawn_fleet = {
@@ -2902,10 +2879,10 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptFCheats.22"
-
+		clr_character_flag = cheat_menu_open
 		capital_scope = {
 			PREV = {
 				spawn_fleet = {
@@ -2916,9 +2893,10 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptDCheats.4"
+		clr_character_flag = cheat_menu_open
 	}
 }
 
@@ -2928,12 +2906,11 @@ character_event = {
 	desc = "EvtDescCheats.24"
 	picture = GFX_evt_cheats
 	hide_from = yes
-
 	is_triggered_only = yes
-
+	
 	option = {
 		name = "EvtOptACheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.1
 			hidden_tooltip = {
@@ -2980,10 +2957,10 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptBCheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.2
 			hidden_tooltip = {
@@ -3040,10 +3017,10 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
 		name = "EvtOptCCheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.3
 			hidden_tooltip = {
@@ -3100,10 +3077,9 @@ character_event = {
 			}
 		}
 	}
-
+	
 	option = {
-		name = "EvtOptDCheats.24"
-
+		name = "EvtOptDCheats.2"
 		character_event = { id = cheats.25 }
 	}
 }
@@ -3111,15 +3087,14 @@ character_event = {
 #more elephants
 character_event = {
 	id = cheats.25
-	desc = "EvtDescCheats.25"
+	desc = "EvtDescCheats.24"
 	picture = GFX_evt_cheats
 	hide_from = yes
-
 	is_triggered_only = yes
-
+	
 	option = {
 		name = "EvtOptDCheats.6"
-
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.4
 			hidden_tooltip = {
@@ -3169,7 +3144,7 @@ character_event = {
 	
 	option = {
 		name = "EvtOptECheats.6"
-	
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.5
 			hidden_tooltip = {
@@ -3229,7 +3204,7 @@ character_event = {
 	
 	option = {
 		name = "EvtOptFCheats.6"
-	
+		clr_character_flag = cheat_menu_open
 		custom_tooltip = {
 			text = TOOLTIPSpawnTroops.6
 			hidden_tooltip = {
@@ -3285,10 +3260,11 @@ character_event = {
 				}
 			}
 		}
-	}	
+	}
 	
 	option = {
-		name = "EvtOptDCheats.25"
+		name = "EvtOptDCheats.4"
+		clr_character_flag = cheat_menu_open
 	}
 }
 
@@ -3332,6 +3308,7 @@ character_event = {
 			}
 			set_government_type = feudal_government
 		}
+		clr_character_flag = cheat_menu_open
 	}
 	
 	#Merchant Republic
@@ -3339,17 +3316,19 @@ character_event = {
 		name = "EvtOptBCheats.26"
 		create_family_palace = yes
 		set_government_type = merchant_republic_government
+		clr_character_flag = cheat_menu_open
 	}
 	
 	#Tribal
 	option = {
 		name = "EvtOptCCheats.26"
 		set_government_type = tribal_government
+		clr_character_flag = cheat_menu_open
 	}
 	
 	#More
 		option = {
-		name = "EvtOptDCheats.26"
+		name = "EvtOptDCheats.2"
 		character_event = { id = cheats.27 }
 	}
 }
@@ -3364,12 +3343,44 @@ character_event = {
 	#Nomadic
 	option = {
 		name = "EvtOptACheats.27"
+		clr_character_flag = cheat_menu_open
+		FROM = {
+			if = {
+				limit = {
+					any_vassal = {
+						is_feudal = yes
+					}
+					NOT = {
+						any_vassal = {
+							count = 2
+							is_feudal = yes
+							tier = KING
+						}
+					}
+				}
+				any_vassal = {
+					limit = {
+						OR = {
+							is_feudal = yes
+							is_tribal = yes
+						}
+						tier = KING
+					}
+					any_demesne_title = {
+						limit = {
+							tier = KING
+						}
+						usurp_title = ROOT_FROM
+					}
+				}
+			}
+		}
 		set_government_type = nomadic_government
-	
 	}
 	
 	#Nevermind
-	option = { 
-		name = "EvtOptBCheats.27"
+	option = {
+		name = "EvtOptDCheats.4"
+		clr_character_flag = cheat_menu_open
 	}
 }

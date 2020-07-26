@@ -16,6 +16,10 @@ decisions = {
 			}
 		}
 		
+		allow = {
+			has_game_rule = { name = Cheats value = yes }
+		}
+		
 		effect = {
 			character_event = { id = cheats.1 }
 			set_character_flag = cheat_menu_open

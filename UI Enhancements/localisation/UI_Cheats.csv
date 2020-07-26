@@ -1,90 +1,100 @@
-cheats_menu;UI Enhancements Cheats Menu;;;;;;;;;;;;;x
-cheats_menu_desc;Unlocks a decision to start with money or event troops for the created character.;;;;;;;;;;;;;x
-EvtDescCheats.1;Cheat Menu for UI Enhancements;;;;;;;;;;;;;x
-EvtOptACheats.1;Add Event Troops;;;;;;;;;;;;;x
-EvtOptBCheats.1;Add Money;;;;;;;;;;;;;x
-EvtOptCCheats.1;Change Government Type;;;;;;;;;;;;;x
-EvtOptDCheats.1;Close;;;;;;;;;;;;;x
-#EvtOptDCheats.1;Permanently Remove UI Enhancements Cheats Menu;;;;;;;;;;;;;x
-EvtDescCheats.2;What kind of troops?;;;;;;;;;;;;;x
-EvtOptACheats.2;Spawn Light Infantry;;;;;;;;;;;;;x
-EvtOptBCheats.2;Spawn Pikemen;;;;;;;;;;;;;x
-EvtOptCCheats.2;Spawn Archers;;;;;;;;;;;;;x
-EvtOptDCheats.2;More;;;;;;;;;;;;;x
-EvtDescCheats.3;What kind of troops?;;;;;;;;;;;;;x
-EvtOptACheats.3;Spawn Heavy Infantry;;;;;;;;;;;;;x
-EvtOptBCheats.3;Spawn Heavy Cavalry;;;;;;;;;;;;;x
-EvtOptCCheats.3;Spawn Light Cavalry;;;;;;;;;;;;;x
-EvtOptACheats.4;Spawn Horse Archers;;;;;;;;;;;;;x
-EvtOptBCheats.4;Spawn Boats;;;;;;;;;;;;;x
-EvtOptCCheats.4;Spawn Elephants;;;;;;;;;;;;;x
-EvtOptDCheats.4;Never mind;;;;;;;;;;;;;x
-EvtDescCheats.5;How much gold?;;;;;;;;;;;;;x
-EvtOptACheats.5;50 Gold;;;;;;;;;;;;;x
-EvtOptBCheats.5;100 Gold;;;;;;;;;;;;;x
-EvtOptCCheats.5;500 Gold;;;;;;;;;;;;;x
-EvtOptDCheats.5;1000 Gold;;;;;;;;;;;;;x
-EvtOptECheats.5;5000 Gold;;;;;;;;;;;;;x
-EvtOptFCheats.5;10000 Gold;;;;;;;;;;;;;x
-EvtOptGCheats.5;50000;;;;;;;;;;;;;x
-EvtOptHCheats.5;100000;;;;;;;;;;;;;x
-EvtOptICheats.5;1 Million;;;;;;;;;;;;;x
-EvtOptACheats.6;1000;;;;;;;;;;;;;x
-EvtOptBCheats.6;2500;;;;;;;;;;;;;x
-EvtOptCCheats.6;5000;;;;;;;;;;;;;x
-EvtOptDCheats.6;10000;;;;;;;;;;;;;x
-EvtOptECheats.6;25000;;;;;;;;;;;;;x
-EvtOptFCheats.6;50000;;;;;;;;;;;;;x
-EvtDescCheats.8;How many Light Infantry?;;;;;;;;;;;;;x
-EvtDescCheats.9;How many Light Infantry?;;;;;;;;;;;;;x
-EvtDescCheats.10;How many Pikemen?;;;;;;;;;;;;;x
-EvtDescCheats.11;How many Pikemen?;;;;;;;;;;;;;x
-EvtDescCheats.12;How many Archers?;;;;;;;;;;;;;x
-EvtDescCheats.13;How many Archers?;;;;;;;;;;;;;x
-EvtDescCheats.14;How many Heavy Infantry?;;;;;;;;;;;;;x
-EvtDescCheats.15;How many Heavy Infantry?;;;;;;;;;;;;;x
-EvtDescCheats.16;How many Heavy Cavalry?;;;;;;;;;;;;;x
-EvtDescCheats.17;How many Heavy Cavalry?;;;;;;;;;;;;;x
-EvtDescCheats.18;How many Light Cavalry?;;;;;;;;;;;;;x
-EvtDescCheats.19;How many Light Cavalry?;;;;;;;;;;;;;x
-EvtDescCheats.20;How many Horse Archers?;;;;;;;;;;;;;x
-EvtDescCheats.21;How many Horse Archers?;;;;;;;;;;;;;x
-EvtDescCheats.22;How many Boats?;;;;;;;;;;;;;x
-EvtDescCheats.23;How many Boats?;;;;;;;;;;;;;x
-EvtDescCheats.24;How many Elephants?;;;;;;;;;;;;;x
-EvtDescCheats.25;How many Elephants?;;;;;;;;;;;;;x
-EvtOptACheats.22;10;;;;;;;;;;;;;x
-EvtOptBCheats.22;25;;;;;;;;;;;;;x
-EvtOptCCheats.22;50;;;;;;;;;;;;;x
-EvtOptDCheats.22;100;;;;;;;;;;;;;x
-EvtOptECheats.22;500;;;;;;;;;;;;;x
-EvtOptFCheats.22;1000;;;;;;;;;;;;;x
-EvtDescCheats.26;Convert to what government type?;;;;;;;;;;;;;x
-EvtOptACheats.26;Feudal/Iqta/Monastic;;;;;;;;;;;;;x
-EvtOptBCheats.26;Merchant Republic;;;;;;;;;;;;;x
-EvtOptCCheats.26;Tribal;;;;;;;;;;;;;x
-EvtOptDCheats.26;More;;;;;;;;;;;;;x
-EvtDescCheats.27;Convert to what government type?;;;;;;;;;;;;;x
-EvtOptACheats.27;Nomadic;;;;;;;;;;;;;x
-EvtOptBCheats.27;Never Mind;;;;;;;;;;;;;x
-EvtOptACheats.24;1000;;;;;;;;;;;;;x
-EvtOptBCheats.24;2500;;;;;;;;;;;;;x
-EvtOptCCheats.24;5000;;;;;;;;;;;;;x
-EvtOptDCheats.24;More;;;;;;;;;;;;;x
-EvtOptACheats.25;10000;;;;;;;;;;;;;x
-EvtOptBCheats.25;25000;;;;;;;;;;;;;x
-EvtOptCCheats.25;50000;;;;;;;;;;;;;x
-EvtOptDCheats.25;Never Mind;;;;;;;;;;;;;x
-
-enable_cheats;§PCHEAT:§! Enable Cheats;;;;;;;;;;;;;x
-enable_cheats_desc;Enables cheats that let you play as any other ruler and change anyone's name.;;;;;;;;;;;;;x
-change_character;§PCHEAT:§! Change Character;;;;;;;;;;;;;x
-change_character_desc;Assume control of §Y[Root.GetTitledFirstName.GetDynName]§! as your player character;;;;;;;;;;;;;x
-rename_character;§PCHEAT:§! Rename Character;;;;;;;;;;;;;x
-rename_character_desc;Change the name of §Y[Root.GetTitledFirstName.GetDynName]§!.;;;;;;;;;;;;;x
-swap_gender;§PCHEAT:§! Swap Gender;;;;;;;;;;;;;x
-swap_gender_desc;Swap the gender of §Y[Root.GetTitledFirstName.GetDynName]§!
-add_claim;§PCHEAT:§! Add Claim;;;;;;;;;;;;;x
-add_claim_desc;§Y[From.GetTitledFirstName.GetDynName]§! gains a strong claim on  §Y[Root.Location.GetName]§!.;;;;;;;;;;;;;x
-disable_cheats;§PCHEAT:§! Disable Cheats;;;;;;;;;;;;;x
-disable_cheats_desc;Disable cheats that let you play as any other ruler and change anyone's name.;;;;;;;;;;;;;x
+cheats_menu;Cheats Menu;;;;;;;;;;;;;x,
+cheats_menu_desc;A cheat decision menu where you can select to give yourself any kind of troops for specified amounts, money or even change your government.;;;;;;;;;;;;;x
+EvtDescCheats.1;Cheat Menu;;;;;;;;;;;;;x,
+EvtOptACheats.1;Add Event Troops;;;;;;;;;;;;;x,
+EvtOptBCheats.1;Add Money;;;;;;;;;;;;;x,
+EvtOptCCheats.1;Change Government Type;;;;;;;;;;;;;x,
+EvtOptDCheats.1;Close;;;;;;;;;;;;;x,
+EvtOptDCheats.2;More;;;;;;;;;;;;;x,
+EvtOptDCheats.4;Never mind;;;;;;;;;;;;;x,
+,
+### Troops ###,
+## What kind of troops to spawn ##,
+EvtDescCheats.2;What kind of troops?;;;;;;;;;;;;;x,
+EvtOptACheats.2;Spawn Light Infantry;;;;;;;;;;;;;x,
+EvtOptBCheats.2;Spawn Pikemen;;;;;;;;;;;;;x,
+EvtOptCCheats.2;Spawn Archers;;;;;;;;;;;;;x,
+EvtOptACheats.3;Spawn Heavy Infantry;;;;;;;;;;;;;x,
+EvtOptBCheats.3;Spawn Heavy Cavalry;;;;;;;;;;;;;x,
+EvtOptCCheats.3;Spawn Light Cavalry;;;;;;;;;;;;;x,
+EvtOptACheats.4;Spawn Horse Archers;;;;;;;;;;;;;x,
+EvtOptBCheats.4;Spawn Boats;;;;;;;;;;;;;x,
+EvtOptCCheats.4;Spawn Elephants;;;;;;;;;;;;;x,
+,
+## How many troops to spawn ##,
+EvtDescCheats.8;How many Light Infantry?;;;;;;;;;;;;;x,
+EvtDescCheats.10;How many Pikemen?;;;;;;;;;;;;;x,
+EvtDescCheats.12;How many Archers?;;;;;;;;;;;;;x,
+EvtDescCheats.14;How many Heavy Infantry?;;;;;;;;;;;;;x,
+EvtDescCheats.16;How many Heavy Cavalry?;;;;;;;;;;;;;x,
+EvtDescCheats.18;How many Light Cavalry?;;;;;;;;;;;;;x,
+EvtDescCheats.20;How many Horse Archers?;;;;;;;;;;;;;x,
+EvtDescCheats.22;How many Boats?;;;;;;;;;;;;;x,
+EvtDescCheats.24;How many Elephants?;;;;;;;;;;;;;x,
+EvtOptBCheats.6;2500;;;;;;;;;;;;;x,
+EvtOptCCheats.6;5000;;;;;;;;;;;;;x,
+EvtOptDCheats.6;10000;;;;;;;;;;;;;x,
+EvtOptECheats.6;25000;;;;;;;;;;;;;x,
+EvtOptFCheats.6;50000;;;;;;;;;;;;;x,
+EvtOptACheats.6;1000;;;;;;;;;;;;;x,
+,
+## Boats ##,
+EvtOptACheats.22;10;;;;;;;;;;;;;x,
+EvtOptBCheats.22;25;;;;;;;;;;;;;x,
+EvtOptCCheats.22;50;;;;;;;;;;;;;x,
+EvtOptDCheats.22;100;;;;;;;;;;;;;x,
+EvtOptECheats.22;500;;;;;;;;;;;;;x,
+EvtOptFCheats.22;1000;;;;;;;;;;;;;x,
+,
+### Money ###,
+EvtDescCheats.5;How much gold?;;;;;;;;;;;;;x,
+EvtOptACheats.5;50 Gold;;;;;;;;;;;;;x,
+EvtOptBCheats.5;100 Gold;;;;;;;;;;;;;x,
+EvtOptCCheats.5;500 Gold;;;;;;;;;;;;;x,
+EvtOptDCheats.5;1000 Gold;;;;;;;;;;;;;x,
+EvtOptECheats.5;5000 Gold;;;;;;;;;;;;;x,
+EvtOptFCheats.5;10000 Gold;;;;;;;;;;;;;x,
+EvtOptGCheats.5;50000;;;;;;;;;;;;;x,
+EvtOptHCheats.5;100000;;;;;;;;;;;;;x,
+EvtOptICheats.5;1 Million;;;;;;;;;;;;;x,
+,
+### Goverments ###,
+EvtDescCheats.26;Convert to what government type?;;;;;;;;;;;;;x,
+EvtOptACheats.26;Feudal/Iqta/Monastic;;;;;;;;;;;;;x,
+EvtOptBCheats.26;Merchant Republic;;;;;;;;;;;;;x,
+EvtOptCCheats.26;Tribal;;;;;;;;;;;;;x,
+EvtOptDCheats.26;More;;;;;;;;;;;;;x,
+EvtDescCheats.27;Convert to what government type?;;;;;;;;;;;;;x,
+EvtOptACheats.27;Nomadic;;;;;;;;;;;;;x,
+EvtOptBCheats.27;Never Mind;;;;;;;;;;;;;x,
+,
+### Tooltips ###,
+## Troops ##,
+TOOLTIPSpawnTroops.1;§YCapital§!: §Y[This.GetTitledFirstName]§!: 4 §Y250§!-men regiments arrives in §Y[Root.Capital.County.GetName]§! (Non Reinforcing, Maintenance \nFree).;;;;;;;;;;;;;x
+TOOLTIPSpawnTroops.2;§YCapital§!: §Y[This.GetTitledFirstName]§!: 5 §Y500§!-men regiments arrives in §Y[Root.Capital.County.GetName]§! (Non Reinforcing, Maintenance \nFree).;;;;;;;;;;;;;x
+TOOLTIPSpawnTroops.3;§YCapital§!: §Y[This.GetTitledFirstName]§!: 5 §Y1000§!-men regiments arrives in §Y[Root.Capital.County.GetName]§! (Non Reinforcing, Maintenance \nFree).;;;;;;;;;;;;;x
+TOOLTIPSpawnTroops.4;§YCapital§!: §Y[This.GetTitledFirstName]§!: 4 §Y2500§!-men regiments arrives in §Y[Root.Capital.County.GetName]§! (Non Reinforcing, Maintenance \nFree).;;;;;;;;;;;;;x
+TOOLTIPSpawnTroops.5;§YCapital§!: §Y[This.GetTitledFirstName]§!: 5 §Y5000§!-men regiments arrives in §Y[Root.Capital.County.GetName]§! (Non Reinforcing, Maintenance \nFree).;;;;;;;;;;;;;x
+TOOLTIPSpawnTroops.6;§YCapital§!: §Y[This.GetTitledFirstName]§!: 5 §Y10000§!-men regiments arrives in §Y[Root.Capital.County.GetName]§! (Non Reinforcing, Maintenance \nFree).;;;;;;;;;;;;;x
+,
+## Boats ##,
+TOOLTIPSpawnBoats.1;§YCapital§!: §Y[This.GetTitledFirstName]§!: §10§! ships arrive in §Y[Root.SeaZone.County.GetName]§! (Non Reinforcing, Maintenance \nFree).;;;;;;;;;;;;;x
+TOOLTIPSpawnBoats.2;§YCapital§!: §Y[This.GetTitledFirstName]§!: 5 §Y500§!-men regiments arrives in §Y[Root.Capital.County.GetName]§! (Non Reinforcing, Maintenance \nFree).;;;;;;;;;;;;;x
+TOOLTIPSpawnBoats.3;§YCapital§!: §Y[This.GetTitledFirstName]§!: 5 §Y1000§!-men regiments arrives in §Y[Root.Capital.County.GetName]§! (Non Reinforcing, Maintenance \nFree).;;;;;;;;;;;;;x
+TOOLTIPSpawnBoats.4;§YCapital§!: §Y[This.GetTitledFirstName]§!: 4 §Y2500§!-men regiments arrives in §Y[Root.Capital.County.GetName]§! (Non Reinforcing, Maintenance \nFree).;;;;;;;;;;;;;x
+TOOLTIPSpawnBoats.5;§YCapital§!: §Y[This.GetTitledFirstName]§!: 5 §Y5000§!-men regiments arrives in §Y[Root.Capital.County.GetName]§! (Non Reinforcing, Maintenance \nFree).;;;;;;;;;;;;;x
+TOOLTIPSpawnBoats.6;§YCapital§!: §Y[This.GetTitledFirstName]§!: 5 §Y10000§!-men regiments arrives in §Y[Root.Capital.County.GetName]§! (Non Reinforcing, Maintenance \nFree).;;;;;;;;;;;;;x
+,
+### Misc ###,
+enable_cheats;§PCHEAT:§! Enable Cheats;;;;;;;;;;;;;x,
+enable_cheats_desc;Enables cheats that let you play as any other ruler and change anyone's name.;;;;;;;;;;;;;x,
+change_character;§PCHEAT:§! Change Character;;;;;;;;;;;;;x,
+change_character_desc;Assume control of §Y[Root.GetTitledFirstName.GetDynName]§! as your player character;;;;;;;;;;;;;x,
+rename_character;§PCHEAT:§! Rename Character;;;;;;;;;;;;;x,
+rename_character_desc;Change the name of §Y[Root.GetTitledFirstName.GetDynName]§!.;;;;;;;;;;;;;x,
+swap_gender;§PCHEAT:§! Swap Gender;;;;;;;;;;;;;x,
+swap_gender_desc;Swap the gender of §Y[Root.GetTitledFirstName.GetDynName]§!.;;;;;;;;;;;;;x,
+add_claim;§PCHEAT:§! Add Claim;;;;;;;;;;;;;x,
+add_claim_desc;§Y[From.GetTitledFirstName.GetDynName]§! gains a strong claim on  §Y[Root.Location.GetName]§!.;;;;;;;;;;;;;x,
+disable_cheats;§PCHEAT:§! Disable Cheats;;;;;;;;;;;;;x,
+disable_cheats_desc;Disable cheats that let you play as any other ruler and change anyone's name.;;;;;;;;;;;;;x,
