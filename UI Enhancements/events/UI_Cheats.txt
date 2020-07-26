@@ -6,7 +6,7 @@ character_event = {
 	desc = "EvtDescCheats.1"
 	
 	hide_from = yes
-	picture = GFX_evt_gay
+	picture = GFX_evt_cheats
 	is_triggered_only = yes
 
 	trigger = {
@@ -40,7 +40,7 @@ character_event = {
 character_event = {
 	id = cheats.2
 	desc = "EvtDescCheats.2"
-	picture = GFX_evt_gay
+	picture = GFX_evt_cheats
 	hide_from = yes
 	
 	is_triggered_only = yes
@@ -72,7 +72,7 @@ character_event = {
 character_event = {
 	id = cheats.3
 	desc = "EvtDescCheats.3"
-	picture = GFX_evt_gay
+	picture = GFX_evt_cheats
 	hide_from = yes
 	
 	is_triggered_only = yes
@@ -103,7 +103,7 @@ character_event = {
 character_event = {
 	id = cheats.4
 	desc = "EvtDescCheats.2"
-	picture = GFX_evt_gay
+	picture = GFX_evt_cheats
 	hide_from = yes
 	
 	is_triggered_only = yes
@@ -133,7 +133,7 @@ character_event = {
 character_event = {
 	id = cheats.5
 	desc = "EvtDescCheats.5"
-	picture = GFX_evt_gay
+	picture = GFX_evt_cheats
 	hide_from = yes
 	
 	is_triggered_only = yes
@@ -167,7 +167,7 @@ character_event = {
 character_event = {
 	id = cheats.6
 	desc = "EvtDescCheats.5"
-	picture = GFX_evt_gay
+	picture = GFX_evt_cheats
 	hide_from = yes
 	
 	is_triggered_only = yes
@@ -197,7 +197,7 @@ character_event = {
 character_event = {
 	id = cheats.7
 	desc = "EvtDescCheats.5"
-	picture = GFX_evt_gay
+	picture = GFX_evt_cheats
 	hide_from = yes
 	
 	is_triggered_only = yes
@@ -226,7 +226,7 @@ character_event = {
 character_event = {
 	id = cheats.8
 	desc = "EvtDescCheats.8"
-	picture = GFX_evt_gay
+	picture = GFX_evt_cheats
 	hide_from = yes
 
 	is_triggered_only = yes
@@ -411,7 +411,7 @@ character_event = {
 character_event = {
 	id = cheats.9
 	desc = "EvtDescCheats.9"
-	picture = GFX_evt_gay
+	picture = GFX_evt_cheats
 	hide_from = yes
 	
 	is_triggered_only = yes
@@ -593,7 +593,7 @@ character_event = {
 character_event = {
 	id = cheats.10
 	desc = "EvtDescCheats.10"
-	picture = GFX_evt_gay
+	picture = GFX_evt_cheats
 	hide_from = yes
 	
 	is_triggered_only = yes
@@ -778,7 +778,7 @@ character_event = {
 character_event = {
 	id = cheats.11
 	desc = "EvtDescCheats.11"
-	picture = GFX_evt_gay
+	picture = GFX_evt_cheats
 	hide_from = yes
 	
 	is_triggered_only = yes
@@ -962,7 +962,7 @@ character_event = {
 character_event = {
 	id = cheats.12
 	desc = "EvtDescCheats.12"
-	picture = GFX_evt_gay
+	picture = GFX_evt_cheats
 	hide_from = yes
 	
 	is_triggered_only = yes
@@ -1148,7 +1148,7 @@ character_event = {
 character_event = {
 	id = cheats.13
 	desc = "EvtDescCheats.13"
-	picture = GFX_evt_gay
+	picture = GFX_evt_cheats
 	hide_from = yes
 	
 	is_triggered_only = yes
@@ -1333,7 +1333,7 @@ character_event = {
 character_event = {
 	id = cheats.14
 	desc = "EvtDescCheats.14"
-	picture = GFX_evt_gay
+	picture = GFX_evt_cheats
 	hide_from = yes
 	
 	is_triggered_only = yes
@@ -1519,7 +1519,7 @@ character_event = {
 character_event = {
 	id = cheats.15
 	desc = "EvtDescCheats.6"
-	picture = GFX_evt_gay
+	picture = GFX_evt_cheats
 	hide_from = yes
 
 	is_triggered_only = yes
@@ -1703,7 +1703,7 @@ character_event = {
 character_event = {
 	id = cheats.16
 	desc = "EvtDescCheats.16"
-	picture = GFX_evt_gay
+	picture = GFX_evt_cheats
 	hide_from = yes
 
 	is_triggered_only = yes
@@ -1889,7 +1889,7 @@ character_event = {
 character_event = {
 	id = cheats.17
 	desc = "EvtDescCheats.17"
-	picture = GFX_evt_gay
+	picture = GFX_evt_cheats
 	hide_from = yes
 
 	is_triggered_only = yes
@@ -2073,7 +2073,7 @@ character_event = {
 character_event = {
 	id = cheats.18
 	desc = "EvtDescCheats.18"
-	picture = GFX_evt_gay
+	picture = GFX_evt_cheats
 	hide_from = yes
 	
 	is_triggered_only = yes
@@ -2258,7 +2258,7 @@ character_event = {
 character_event = {
 	id = cheats.19
 	desc = "EvtDescCheats.19"
-	picture = GFX_evt_gay
+	picture = GFX_evt_cheats
 	hide_from = yes
 
 	is_triggered_only = yes
@@ -2442,7 +2442,7 @@ character_event = {
 character_event = {
 	id = cheats.20
 	desc = "EvtDescCheats.20"
-	picture = GFX_evt_gay
+	picture = GFX_evt_cheats
 	hide_from = yes
 
 	is_triggered_only = yes
@@ -2628,7 +2628,7 @@ character_event = {
 character_event = {
 	id = cheats.21
 	desc = "EvtDescCheats.21"
-	picture = GFX_evt_gay
+	picture = GFX_evt_cheats
 	hide_from = yes
 	
 	is_triggered_only = yes
@@ -2812,7 +2812,7 @@ character_event = {
 character_event = {
 	id = cheats.22
 	desc = "EvtDescCheats.22"
-	picture = GFX_evt_gay
+	picture = GFX_evt_cheats
 	hide_from = yes
 
 	is_triggered_only = yes
@@ -2870,7 +2870,7 @@ character_event = {
 character_event = {
 	id = cheats.23
 	desc = "EvtDescCheats.23"
-	picture = GFX_evt_gay
+	picture = GFX_evt_cheats
 	hide_from = yes
 
 	is_triggered_only = yes
@@ -2926,7 +2926,7 @@ character_event = {
 character_event = {
 	id = cheats.24
 	desc = "EvtDescCheats.24"
-	picture = GFX_evt_gay
+	picture = GFX_evt_cheats
 	hide_from = yes
 
 	is_triggered_only = yes
@@ -3112,7 +3112,7 @@ character_event = {
 character_event = {
 	id = cheats.25
 	desc = "EvtDescCheats.25"
-	picture = GFX_evt_gay
+	picture = GFX_evt_cheats
 	hide_from = yes
 
 	is_triggered_only = yes
@@ -3296,7 +3296,7 @@ character_event = {
 character_event = {
 	id = cheats.26
 	desc = "EvtDescCheats.26"
-	picture = GFX_evt_gay
+	picture = GFX_evt_cheats
 	is_triggered_only = yes
 	
 	#Feudal/Iqta/Monastic
@@ -3358,7 +3358,7 @@ character_event = {
 character_event = {
 	id = cheats.27
 	desc = "EvtDescCheats.27"
-	picture = GFX_evt_gay
+	picture = GFX_evt_cheats
 	is_triggered_only = yes
 	
 	#Nomadic
