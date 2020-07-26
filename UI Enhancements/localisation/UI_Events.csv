@@ -13,6 +13,7 @@ Descgold.3;Dear §Y[gold_receiver.GetFullName]§!, for far too long have I grown p
 ,
 ### Tooltips ###,
 Tooltip_not_already_open;Send Gold interaction not already open;;;;;;;;;;;;;x,
+Tooltip_cheats_open;Cheats menu not already open;;;;;;;;;;;;;x,
 "Tooltip_already_gave_money_25;Send 25 gold coins to §Y[Root.GetFullName]§!. §RBecause you have already sent §Y[Root.GetFullName]§! gold, this will not increase §R[Root.GetHerHis] opinion of you further.§!;;;;;;;;;;;;;x",
 "Tooltip_already_gave_money_50;Send 50 gold coins to §Y[Root.GetFullName]§!. §RBecause you have already sent §Y[Root.GetFullName]§! gold, this will not increase §R[Root.GetHerHis] opinion of you further.§!;;;;;;;;;;;;;x",
 "Tooltip_already_gave_money_100;Send 100 gold coins to §Y[Root.GetFullName]§!. §RBecause you have already sent §Y[Root.GetFullName]§! gold, this will not increase §R[Root.GetHerHis] opinion of you further.§!;;;;;;;;;;;;;x",
