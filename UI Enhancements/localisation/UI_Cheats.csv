@@ -4,7 +4,8 @@ EvtDescCheats.1;Cheat Menu for UI Enhancements;;;;;;;;;;;;;x
 EvtOptACheats.1;Add Event Troops;;;;;;;;;;;;;x
 EvtOptBCheats.1;Add Money;;;;;;;;;;;;;x
 EvtOptCCheats.1;Change Government Type;;;;;;;;;;;;;x
-EvtOptDCheats.1;Permanently Remove UI Enhancements Cheats Menu;;;;;;;;;;;;;x
+EvtOptDCheats.1;Close;;;;;;;;;;;;;x
+#EvtOptDCheats.1;Permanently Remove UI Enhancements Cheats Menu;;;;;;;;;;;;;x
 EvtDescCheats.2;What kind of troops?;;;;;;;;;;;;;x
 EvtOptACheats.2;Spawn Light Infantry;;;;;;;;;;;;;x
 EvtOptBCheats.2;Spawn Pikemen;;;;;;;;;;;;;x
