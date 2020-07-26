@@ -27,20 +27,20 @@ Insert the mod into %userprofile%\documents\Paradox Interactive\Crusader Kings I
 - Negotiate With Adventurer
 #### 
 ## 16-07-2020
-- Added Diplomatic Icons for:
-	- Commit Suicide
-	- Call to Arms
-	- Offer to Join War
-	- Disband Mercenary Company
-	- Create Mercenary Company Feudal
-	- Dissolve Mercenary Company Feudal
-	- Ask Wards Liege to Allow Faith Focus
+#### Added Diplomatic Icons for:
+- Commit Suicide
+- Call to Arms
+- Offer to Join War
+- Disband Mercenary Company
+- Create Mercenary Company Feudal
+- Dissolve Mercenary Company Feudal
+- Ask Wards Liege to Allow Faith Focus
 	
-- Replaced/Improved Diplomatic Icons for:
-	- Legitimize Bastard
-	- Request Excomminication
-	- Give Artifact
-	- Ask for Vassalization
+#### Replaced/Improved Diplomatic Icons for:
+- Legitimize Bastard
+- Request Excomminication
+- Give Artifact
+- Ask for Vassalization
 	
 ## 13-07-2020
 #### Added:
