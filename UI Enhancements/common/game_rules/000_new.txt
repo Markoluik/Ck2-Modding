@@ -1,17 +1,17 @@
-#cheats = {
-#	name = "RULE_CHEATS"
-#	group = "RULE_GROUP_TCM"
-#	option = {
-#		name = Yes
-#		text = "RULE_CHEATS_YES"
-#		desc = "RULE_CHEATS_YES_DESC"
-#	}
-#	option = {
-#		name = No
-#		text = "RULE_CHEATS_NO"
-#		desc = "RULE_CHEATS_NO_DESC"
-#	}
-#}
+cheats = {
+	name = "RULE_CHEATS"
+	group = "RULE_GROUP_TCM"
+	option = {
+		name = Yes
+		text = "RULE_CHEATS_YES"
+		desc = "RULE_CHEATS_YES_DESC"
+	}
+	option = {
+		name = No
+		text = "RULE_CHEATS_NO"
+		desc = "RULE_CHEATS_NO_DESC"
+	}
+}
 
 plot_assassinate_own_children = {
 	name = "PLOT_ASSASSINATE_OWN_CHILDREN"
