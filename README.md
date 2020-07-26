@@ -1,11 +1,32 @@
-# UI Enhancement Mod
+# UI Enhancement Mod Changelog
 
 This is a github for my UI Enhancement Mod to ezly download it
 
 Insert the mod into %userprofile%\documents\Paradox Interactive\Crusader Kings II\mod
 
-## Changelog
-### 16-07-2020
+## 27-07-2020
+### Added:
+#### Diplomatic Icons:
+- Appoint Shieldmaiden
+#### Multiplayer Cheats:
+- Targetted Decisions:
+	 - Enable Cheats - (Target self) - Enables all the other targetted decisions and the cheat menu decision
+	- Change Character - (Target rulers) - Assume control of selected character
+	- Rename Character - (Target anyone) - Change the name of selected character
+	- Swap Gender - (Target anyone) - Swap the gender of selected character
+	- Disable Cheats - (Target Self) - Hides all cheat decisions except Enable Cheats
+- Title Decisions:
+	- Add Claim - (Target any title) - Adds a strong claim to selected title
+- Decisions:
+	- Cheat Menu - A decision menu where you can spawn in any type of event troops of specified amounts, give yourself gold or even change your government (currently broken)
+### Minor Changes:
+#### Diplomatic Icons:
+- Commit Suicide
+- Ask For Invasion
+- Give Artifact
+- Negotiate With Adventurer
+#### 
+## 16-07-2020
 - Added Diplomatic Icons for:
 	- Commit Suicide
 	- Call to Arms
@@ -21,7 +42,7 @@ Insert the mod into %userprofile%\documents\Paradox Interactive\Crusader Kings I
 	- Give Artifact
 	- Ask for Vassalization
 	
-### 13-07-2020
+## 13-07-2020
 #### Added:
 - The Suez Canal -  Unites the Indian and European Ocean. Now Indian navies aren't trapped in their own minigame
 #### Changed:
@@ -30,6 +51,7 @@ Insert the mod into %userprofile%\documents\Paradox Interactive\Crusader Kings I
 	- Cant't spam the interaction, added a tooltip to explain why
 #### Fixed:
 - The Employment List submenu now properly hides every decision that has nothing to do with hiring people
+
 ## 1.2 ###
 #### New targetted decisions:
  - Send Money - Choose from 6 different amounts of money to send. Amounts are 25, 50, 100, 200, 500 and 1000.
