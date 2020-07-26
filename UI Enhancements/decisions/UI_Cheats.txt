@@ -1,15 +1,23 @@
 decisions = {
 	
 	cheats_menu = {
+		ai = no
+		
 		potential = {
 			has_submenu_open = no
 			is_playable = yes
 			has_game_rule = { name = Cheats value = yes }
 			has_character_flag = cheats_enabled
+			custom_tooltip = {
+				text = Tooltip_not_already_open
+				NOT = {
+					has_character_flag = cheat_menu_open
+				}
+			}
 		}
 		
 		effect = {
-			character_event = { id = UI.1 }
+			character_event = { id = cheats.1 }
 			set_character_flag = cheat_menu_open
 		}
 		
