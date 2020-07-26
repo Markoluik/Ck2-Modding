@@ -265,6 +265,10 @@ spriteTypes = {
 		name = "GFX_commit_suicide_ui"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_commit_suicide.dds"
 	}
+	spriteType = {
+		name = "GFX_appoint_shieldmaiden"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_appoint_shieldmaiden.dds"
+	}
 	############
 	### MEIN ###
 	############

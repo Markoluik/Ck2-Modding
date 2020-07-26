@@ -1,0 +1,3375 @@
+namespace = cheats
+
+#main options
+character_event = {
+	id = cheats.1
+	desc = "EvtDescCheats.1"
+	
+	hide_from = yes
+	picture = GFX_evt_gay
+	is_triggered_only = yes
+
+	trigger = {
+		has_character_flag = cheat_menu_open
+	}
+	
+	option = { #Event Troops
+		name = "EvtOptACheats.1"
+		character_event = { id = cheats.2 }
+		
+	}
+	
+	option = { #Event Money
+		name = "EvtOptBCheats.1"
+		character_event = { id = cheats.5 }
+		
+	}
+	
+	option = { #Event Government
+		name = "EvtOptCCheats.1"
+		character_event = { id = cheats.26 }
+	}
+
+	option = { #Remove
+		name = "EvtOptDCheats.1"
+		set_character_flag = remove_cheat_menu
+	}
+}
+
+#1st event troops
+character_event = {
+	id = cheats.2
+	desc = "EvtDescCheats.2"
+	picture = GFX_evt_gay
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_character_flag = cheat_menu_open
+	}
+	
+	option = {	#Spawn Light Infantry
+		name = "EvtOptACheats.2"
+		character_event = { id = cheats.8 }
+	}
+	option = {	#Spawn Pikemen
+		name = "EvtOptBCheats.2"
+		character_event = { id = cheats.10 }
+	}
+	option = {	#Spawn Archers
+		name = "EvtOptCCheats.2"
+		character_event = { id = cheats.12 }
+	}
+	option = {	#More
+		name = "EvtOptDCheats.2"
+		character_event = { id = cheats.3 }
+	}
+}
+
+
+#2nd event troops
+character_event = {
+	id = cheats.3
+	desc = "EvtDescCheats.3"
+	picture = GFX_evt_gay
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_character_flag = cheat_menu_open
+	}
+	
+	option = {	#Spawn Heavy Inf
+		name = "EvtOptACheats.3"
+		character_event = { id = cheats.14 }
+	}
+	option = {	#Spawn Heavy Cav
+		name = "EvtOptBCheats.3"
+		character_event = { id = cheats.16 }
+	}
+	option = {	#Spawn Light Cav
+		name = "EvtOptCCheats.3"
+		character_event = { id = cheats.18 }
+	}
+	option = {	#More
+		name = "EvtOptDCheats.2"
+		character_event = { id = cheats.4 }
+	}
+}
+
+#3rd event troops
+character_event = {
+	id = cheats.4
+	desc = "EvtDescCheats.2"
+	picture = GFX_evt_gay
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_character_flag = cheat_menu_open
+	}
+	
+	option = {	#Spawn Horse Archers
+		name = "EvtOptACheats.4"
+		character_event = { id = cheats.20 }
+	}
+	option = {	#Spawn Boats
+		name = "EvtOptBCheats.4"
+		character_event = { id = cheats.22 }
+	}
+	option = {	#Spawn War Elephants
+		name = "EvtOptCCheats.4"
+		character_event = { id = cheats.24 }
+	}
+	option = {	#Never Mind
+		name = "EvtOptDCheats.4"
+	}
+}
+
+#event money
+character_event = {
+	id = cheats.5
+	desc = "EvtDescCheats.5"
+	picture = GFX_evt_gay
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_character_flag = cheat_menu_open
+	}
+	
+	option = {
+		name = "EvtOptACheats.5"
+		wealth = 50
+	}
+	
+	option = {
+		name = "EvtOptBCheats.5"
+		wealth = 100
+	}
+	
+	option = {
+		name = "EvtOptCCheats.5"
+		wealth = 500
+
+	}
+	option = {	#More
+		name = "EvtOptDCheats.2"
+		character_event = { id = cheats.6 }
+	}
+}
+
+#more money
+character_event = {
+	id = cheats.6
+	desc = "EvtDescCheats.5"
+	picture = GFX_evt_gay
+	hide_from = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EvtOptDCheats.5"
+		wealth = 1000
+	}
+	
+	option = {
+		name = "EvtOptECheats.5"
+		wealth = 5000
+	}
+	
+	option = {
+		name = "EvtOptFCheats.5"
+		wealth = 10000
+	}
+
+	option = {	#More
+		name = "EvtOptDCheats.2"
+		character_event = { id = cheats.7 }
+	}
+}
+
+#even more money
+character_event = {
+	id = cheats.7
+	desc = "EvtDescCheats.5"
+	picture = GFX_evt_gay
+	hide_from = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EvtOptGCheats.5"
+		wealth = 50000
+	}
+	
+	option = {
+		name = "EvtOptHCheats.5"
+		wealth = 100000
+	}
+	
+	option = {
+		name = "EvtOptICheats.5"
+		wealth = 1000000
+	}
+
+	option = {	#Never Mind
+		name = "EvtOptDCheats.4"
+	}	
+}
+
+#event light infantry
+character_event = {
+	id = cheats.8
+	desc = "EvtDescCheats.8"
+	picture = GFX_evt_gay
+	hide_from = yes
+
+	is_triggered_only = yes
+
+	option = { #Spawn 1000
+		name = "EvtOptACheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.1
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_infantry = { 250 250 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_infantry = { 250 250 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_infantry = { 250 250 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_infantry = { 250 250 }}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = { #Spawn 2500
+		name = "EvtOptBCheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.2
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_infantry = { 500 500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_infantry = { 500 500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_infantry = { 500 500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_infantry = { 500 500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_infantry = { 500 500 }}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = { #Spawn 5000
+		name = "EvtOptCCheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.3
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_infantry = { 1000 1000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_infantry = { 1000 1000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_infantry = { 1000 1000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_infantry = { 1000 1000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_infantry = { 1000 1000 }}
+						}
+					}
+				}
+			}
+		}	
+	}
+	option = { #More
+		name = "EvtOptDCheats.2"
+
+		character_event = { id = cheats.9 }
+	}
+}
+
+#more light infantry
+character_event = {
+	id = cheats.9
+	desc = "EvtDescCheats.9"
+	picture = GFX_evt_gay
+	hide_from = yes
+	
+	is_triggered_only = yes
+
+	option = { #Spawn 10000
+		name = "EvtOptDCheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.4
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_infantry = { 2500 2500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_infantry = { 2500 2500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_infantry = { 2500 2500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_infantry = { 2500 2500 }}
+						}
+					}
+				}
+			}
+		}
+	}
+	option = { #Spawn 50000
+		name = "EvtOptECheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.5
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_infantry = { 5000 5000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_infantry = { 5000 5000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_infantry = { 5000 5000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_infantry = { 5000 5000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_infantry = { 5000 5000 }}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptFCheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.6
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_infantry = { 10000 10000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_infantry = { 10000 10000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_infantry = { 10000 10000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_infantry = { 10000 10000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_infantry = { 10000 10000 }}
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "EvtOptDCheats.4"
+	}
+}
+
+#event pikemen
+character_event = {
+	id = cheats.10
+	desc = "EvtDescCheats.10"
+	picture = GFX_evt_gay
+	hide_from = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EvtOptACheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.1
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { pikemen = { 250 250 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { pikemen = { 250 250 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { pikemen = { 250 250 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { pikemen = { 250 250 }}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptBCheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.2
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { pikemen = { 500 500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { pikemen = { 500 500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { pikemen = { 500 500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { pikemen = { 500 500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { pikemen = { 500 500 }}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptCCheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.3
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { pikemen = { 1000 1000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { pikemen = { 1000 1000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { pikemen = { 1000 1000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { pikemen = { 1000 1000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { pikemen = { 1000 1000 }}
+						}
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "EvtOptDCheats.2"
+
+		character_event = { id = cheats.11 }
+	}
+}
+
+#More Pikemen
+character_event = {
+	id = cheats.11
+	desc = "EvtDescCheats.11"
+	picture = GFX_evt_gay
+	hide_from = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EvtOptDCheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.4
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { pikemen = { 2500 2500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { pikemen = { 2500 2500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { pikemen = { 2500 2500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { pikemen = { 2500 2500 }}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptECheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.5
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { pikemen = { 5000 5000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { pikemen = { 5000 5000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { pikemen = { 5000 5000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { pikemen = { 5000 5000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { pikemen = { 5000 5000 }}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptFCheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.6
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { pikemen = { 10000 10000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { pikemen = { 10000 10000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { pikemen = { 10000 10000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { pikemen = { 10000 10000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { pikemen = { 10000 10000 }}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptDCheats.4"
+	}
+}
+
+#event archers
+character_event = {
+	id = cheats.12
+	desc = "EvtDescCheats.12"
+	picture = GFX_evt_gay
+	hide_from = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EvtOptACheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.1
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { archers = { 250 250 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { archers = { 250 250 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { archers = { 250 250 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { archers = { 250 250 }}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptBCheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.2
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { archers = { 500 500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { archers = { 500 500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { archers = { 500 500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { archers = { 500 500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { archers = { 500 500 }}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptCCheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.3
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { archers = { 1000 1000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { archers = { 1000 1000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { archers = { 1000 1000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { archers = { 1000 1000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { archers = { 1000 1000 }}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptDCheats.2"
+
+		character_event = { id = cheats.13 }
+	}
+}
+
+#more archers
+character_event = {
+	id = cheats.13
+	desc = "EvtDescCheats.13"
+	picture = GFX_evt_gay
+	hide_from = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EvtOptDCheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.4
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { archers = { 2500 2500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { archers = { 2500 2500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { archers = { 2500 2500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { archers = { 2500 2500 }}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptECheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.5
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { archers = { 5000 5000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { archers = { 5000 5000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { archers = { 5000 5000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { archers = { 5000 5000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { archers = { 5000 5000 }}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptFCheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.6
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { archers = { 10000 10000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { archers = { 10000 10000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { archers = { 10000 10000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { archers = { 10000 10000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { archers = { 10000 10000 }}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	#Nevermind
+	option = {
+		name = "EvtOptDCheats.4"
+	}
+}
+
+#event heavy infantry
+character_event = {
+	id = cheats.14
+	desc = "EvtDescCheats.14"
+	picture = GFX_evt_gay
+	hide_from = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EvtOptACheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.1
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { heavy_infantry = { 250 250 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { heavy_infantry = { 250 250 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { heavy_infantry = { 250 250 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { heavy_infantry = { 250 250 }}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptBCheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.2
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { heavy_infantry = { 500 500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { heavy_infantry = { 500 500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { heavy_infantry = { 500 500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { heavy_infantry = { 500 500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { heavy_infantry = { 500 500 }}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptCCheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.3
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { heavy_infantry = { 1000 1000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { heavy_infantry = { 1000 1000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { heavy_infantry = { 1000 1000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { heavy_infantry = { 1000 1000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { heavy_infantry = { 1000 1000 }}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptDCheats.2"
+
+		character_event = { id = cheats.15 }
+	}
+}
+
+#more heavy infantry
+character_event = {
+	id = cheats.15
+	desc = "EvtDescCheats.6"
+	picture = GFX_evt_gay
+	hide_from = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EvtOptDCheats.14"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.4
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { heavy_infantry = { 2500 2500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { heavy_infantry = { 2500 2500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { heavy_infantry = { 2500 2500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { heavy_infantry = { 2500 2500 }}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptECheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.5
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { heavy_infantry = { 5000 5000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { heavy_infantry = { 5000 5000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { heavy_infantry = { 5000 5000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { heavy_infantry = { 5000 5000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { heavy_infantry = { 5000 5000 }}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptFCheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.6
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { heavy_infantry = { 10000 10000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { heavy_infantry = { 10000 10000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { heavy_infantry = { 10000 10000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { heavy_infantry = { 10000 10000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { heavy_infantry = { 10000 10000 }}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptDCheats.4"
+	}
+}
+
+#event heavy cav aka knights
+character_event = {
+	id = cheats.16
+	desc = "EvtDescCheats.16"
+	picture = GFX_evt_gay
+	hide_from = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EvtOptACheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.1
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { knights = { 250 250 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { knights = { 250 250 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { knights = { 250 250 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { knights = { 250 250 }}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptBCheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.2
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { knights = { 500 500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { knights = { 500 500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { knights = { 500 500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { knights = { 500 500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { knights = { 500 500 }}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptCCheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.3
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { knights = { 1000 1000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { knights = { 1000 1000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { knights = { 1000 1000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { knights = { 1000 1000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { knights = { 1000 1000 }}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptDCheats.2"
+
+		character_event = { id = cheats.17 }
+	}
+}
+
+#more knights
+character_event = {
+	id = cheats.17
+	desc = "EvtDescCheats.17"
+	picture = GFX_evt_gay
+	hide_from = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EvtOptDCheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.4
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { knights = { 2500 2500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { knights = { 2500 2500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { knights = { 2500 2500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { knights = { 2500 2500 }}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptECheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.5
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { knights = { 5000 5000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { knights = { 5000 5000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { knights = { 5000 5000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { knights = { 5000 5000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { knights = { 5000 5000 }}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptFCheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.6
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { knights = { 10000 10000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { knights = { 10000 10000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { knights = { 10000 10000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { knights = { 10000 10000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { knights = { 10000 10000 }}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptDCheats.4"
+	}
+}
+
+#event light cavalry
+character_event = {
+	id = cheats.18
+	desc = "EvtDescCheats.18"
+	picture = GFX_evt_gay
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EvtOptACheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.1
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_cavalry = { 250 250 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_cavalry = { 250 250 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_cavalry = { 250 250 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_cavalry = { 250 250 }}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptBCheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.2
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_cavalry = { 500 500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_cavalry = { 500 500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_cavalry = { 500 500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_cavalry = { 500 500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_cavalry = { 500 500 }}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptCCheats.6"
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.3
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_cavalry = { 1000 1000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_cavalry = { 1000 1000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_cavalry = { 1000 1000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_cavalry = { 1000 1000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_cavalry = { 1000 1000 }}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptDCheats.2"
+
+		character_event = { id = cheats.19 }
+	}
+}
+
+#more light cavalry
+character_event = {
+	id = cheats.19
+	desc = "EvtDescCheats.19"
+	picture = GFX_evt_gay
+	hide_from = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EvtOptDCheats.6"
+		
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.4
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_cavalry = { 2500 2500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_cavalry = { 2500 2500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_cavalry = { 2500 2500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_cavalry = { 2500 2500 }}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptECheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.5
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_cavalry = { 5000 5000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_cavalry = { 5000 5000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_cavalry = { 5000 5000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_cavalry = { 5000 5000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_cavalry = { 5000 5000 }}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptFCheats.6"
+		
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.6
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_cavalry = { 10000 10000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_cavalry = { 10000 10000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_cavalry = { 10000 10000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_cavalry = { 10000 10000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { light_cavalry = { 10000 10000 }}
+						}
+					}
+				}
+			}
+		}
+	}	
+
+	option = {
+		name = "EvtOptDCheats.4"
+	}
+}
+
+#event horse archers
+character_event = {
+	id = cheats.20
+	desc = "EvtDescCheats.20"
+	picture = GFX_evt_gay
+	hide_from = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EvtOptACheats.6"
+		
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.1
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { horse_archers = { 250 250 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { horse_archers = { 250 250 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { horse_archers = { 250 250 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { horse_archers = { 250 250 }}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptBCheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.2
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { horse_archers = { 500 500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { horse_archers = { 500 500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { horse_archers = { 500 500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { horse_archers = { 500 500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { horse_archers = { 500 500 }}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptCCheats.6"
+		
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.3
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { horse_archers = { 1000 1000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { horse_archers = { 1000 1000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { horse_archers = { 1000 1000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { horse_archers = { 1000 1000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { horse_archers = { 1000 1000 }}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EvtOptDCheats.2"
+
+		character_event = { id = cheats.21 }
+	}
+}
+
+#more horse archers
+character_event = {
+	id = cheats.21
+	desc = "EvtDescCheats.21"
+	picture = GFX_evt_gay
+	hide_from = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EvtOptDCheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.4
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { horse_archers = { 2500 2500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { horse_archers = { 2500 2500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { horse_archers = { 2500 2500 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { horse_archers = { 2500 2500 }}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EvtOptECheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.5
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { horse_archers = { 5000 5000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { horse_archers = { 5000 5000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { horse_archers = { 5000 5000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { horse_archers = { 5000 5000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { horse_archers = { 5000 5000 }}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptFCheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.6
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { horse_archers = { 10000 10000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { horse_archers = { 10000 10000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { horse_archers = { 10000 10000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { horse_archers = { 10000 10000 }}
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { horse_archers = { 10000 10000 }}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptDCheats.4"
+	}
+}
+
+#event Boats
+character_event = {
+	id = cheats.22
+	desc = "EvtDescCheats.22"
+	picture = GFX_evt_gay
+	hide_from = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EvtOptACheats.22"
+
+		capital_scope = {
+			PREV = {
+				spawn_fleet = {
+					province = closest
+					owner = ROOT
+					troops = { galleys = { 10 10 }}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptBCheats.22"
+
+		capital_scope = {
+			PREV = {
+				spawn_fleet = {
+					province = closest
+					owner = ROOT
+					troops = { galleys = { 25 25 }}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptCCheats.22"
+
+		capital_scope = {
+			PREV = {
+				spawn_fleet = {
+					province = closest
+					owner = ROOT
+					troops = { galleys = { 50 50 }}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptDCheats.2"
+
+		character_event = { id = cheats.23 }
+	}	
+}
+
+#Even More Boats
+character_event = {
+	id = cheats.23
+	desc = "EvtDescCheats.23"
+	picture = GFX_evt_gay
+	hide_from = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EvtOptDCheats.22"
+
+		capital_scope = {
+			PREV = {
+				spawn_fleet = {
+					province = closest
+					owner = ROOT
+					troops = { galleys = { 100 100 }}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptECheats.22"
+
+		capital_scope = {
+			PREV = {
+				spawn_fleet = {
+					province = closest
+					owner = ROOT
+					troops = { galleys = { 500 500 }}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptFCheats.22"
+
+		capital_scope = {
+			PREV = {
+				spawn_fleet = {
+					province = closest
+					owner = ROOT
+					troops = { galleys = { 1000 1000 }}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptDCheats.4"
+	}
+}
+
+#event elephants
+character_event = {
+	id = cheats.24
+	desc = "EvtDescCheats.24"
+	picture = GFX_evt_gay
+	hide_from = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EvtOptACheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.1
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { war_elephants = { 250 250 } }
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { war_elephants = { 250 250 } }
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { war_elephants = { 250 250 } }
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { war_elephants = { 250 250 } }
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptBCheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.2
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { war_elephants = { 500 500 } }
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { war_elephants = { 500 500 } }
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { war_elephants = { 500 500 } }
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { war_elephants = { 500 500 } }
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { war_elephants = { 500 500 } }
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptCCheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.3
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { war_elephants = { 1000 1000 } }
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { war_elephants = { 1000 1000 } }
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { war_elephants = { 1000 1000 } }
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { war_elephants = { 1000 1000 } }
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { war_elephants = { 1000 1000 } }
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EvtOptDCheats.24"
+
+		character_event = { id = cheats.25 }
+	}
+}
+
+#more elephants
+character_event = {
+	id = cheats.25
+	desc = "EvtDescCheats.25"
+	picture = GFX_evt_gay
+	hide_from = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EvtOptDCheats.6"
+
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.4
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { war_elephants = { 2500 2500 } }
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { war_elephants = { 2500 2500 } }
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { war_elephants = { 2500 2500 } }
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { war_elephants = { 2500 2500 } }
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EvtOptECheats.6"
+	
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.5
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { war_elephants = { 5000 5000 } }
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { war_elephants = { 5000 5000 } }
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { war_elephants = { 5000 5000 } }
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { war_elephants = { 5000 5000 } }
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { war_elephants = { 5000 5000 } }
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "EvtOptFCheats.6"
+	
+		custom_tooltip = {
+			text = TOOLTIPSpawnTroops.6
+			hidden_tooltip = {
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { war_elephants = { 10000 10000 } }
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { war_elephants = { 10000 10000 } }
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { war_elephants = { 10000 10000 } }
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { war_elephants = { 10000 10000 } }
+						}
+					}
+				}
+				capital_scope = {
+					PREV = {
+						spawn_unit = {
+							owner = ROOT
+							province = PREV
+							home = PREV
+							troops = { war_elephants = { 10000 10000 } }
+						}
+					}
+				}
+			}
+		}
+	}	
+	
+	option = {
+		name = "EvtOptDCheats.25"
+	}
+}
+
+#Government Type
+character_event = {
+	id = cheats.26
+	desc = "EvtDescCheats.26"
+	picture = GFX_evt_gay
+	is_triggered_only = yes
+	
+	#Feudal/Iqta/Monastic
+	option = {
+		name = "EvtOptACheats.26"
+		if = {
+			limit = {
+				religion_group = muslim
+			}
+			set_government_type = muslim_government
+		}
+		
+		if = {
+			limit = {
+				NOT = {
+					OR = {
+						religion_group = muslim
+						religion_group = bon
+						religion_group = buddhist
+					}
+				}
+			}
+			set_government_type = feudal_government
+		}
+		
+		if = {
+			limit = {
+				culture_group = tibetan_group
+				OR = {
+					religion = bon
+					religion = buddhist
+				}
+			}
+			set_government_type = feudal_government
+		}
+	}
+	
+	#Merchant Republic
+	option = {
+		name = "EvtOptBCheats.26"
+		create_family_palace = yes
+		set_government_type = merchant_republic_government
+	}
+	
+	#Tribal
+	option = {
+		name = "EvtOptCCheats.26"
+		set_government_type = tribal_government
+	}
+	
+	#More
+		option = {
+		name = "EvtOptDCheats.26"
+		character_event = { id = cheats.27 }
+	}
+}
+
+#more government
+character_event = {
+	id = cheats.27
+	desc = "EvtDescCheats.27"
+	picture = GFX_evt_gay
+	is_triggered_only = yes
+	
+	#Nomadic
+	option = {
+		name = "EvtOptACheats.27"
+		set_government_type = nomadic_government
+	
+	}
+	
+	#Nevermind
+	option = { 
+		name = "EvtOptBCheats.27"
+	}
+}

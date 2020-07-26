@@ -1,0 +1,159 @@
+targetted_decisions = {
+	
+	enable_cheats = {
+		filter = self
+		ai = no
+		
+		from_potential = {
+			ai = no
+		}
+		
+        potential = {
+			has_game_rule = { name = Cheats value = yes }
+			NOT = { has_character_flag = cheats_enabled }
+        }	
+		allow = {
+			has_game_rule = { name = Cheats value = yes }
+		}
+		
+		effect = {
+			set_character_flag = cheats_enabled
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	rename_character = {
+		filter = all_including_me
+		ai = no
+		
+		from_potential = {
+			has_character_flag = cheats_enabled
+		}
+		
+		potential = {
+			has_game_rule = { name = Cheats value = yes }
+		}
+		
+		allow = {
+			has_game_rule = { name = Cheats value = yes }
+		}
+		
+		effect = {
+			prompt_name = {
+				player = FROM 
+				type = RENAME_CHARACTER_MESSAGE
+				name_list = culture
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	swap_gender = {
+		filter = all_including_me
+		ai = no
+		
+		from_potential = {
+			has_character_flag = cheats_enabled 
+		}
+		
+		potential = {
+			has_game_rule = { name = Cheats value = yes }
+		}
+		
+		allow = {
+			has_game_rule = { name = Cheats value = yes }
+		}
+		
+		effect = { set_gender = opposite }
+		
+		ai_will_do = { factor = 0 }
+	}
+	
+	change_character = {
+		filter = all
+		ai = no
+		
+		from_potential = {
+			has_character_flag = cheats_enabled
+		}
+		
+        potential = {
+			has_game_rule = { name = Cheats value = yes }
+		    is_ruler = yes
+        }
+		
+		allow = {
+			has_game_rule = { name = Cheats value = yes }
+			is_ruler = yes
+		}
+		
+		effect = {
+			FROM = { set_player_character = ROOT }
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	disable_cheats = {
+		filter = self
+		ai_target_filter = self
+		ai_check_interval = 12
+		
+		from_potential = {
+			has_character_flag = cheats_enabled
+		}
+		
+        potential = {
+			has_game_rule = { name = Cheats value = yes }
+        }	
+		allow = {
+			has_game_rule = { name = Cheats value = yes }
+		}
+		
+		effect = {
+			clr_character_flag = cheats_enabled
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+}
+
+title_decisions = {
+    add_claim = {
+		filter = owned
+		
+		from_potential = {
+			ai = no
+			has_character_flag = cheats_enabled
+		}
+		
+		potential = {
+            is_titular = no
+            temporary = no
+            higher_tier_than = BARON
+		}
+		
+		allow = {
+			always = yes
+			NOT = { has_claim = FROM }
+		}
+		
+		effect = {
+			add_claim = FROM
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+    }
+}

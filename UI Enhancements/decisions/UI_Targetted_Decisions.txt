@@ -3,8 +3,7 @@ targetted_decisions = {
 	make_first_wife = {
 		only_playable = yes
 		filter = spouse
-		ai_target_filter = spouse
-		ai_check_interval = 6
+		ai = no
 		diplomacy_icon = GFX_make_first_wife
 		
 		from_potential = {
@@ -42,20 +41,16 @@ targetted_decisions = {
 			always = no
 		}
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-			}
+			factor = 0
 		}
 	}
 		
 	adept_continence = {
 		filter = self
-		ai_target_filter = self
+		ai = no
 		diplomacy_icon = GFX_adept_continence
 		
 		potential = {
-			ai = no
 			is_adult = yes
 			is_married = yes
 			NOT = { trait = celibate }
@@ -80,17 +75,16 @@ targetted_decisions = {
 	
 	unadept_continence = {
 		filter = self
-		ai_target_filter = self
+		ai = no
 		diplomacy_icon = GFX_unadept_continence
 		
 		potential = {
-			ai = no
 			trait = continence
 		}
 		
 		allow = {
 		    prisoner = no
-			 NOT = { trait = incapable }
+			NOT = { trait = incapable }
 		}
 		
 		effect = {
@@ -106,7 +100,7 @@ targetted_decisions = {
 	
 	add_chastity_belt = {
 		filter = home_court
-		ai_target_filter = home_court
+		ai = no
 		diplomacy_icon = GFX_add_chastity_belt
 		
 		from_potential = {
@@ -141,11 +135,10 @@ targetted_decisions = {
 	
 	remove_chastity_belt = {
 		filter = home_court
-		ai_target_filter = home_court
+		ai = no
 		diplomacy_icon = GFX_remove_chastity_belt
 		
 		from_potential = {
-			ai = no
 			is_ruler = yes
 			prisoner = no
 		}
@@ -174,10 +167,6 @@ targetted_decisions = {
 		filter = all
 		ai = no
 		diplomacy_icon = GFX_send_gold
-		
-		from_potential = {
-			ai = no
-		}
 		
         potential = {
         }
@@ -216,7 +205,6 @@ targetted_decisions = {
 	
 	correct_dynasty = {
 		filter = close_relatives
-		ai_target_filter = none
 		ai = no
 		diplomacy_icon = GFX_correct_dynasty
 		

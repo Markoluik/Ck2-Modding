@@ -1,0 +1,20 @@
+decisions = {
+	
+	cheats_menu = {
+		potential = {
+			has_submenu_open = no
+			is_playable = yes
+			has_game_rule = { name = Cheats value = yes }
+			has_character_flag = cheats_enabled
+		}
+		
+		effect = {
+			character_event = { id = UI.1 }
+			set_character_flag = cheat_menu_open
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
