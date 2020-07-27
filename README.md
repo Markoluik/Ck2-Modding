@@ -9,6 +9,7 @@ Insert the mod into %userprofile%\documents\Paradox Interactive\Crusader Kings I
 #### Diplomatic Icons:
 - Appoint Shieldmaiden
 - Ask to Lift Excommunication
+- Nominate Bishop
 - Relive Commander
 - Resign from Council
 - Split Clan
