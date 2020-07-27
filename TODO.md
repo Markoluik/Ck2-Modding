@@ -1,7 +1,6 @@
 # Task list
 ### Known Issues:
 - Add tooltip to Send Gold - Remove smaller opinion, can't get same opinion already have
-- Suez Canal has error "Strait First Parameter Not Valid", dunno what it means
 - Change goverment is broken for nomads - Look at settlement_decisions to fix nomad feudalism
 - Start Merc Company (feudal?)/ Ask Wards Liege to Allow Faith Focus gfx are overlapping for, maybe remove
 ### Diplomatic Icons missing for decisions: 
