@@ -25,6 +25,37 @@ targetted_decisions = {
 		}
 	}
 	
+	change_character = {
+		filter = all
+		ai = no
+		
+		from_potential = {
+			has_character_flag = cheats_enabled
+		}
+		
+        potential = {
+			has_game_rule = { name = Cheats value = yes }
+		    is_ruler = yes
+        }
+		
+		allow = {
+			has_game_rule = { name = Cheats value = yes }
+			is_ruler = yes
+		}
+		
+		effect = {
+			ROOT = { set_character_flag = cheats_enabled }
+			FROM = {
+				clr_character_flag = cheats_enabled
+				set_player_character = ROOT 
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
 	rename_character = {
 		filter = all_including_me
 		ai = no
@@ -73,33 +104,6 @@ targetted_decisions = {
 		effect = { set_gender = opposite }
 		
 		ai_will_do = { factor = 0 }
-	}
-	
-	change_character = {
-		filter = all
-		ai = no
-		
-		from_potential = {
-			has_character_flag = cheats_enabled
-		}
-		
-        potential = {
-			has_game_rule = { name = Cheats value = yes }
-		    is_ruler = yes
-        }
-		
-		allow = {
-			has_game_rule = { name = Cheats value = yes }
-			is_ruler = yes
-		}
-		
-		effect = {
-			FROM = { set_player_character = ROOT }
-		}
-		
-		ai_will_do = {
-			factor = 0
-		}
 	}
 	
 	disable_cheats = {

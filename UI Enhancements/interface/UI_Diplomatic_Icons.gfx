@@ -11,10 +11,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_absorb_clan.dds"
 	}
 	spriteType = {
-		name = "GFX_APPOINT_COMMANDER_INTERACTION_icon"
-		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_appoint_commander.dds"
-	}
-	spriteType = {
 		name = "GFX_APPOINT_TO_OFFICE_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_appoint_councilor.dds"
 	}
@@ -28,6 +24,10 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_ASK_FOR_EXCOMMUNICATION_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_request_excomminication.dds"
+	}
+	spriteType = {
+		name = "GFX_ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_request_excomminication.dds"
 	}
 	spriteType = {
@@ -173,6 +173,22 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_CALL_ALLY_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_join_war.dds"
+	}
+	spriteType = {
+		name = "GFX_SPLIT_CLAN_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_split_clan.dds"
+	}
+	spriteType = {
+		name = "GFX_RESIGN_FROM_OFFICE_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_fire_councilor.dds"
+	}
+	spriteType = {
+		name = "GFX_APPOINT_COMMANDER_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_commander_appoint.dds"
+	}
+	spriteType = {
+		name = "GFX_RESIGN_COMMANDER_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_commander_resign.dds"
 	}
 	#######################
 	### Already in game ###
