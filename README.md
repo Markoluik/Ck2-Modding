@@ -8,9 +8,10 @@ Insert the mod into %userprofile%\documents\Paradox Interactive\Crusader Kings I
 ### Added:
 #### Diplomatic Icons:
 - Appoint Shieldmaiden
-- Split Clan
-- Relive Commander
 - Ask to Lift Excommunication
+- Relive Commander
+- Resign from Council
+- Split Clan
 #### Multiplayer Cheats:
 - Targetted Decisions:
 	 - Enable Cheats - (Target self) - Enables all the other targetted decisions and the cheat menu decision
