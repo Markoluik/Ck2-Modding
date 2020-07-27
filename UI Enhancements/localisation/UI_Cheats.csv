@@ -87,7 +87,7 @@ TOOLTIPSpawnBoats.6;§YCapital§!: §Y[This.GetTitledFirstName]§!: 5 §Y10000§!-men 
 ,
 ### Misc ###,
 enable_cheats;§PCHEAT:§! Enable Cheats;;;;;;;;;;;;;x,
-enable_cheats_desc;Enables cheats that let you play as any other ruler and change anyone's name.;;;;;;;;;;;;;x,
+enable_cheats_desc;Enables cheats that let you play as any ruler , change anyone's name or even their gender. You can also add a claim to any title;;;;;;;;;;;;;x
 change_character;§PCHEAT:§! Change Character;;;;;;;;;;;;;x,
 change_character_desc;Assume control of §Y[Root.GetTitledFirstName.GetDynName]§! as your player character;;;;;;;;;;;;;x,
 rename_character;§PCHEAT:§! Rename Character;;;;;;;;;;;;;x,

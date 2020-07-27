@@ -1,5 +1,5 @@
 From;To;Type;Through;-1;-1;-1;-1;Comment
-"5;45;sea;1019;-1;-1;-1;-1;Ulaid-Argyll			###SEA"
+5;45;sea;1019;-1;-1;-1;-1;Ulaid-Argyll			###SEA
 5;50;sea;1019;-1;-1;-1;-1;Ulaid-Galloway
 35;40;sea;992;-1;-1;-1;-1;Western Isles-Moray
 35;39;sea;992;-1;-1;-1;-1;Western Isles-Ross
@@ -56,7 +56,7 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 345;1886;sea;1038;-1;-1;-1;-1;Lecce-Avlonas
 641;870;sea;1393;-1;-1;-1;-1;Hormuz-Dhu Zabi
 496;741;sea;947;-1;-1;-1;-1;Constantinople-Nikomedia
-"259;261;major_river;1046;-1;-1;-1;-1;Celle-Hamburg			#ELBE"
+259;261;major_river;1046;-1;-1;-1;-1;Celle-Hamburg			#ELBE
 258;261;major_river;1046;-1;-1;-1;-1;Lüneburg-Hamburg
 309;261;major_river;1046;-1;-1;-1;-1;Altmark-Hamburg
 309;262;major_river;1046;-1;-1;-1;-1;Altmark-Lübeck
@@ -70,26 +70,26 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 312;1589;major_river;1049;-1;-1;-1;-1;Meissen-Gorlitz
 1589;1926;major_river;1049;-1;-1;-1;-1;Gorlitz-Zatec
 363;1926;major_river;1049;-1;-1;-1;-1;Litomerice-Zatec
-"80;92;major_river;1043;-1;-1;-1;-1;Holland-Breda		#RHINE"
+80;92;major_river;1043;-1;-1;-1;-1;Holland-Breda		#RHINE
 82;92;major_river;1043;-1;-1;-1;-1;Sticht-Breda
 89;91;major_river;1043;-1;-1;-1;-1;Kleve-Loon
 119;89;major_river;1044;-1;-1;-1;-1;Köln-Kleve
 119;1983;major_river;1044;-1;-1;-1;-1;Köln-Berg
 118;1983;major_river;1045;-1;-1;-1;-1;Trier-Berg
 1981;118;major_river;1045;-1;-1;-1;-1;Frankfurt-Trier
-"97;99;major_river;1041;-1;-1;-1;-1;Rouen-Evreux		#SEINE"
+97;99;major_river;1041;-1;-1;-1;-1;Rouen-Evreux		#SEINE
 98;99;major_river;1041;-1;-1;-1;-1;Vexin-Evreux
 1961;99;major_river;1041;-1;-1;-1;-1;Clermont-Evreux
-"1961;112;major_river;1042;-1;-1;-1;-1;Clermont-Paris	"
-"106;1957;major_river;1039;-1;-1;-1;-1;Nantes-Retz		"
-"107;1959;major_river;1039;-1;-1;-1;-1;Anjou-Saumur		"
+1961;112;major_river;1042;-1;-1;-1;-1;Clermont-Paris	
+106;1957;major_river;1039;-1;-1;-1;-1;Nantes-Retz		
+107;1959;major_river;1039;-1;-1;-1;-1;Anjou-Saumur		
 107;140;major_river;1040;-1;-1;-1;-1;Anjou-Tours
 109;140;major_river;1040;-1;-1;-1;-1;Vendome-Tours
-"143;149;major_river;1107;-1;-1;-1;-1;Saintonge-Bordeaux		#GARONNE"
+143;149;major_river;1107;-1;-1;-1;-1;Saintonge-Bordeaux		#GARONNE
 216;149;major_river;1107;-1;-1;-1;-1;Perigord-Bordeaux
 216;215;major_river;1108;-1;-1;-1;-1;Perigord-Agen
 214;215;major_river;1108;-1;-1;-1;-1;Toulouse-Agen
-"368;370;major_river;1051;-1;-1;-1;-1;Gdansk-Marienburg		#VISTULA"
+368;370;major_river;1051;-1;-1;-1;-1;Gdansk-Marienburg		#VISTULA
 368;369;major_river;1051;-1;-1;-1;-1;Gdansk-Chelmno
 368;1581;major_river;1052;-1;-1;-1;-1;Gdansk-Dobrzyn
 1581;429;major_river;1052;-1;-1;-1;-1;Dobrzyn-Naklo
@@ -100,7 +100,7 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 531;1584;major_river;1054;-1;-1;-1;-1;Sandomierz-Stezyca
 531;1585;major_river;1054;-1;-1;-1;-1;Sandomierz-Lublin
 531;532;major_river;1055;-1;-1;-1;-1;Sandomierz-Sacz
-"1596;1592;major_river;1080;-1;-1;-1;-1;Riga-Tukums		#DAUGAVA"
+1596;1592;major_river;1080;-1;-1;-1;-1;Riga-Tukums		#DAUGAVA
 1596;374;major_river;1080;-1;-1;-1;-1;Riga-Zemigaliens
 1594;374;major_river;1080;-1;-1;-1;-1;Jersika-Zemigaliens
 1594;1591;major_river;1080;-1;-1;-1;-1;Jersika-Selija
@@ -110,17 +110,17 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 419;417;major_river;1082;-1;-1;-1;-1;Polotsk-Vitebsk
 419;568;major_river;1082;-1;-1;-1;-1;Polotsk-Smolensk
 410;568;major_river;1082;-1;-1;-1;-1;Toropets-Smolensk
-"392;411;major_river;1083;-1;-1;-1;-1;Kexholm-Ingriya		#NEVA & SVIR"
+392;411;major_river;1083;-1;-1;-1;-1;Kexholm-Ingriya		#NEVA & SVIR
 392;409;major_river;1083;-1;-1;-1;-1;Kexholm-Ladoga
 393;1660;major_river;1084;-1;-1;-1;-1;Olonets-Chlisselbourg
 393;404;major_river;1084;-1;-1;-1;-1;Olonets-Zaozerye
-"1660;409;major_river;1085;-1;-1;-1;-1;Chlisselbourg-Ladoga	#VOLKHOV & LOVAT"
+1660;409;major_river;1085;-1;-1;-1;-1;Chlisselbourg-Ladoga	#VOLKHOV & LOVAT
 1652;409;major_river;1085;-1;-1;-1;-1;Borovichi-Ladoga
 1652;414;major_river;1085;-1;-1;-1;-1;Borovichi-Novgorod
 1667;1662;major_river;1087;-1;-1;-1;-1;Kholm-Rusa
 410;1662;major_river;1087;-1;-1;-1;-1;Toropets-Rusa
 410;415;major_river;1087;-1;-1;-1;-1;Toropets-Luki
-"543;558;major_river;1070;-1;-1;-1;-1;Lower Dnieper-Oleshye	#DNIEPER"
+543;558;major_river;1070;-1;-1;-1;-1;Lower Dnieper-Oleshye	#DNIEPER
 543;557;major_river;1070;-1;-1;-1;-1;Lower Dnieper-Lukomorie
 543;557;major_river;1071;-1;-1;-1;-1;Lower Dnieper-Chortitza
 543;1658;major_river;1071;-1;-1;-1;-1;Lower Dnieper-Hradyzk
@@ -136,17 +136,17 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 417;551;major_river;1078;-1;-1;-1;-1;Vitebsk-Mstislavl
 568;551;major_river;1078;-1;-1;-1;-1;Smolensk-Mstislavl
 568;569;major_river;1078;-1;-1;-1;-1;Smolensk-Vyazma
-"1653;1649;major_river;1626;-1;-1;-1;-1;Slutsk-Korosten		#PRIPYAT"
+1653;1649;major_river;1626;-1;-1;-1;-1;Slutsk-Korosten		#PRIPYAT
 1653;552;major_river;1079;-1;-1;-1;-1;Slutsk-Turov
 548;552;major_river;1079;-1;-1;-1;-1;Pinsk-Turov
 548;535;major_river;1079;-1;-1;-1;-1;Pinsk-Volodymyr
-"554;555;major_river;1073;-1;-1;-1;-1;Chernigov-Pereyaslavl	#DESNA"
+554;555;major_river;1073;-1;-1;-1;-1;Chernigov-Pereyaslavl	#DESNA
 554;1675;major_river;1073;-1;-1;-1;-1;Chernigov-Priluk
 1656;567;major_river;1074;-1;-1;-1;-1;Starodub-Novgorod Seversky
 576;1676;major_river;1074;-1;-1;-1;-1;Bryansk-Kromy
 576;1666;major_river;1074;-1;-1;-1;-1;Bryansk-Karachev
 933;1666;major_river;1074;-1;-1;-1;-1;Roslavl-Karachev
-"596;597;major_river;1088;-1;-1;-1;-1;Tana-Azov		#DON"
+596;597;major_river;1088;-1;-1;-1;-1;Tana-Azov		#DON
 596;599;major_river;1088;-1;-1;-1;-1;Tana-Kuban
 596;607;major_river;1088;-1;-1;-1;-1;Tana-Sarpa
 594;607;major_river;1088;-1;-1;-1;-1;Sarkel-Sarpa
@@ -157,7 +157,7 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 566;579;major_river;1091;-1;-1;-1;-1;Sugrov-Mordva
 1665;579;major_river;1091;-1;-1;-1;-1;Yelets-Mordva
 1665;577;major_river;1091;-1;-1;-1;-1;Yelets-Pronsk
-"620;604;major_river;1092;-1;-1;-1;-1;Itil-Kuma		#VOLGA"
+620;604;major_river;1092;-1;-1;-1;-1;Itil-Kuma		#VOLGA
 619;604;major_river;1092;-1;-1;-1;-1;Saray-Kuma
 619;605;major_river;1093;-1;-1;-1;-1;Saray-Manych
 1812;595;major_river;1094;-1;-1;-1;-1;Saqsin-DonPortage
@@ -183,7 +183,7 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 405;408;major_river;1101;-1;-1;-1;-1;Chud-Belozero
 403;408;major_river;1101;-1;-1;-1;-1;Romny-Belozero
 403;404;major_river;1101;-1;-1;-1;-1;Romny-Zaozerye
-"584;582;major_river;1102;-1;-1;-1;-1;NizhnyNovgorod-Vladimir		#OKA"
+584;582;major_river;1102;-1;-1;-1;-1;NizhnyNovgorod-Vladimir		#OKA
 591;581;major_river;1102;-1;-1;-1;-1;Cheremisa-Murom
 580;581;major_river;1104;-1;-1;-1;-1;Ryazan-Murom
 580;1678;major_river;1104;-1;-1;-1;-1;Ryazan-OrekhovoOulevo
@@ -201,19 +201,19 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 1672;1668;major_river;1106;-1;-1;-1;-1;Zoubtsov-Rzheva
 410;1668;major_river;1106;-1;-1;-1;-1;Toropets-Rzheva
 410;412;major_river;1106;-1;-1;-1;-1;Toropets-Torzhok
-"610;611;major_river;1628;-1;-1;-1;-1;Bolghar-Qazan		#KAMA"
+610;611;major_river;1628;-1;-1;-1;-1;Bolghar-Qazan		#KAMA
 610;1716;major_river;1628;-1;-1;-1;-1;Bolghar-Kremenchuk
 613;1716;major_river;1628;-1;-1;-1;-1;Bilyar-Kremenchuk
 613;1717;major_river;1628;-1;-1;-1;-1;Bilyar-Alabuga
 436;1717;major_river;1628;-1;-1;-1;-1;Naberezhnye-Alabuga
-"1646;512;major_river;1056;-1;-1;-1;-1;Odessa-Belgorod		#DNIESTER"
+1646;512;major_river;1056;-1;-1;-1;-1;Odessa-Belgorod		#DNIESTER
 1646;541;major_river;1056;-1;-1;-1;-1;Odessa-Peresechen
 1641;541;major_river;1057;-1;-1;-1;-1;Bratslav-Peresechen
 1637;541;major_river;1057;-1;-1;-1;-1;Ushytsia-Peresechen
 1637;1638;major_river;1057;-1;-1;-1;-1;Ushytsia-Iasi
 1637;536;major_river;1627;-1;-1;-1;-1;Ushytsia-Galich
 546;536;major_river;1627;-1;-1;-1;-1;Terebovl-Galich
-"510;1640;major_river;1058;-1;-1;-1;-1;Constantia-Chilia		#DANUBE"
+510;1640;major_river;1058;-1;-1;-1;-1;Constantia-Chilia		#DANUBE
 510;511;major_river;1058;-1;-1;-1;-1;Constantia-Galaz
 510;1642;major_river;1058;-1;-1;-1;-1;Constantia-Calarasi
 509;1642;major_river;1059;-1;-1;-1;-1;Karvuna-Calarasi
@@ -288,7 +288,7 @@ From;To;Type;Through;-1;-1;-1;-1;Comment
 1325;1324;major_river;1316;-1;-1;-1;-1;Madhupur-Suvarnagram
 1381;1324;major_river;1316;-1;-1;-1;-1;Pundravardhana-Suvarnagram
 1321;1246;major_river;1317;-1;-1;-1;-1;Kamarupanagara-Goalpara
-"1078;1082;portage;568;-1;-1;-1;-1;Dneiper-Dwina		###PORTAGE"
+1078;1082;portage;568;-1;-1;-1;-1;Dneiper-Dwina		###PORTAGE
 1089;1093;portage;595;-1;-1;-1;-1;Don-Volga
 1087;1082;portage;419;-1;-1;-1;-1;Lovat-Dwina
 1402;1404;portage;1195;-1;-1;-1;-1;Gulf of Mannar-Palk Strait
