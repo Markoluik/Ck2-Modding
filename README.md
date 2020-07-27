@@ -8,6 +8,9 @@ Insert the mod into %userprofile%\documents\Paradox Interactive\Crusader Kings I
 ### Added:
 #### Diplomatic Icons:
 - Appoint Shieldmaiden
+- Split Clan
+- Relive Commander
+- Ask to Lift Excommunication
 #### Multiplayer Cheats:
 - Targetted Decisions:
 	 - Enable Cheats - (Target self) - Enables all the other targetted decisions and the cheat menu decision
@@ -21,6 +24,7 @@ Insert the mod into %userprofile%\documents\Paradox Interactive\Crusader Kings I
 	- Cheat Menu - A decision menu where you can spawn in any type of event troops of specified amounts, give yourself gold or even change your government (currently broken)
 ### Minor Changes:
 #### Diplomatic Icons:
+- Appoint Commander
 - Commit Suicide
 - Ask For Invasion
 - Give Artifact
