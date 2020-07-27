@@ -2794,17 +2794,12 @@ character_event = {
 	option = {
 		name = "EvtOptACheats.22"
 		clr_character_flag = cheat_menu_open
-		custom_tooltip = {
-			text = TOOLTIPSpawnBoats.1
-			hidden_tooltip = {
-				capital_scope = {
-					PREV = {
-						spawn_fleet = {
-							owner = ROOT
-							province = closest
-							troops = { galleys = { 10 10 }}
-						}
-					}
+		capital_scope = {
+			PREV = {
+				spawn_fleet = {
+					owner = ROOT
+					province = closest
+					troops = { galleys = { 10 10 } }
 				}
 			}
 		}
@@ -2818,7 +2813,16 @@ character_event = {
 				spawn_fleet = {
 					province = closest
 					owner = ROOT
-					troops = { galleys = { 25 25 }}
+					troops = { galleys = { 15 15 } }
+				}
+			}
+		}
+		capital_scope = {
+			PREV = {
+				spawn_fleet = {
+					province = closest
+					owner = ROOT
+					troops = { galleys = { 10 10 } }
 				}
 			}
 		}
@@ -2832,7 +2836,16 @@ character_event = {
 				spawn_fleet = {
 					province = closest
 					owner = ROOT
-					troops = { galleys = { 50 50 }}
+					troops = { galleys = { 25 25 } }
+				}
+			}
+		}
+		capital_scope = {
+			PREV = {
+				spawn_fleet = {
+					province = closest
+					owner = ROOT
+					troops = { galleys = { 25 25 } }
 				}
 			}
 		}
@@ -2860,7 +2873,34 @@ character_event = {
 				spawn_fleet = {
 					province = closest
 					owner = ROOT
-					troops = { galleys = { 100 100 }}
+					troops = { galleys = { 25 25 } }
+				}
+			}
+		}
+		capital_scope = {
+			PREV = {
+				spawn_fleet = {
+					province = closest
+					owner = ROOT
+					troops = { galleys = { 25 25 } }
+				}
+			}
+		}
+		capital_scope = {
+			PREV = {
+				spawn_fleet = {
+					province = closest
+					owner = ROOT
+					troops = { galleys = { 25 25 } }
+				}
+			}
+		}
+		capital_scope = {
+			PREV = {
+				spawn_fleet = {
+					province = closest
+					owner = ROOT
+					troops = { galleys = { 25 25 } }
 				}
 			}
 		}
@@ -2874,7 +2914,34 @@ character_event = {
 				spawn_fleet = {
 					province = closest
 					owner = ROOT
-					troops = { galleys = { 500 500 }}
+					troops = { galleys = { 125 125 } }
+				}
+			}
+		}
+		capital_scope = {
+			PREV = {
+				spawn_fleet = {
+					province = closest
+					owner = ROOT
+					troops = { galleys = { 125 125 } }
+				}
+			}
+		}
+		capital_scope = {
+			PREV = {
+				spawn_fleet = {
+					province = closest
+					owner = ROOT
+					troops = { galleys = { 125 125 } }
+				}
+			}
+		}
+		capital_scope = {
+			PREV = {
+				spawn_fleet = {
+					province = closest
+					owner = ROOT
+					troops = { galleys = { 125 125 } }
 				}
 			}
 		}
@@ -2888,7 +2955,34 @@ character_event = {
 				spawn_fleet = {
 					province = closest
 					owner = ROOT
-					troops = { galleys = { 1000 1000 }}
+					troops = { galleys = { 250 250 } }
+				}
+			}
+		}
+		capital_scope = {
+			PREV = {
+				spawn_fleet = {
+					province = closest
+					owner = ROOT
+					troops = { galleys = { 250 250 } }
+				}
+			}
+		}
+		capital_scope = {
+			PREV = {
+				spawn_fleet = {
+					province = closest
+					owner = ROOT
+					troops = { galleys = { 250 250 } }
+				}
+			}
+		}
+		capital_scope = {
+			PREV = {
+				spawn_fleet = {
+					province = closest
+					owner = ROOT
+					troops = { galleys = { 250 250 } }
 				}
 			}
 		}

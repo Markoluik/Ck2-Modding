@@ -77,14 +77,6 @@ TOOLTIPSpawnTroops.4;§YCapital§!: §Y[This.GetTitledFirstName]§!: 4 §Y2500§!-men 
 TOOLTIPSpawnTroops.5;§YCapital§!: §Y[This.GetTitledFirstName]§!: 5 §Y5000§!-men regiments arrives in §Y[Root.Capital.County.GetName]§! (Non Reinforcing, Maintenance \nFree).;;;;;;;;;;;;;x
 TOOLTIPSpawnTroops.6;§YCapital§!: §Y[This.GetTitledFirstName]§!: 5 §Y10000§!-men regiments arrives in §Y[Root.Capital.County.GetName]§! (Non Reinforcing, Maintenance \nFree).;;;;;;;;;;;;;x
 ,
-## Boats ##,
-TOOLTIPSpawnBoats.1;§YCapital§!: §Y[This.GetTitledFirstName]§!: §10§! ships arrive in §Y[Root.SeaZone.County.GetName]§! (Non Reinforcing, Maintenance \nFree).;;;;;;;;;;;;;x
-TOOLTIPSpawnBoats.2;§YCapital§!: §Y[This.GetTitledFirstName]§!: 5 §Y500§!-men regiments arrives in §Y[Root.Capital.County.GetName]§! (Non Reinforcing, Maintenance \nFree).;;;;;;;;;;;;;x
-TOOLTIPSpawnBoats.3;§YCapital§!: §Y[This.GetTitledFirstName]§!: 5 §Y1000§!-men regiments arrives in §Y[Root.Capital.County.GetName]§! (Non Reinforcing, Maintenance \nFree).;;;;;;;;;;;;;x
-TOOLTIPSpawnBoats.4;§YCapital§!: §Y[This.GetTitledFirstName]§!: 4 §Y2500§!-men regiments arrives in §Y[Root.Capital.County.GetName]§! (Non Reinforcing, Maintenance \nFree).;;;;;;;;;;;;;x
-TOOLTIPSpawnBoats.5;§YCapital§!: §Y[This.GetTitledFirstName]§!: 5 §Y5000§!-men regiments arrives in §Y[Root.Capital.County.GetName]§! (Non Reinforcing, Maintenance \nFree).;;;;;;;;;;;;;x
-TOOLTIPSpawnBoats.6;§YCapital§!: §Y[This.GetTitledFirstName]§!: 5 §Y10000§!-men regiments arrives in §Y[Root.Capital.County.GetName]§! (Non Reinforcing, Maintenance \nFree).;;;;;;;;;;;;;x
-,
 ### Misc ###,
 enable_cheats;§PCHEAT:§! Enable Cheats;;;;;;;;;;;;;x,
 enable_cheats_desc;Enables cheats that let you play as any ruler , change anyone's name or even their gender. You can also add a claim to any title;;;;;;;;;;;;;x
