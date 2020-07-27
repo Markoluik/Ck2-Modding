@@ -3,6 +3,7 @@
 - Add tooltip to Send Gold - Remove smaller opinion, can't get same opinion already have
 - Change goverment is broken for nomads - Look at settlement_decisions to fix nomad feudalism
 - Start Merc Company (feudal?)/ Ask Wards Liege to Allow Faith Focus gfx are overlapping for, maybe remove
+ -Appoint Councilor Diplo Icon not working
 ### Diplomatic Icons missing for decisions: 
 
 - Needed:
@@ -15,16 +16,11 @@
 	- stop_seduce_decision_target
 	- decision_spy_on
 	- invite_to_party
-	
-	- RESIGN_FROM_OFFICE_INTERACTION
-	- ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION
 	- Warrior Training
-	- Split Clan
 	- Relive Commander
 	- Appoint Councilor
 	- Fire Councilor
 	- Private Conversation
-
 	
 - Mercs:
 	- Replace Captain - REPLACE_MERCENARY_CAPTAIN_INTERACTION
