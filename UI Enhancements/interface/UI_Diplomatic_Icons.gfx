@@ -190,6 +190,10 @@ spriteTypes = {
 		name = "GFX_RESIGN_COMMANDER_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_commander_resign.dds"
 	}
+	spriteType = {
+		name = "GFX_NOMINATE_BISHOP_TO_POPE_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_nominate_bishop.dds"
+	}
 	#######################
 	### Already in game ###
 	#######################
