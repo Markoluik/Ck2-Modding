@@ -3,7 +3,13 @@
 This is a github for my UI Enhancement Mod to ezly download it
 
 Insert the mod into %userprofile%\documents\Paradox Interactive\Crusader Kings II\mod
-
+## 31-07-2020
+#### Added Diplomatic Icons for:
+- Appoint Councilor
+- Fire Councilor
+#### Minor Changes to:
+- Appoint Commander
+- Seduce
 ## 27-07-2020
 ### Added:
 #### Diplomatic Icons:
