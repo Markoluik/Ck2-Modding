@@ -12,7 +12,15 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_APPOINT_TO_OFFICE_INTERACTION_icon"
-		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_appoint_councilor.dds"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_councilor_appoint.dds"
+	}
+	spriteType = {
+		name = "GFX_ASSIGN_VOTER_TITLE_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_councilor_appoint.dds"
+	}
+	spriteType = {
+		name = "GFX_REVOKE_VOTER_TITLE_INTERACTION_icon"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_councilor_fire.dds"
 	}
 	spriteType = {
 		name = "GFX_ASK_FOR_CLAIM_INTERACTION_icon"

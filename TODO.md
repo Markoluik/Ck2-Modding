@@ -3,7 +3,6 @@
 - Add tooltip to Send Gold - Remove smaller opinion, can't get same opinion already have
 - Change goverment is broken for nomads - Look at settlement_decisions to fix nomad feudalism
 - Start Merc Company (feudal?)/ Ask Wards Liege to Allow Faith Focus gfx are overlapping, maybe remove
-- Appoint and fire councilor diplo icons not working
 ### Diplomatic Icons missing for decisions: 
 
 - Needed:
