@@ -40,7 +40,7 @@ targetted_decisions = {
 		
 		allow = {
 			has_game_rule = { name = Cheats value = yes }
-			is_ruler = yes
+			ROOT = { is_ruler = yes }
 		}
 		
 		effect = {
