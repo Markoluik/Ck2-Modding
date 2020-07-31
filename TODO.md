@@ -16,9 +16,6 @@
 	- decision_spy_on
 	- invite_to_party
 	- Warrior Training
-	- Relive Commander
-	- Appoint Councilor
-	- Fire Councilor
 	- Private Conversation
 	
 - Mercs:
