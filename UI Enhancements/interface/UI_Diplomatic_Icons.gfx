@@ -188,7 +188,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_RESIGN_FROM_OFFICE_INTERACTION_icon"
-		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_fire_councilor.dds"
+		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_councilor_fire.dds"
 	}
 	spriteType = {
 		name = "GFX_APPOINT_COMMANDER_INTERACTION_icon"
