@@ -10,7 +10,7 @@ Insert the mod into %userprofile%\documents\Paradox Interactive\Crusader Kings I
 #### Minor Changes to:
 - Appoint Commander
 - Seduce
-- Request Support
+- Request Council Support
 ## 27-07-2020
 ### Added:
 #### Diplomatic Icons:
