@@ -7,6 +7,7 @@ Insert the mod into %userprofile%\documents\Paradox Interactive\Crusader Kings I
 #### Added Diplomatic Icons for:
 - Appoint Councilor
 - Fire Councilor
+- Invite to Plot
 #### Minor Changes to:
 - Appoint Commander
 - Seduce
