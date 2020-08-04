@@ -25,9 +25,9 @@ character_event = {
 	}
 	
 	option = { #Close
-		name = "EvtOptDCheats.1"
+		name = "EvtOptDCheats.2"
 		#set_character_flag = remove_cheat_menu
-		clr_character_flag = cheat_menu_open
+		character_event = { id = cheats.30 }
 	}
 }
 
@@ -3474,7 +3474,129 @@ character_event = {
 	
 	#Nevermind
 	option = {
-		name = "EvtOptDCheats.4"
+		name = "EvtOptDCheats.2"
+		clr_character_flag = cheat_menu_open
+	}
+}
+
+character_event = {
+	id = cheats.30
+	desc = "EvtDescCheats.1"
+	picture = GFX_evt_cheats
+	is_triggered_only = yes
+	
+	option = {
+		name = "EvtOptACheats.30"
+		clr_character_flag = cheat_menu_open
+		
+		### Sins ###
+		
+		If = {
+			Limit = {
+				trait = lustful
+			}
+			remove_trait = lustful
+		}
+		If = {
+			Limit = {
+				trait = gluttonous
+			}
+			remove_trait = gluttonous
+		}
+		If = {
+			Limit = {
+				trait = greedy
+			}
+			remove_trait = greedy
+		}
+		If = {
+			Limit = {
+				trait = slothful
+			}
+			remove_trait = slothful
+		}
+		If = {
+			Limit = {
+				trait = envious
+			}
+			remove_trait = envious
+		}
+		If = {
+			Limit = {
+				trait = wroth
+			}
+			remove_trait = wroth
+		}
+		If = {
+			Limit = {
+				trait = proud
+			}
+			remove_trait = proud
+		}
+		
+		### Virtues ###
+		
+		If = {
+			Limit = {
+				Not = {
+					trait = chaste
+				}
+			}
+			add_trait = chaste
+		}
+		If = {
+			Limit = {
+				Not = {
+					trait = temperate
+				}
+			}
+			add_trait = temperate
+		}
+		If = {
+			Limit = {
+				Not = {
+					trait = charitable
+				}
+			}
+			add_trait = charitable
+		}
+		If = {
+			Limit = {
+				Not = {
+					trait = diligent
+				}
+			}
+			add_trait = diligent
+		}
+		If = {
+			Limit = {
+				Not = {
+					trait = kind
+				}
+			}
+			add_trait = kind
+		}
+		If = {
+			Limit = {
+				Not = {
+					trait = patient
+				}
+			}
+			add_trait = patient
+		}
+		If = {
+			Limit = {
+				Not = {
+					trait = humble
+				}
+			}
+			add_trait = humble
+		}
+	}
+	
+	#Close
+	option = {
+		name = "EvtOptDCheats.1"
 		clr_character_flag = cheat_menu_open
 	}
 }
