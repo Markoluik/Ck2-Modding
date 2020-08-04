@@ -87,7 +87,7 @@ rename_character_desc;Change the name of §Y[Root.GetTitledFirstName.GetDynName]§
 swap_gender;§PCHEAT:§! Swap Gender;;;;;;;;;;;;;x,
 swap_gender_desc;Swap the gender of §Y[Root.GetTitledFirstName.GetDynName]§!.;;;;;;;;;;;;;x,
 add_claim;§PCHEAT:§! Add Claim;;;;;;;;;;;;;x,
-add_claim_desc;§Y[From.GetTitledFirstName.GetDynName]§! gains a strong claim on  §Y[Root.Location.GetName]§!.;;;;;;;;;;;;;x,
+add_claim_desc;§Y[From.GetTitledFirstName.GetDynName]§! gets a Strong Claim on §Y[Root.GetTitle.GetFullName]§!.;;;;;;;;;;;;;x,
 disable_cheats;§PCHEAT:§! Disable Cheats;;;;;;;;;;;;;x,
 disable_cheats_desc;Disable cheats that let you play as any other ruler and change anyone's name.;;;;;;;;;;;;;x,
 ,
