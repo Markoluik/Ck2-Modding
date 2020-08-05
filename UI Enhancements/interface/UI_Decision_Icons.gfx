@@ -11,4 +11,8 @@ spriteTypes = {
 		name = "GFX_cheats_menu"
 		texturefile = "gfx/interface/Decision_Icons/decision_icon_cheat_menu.dds"
 	}
+	spriteType = {
+		name = "GFX_invite_celebration"
+		texturefile = "gfx/interface/Decision_Icons/decision_icon_wedding.dds"
+	}
 }
