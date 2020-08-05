@@ -50,12 +50,8 @@ targetted_decisions = {
 		ai = no
 		diplomacy_icon = GFX_adept_continence
 		
-		from_potential = {
-			ai = no
-			is_ruler = yes
-		}
-		
 		potential = {
+			ai = no
 			is_adult = yes
 			is_married = yes
 			NOT = { trait = celibate }
