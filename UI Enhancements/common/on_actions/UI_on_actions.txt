@@ -3,3 +3,9 @@ on_death = {
 		misc.1 #Remove Continence/Chastity Belt
 	}
 }
+
+on_reform_religion = {
+	events = {
+		religion.205 # Grants Temporal artifact
+	}
+}
