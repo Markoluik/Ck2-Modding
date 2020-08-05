@@ -1,0 +1,20 @@
+c_temp_1 = {
+	holy_site = ui_custom_religion
+	holy_site = ui_custom_religion_reformed
+}
+c_temp_2 = {
+	holy_site = ui_custom_religion
+	holy_site = ui_custom_religion_reformed
+}
+c_temp_3 = {
+	holy_site = ui_custom_religion
+	holy_site = ui_custom_religion_reformed
+}
+c_temp_4 = {
+	holy_site = ui_custom_religion
+	holy_site = ui_custom_religion_reformed
+}
+c_temp_5 = {
+	holy_site = ui_custom_religion
+	holy_site = ui_custom_religion_reformed
+}
