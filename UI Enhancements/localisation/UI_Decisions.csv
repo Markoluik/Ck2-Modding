@@ -3,3 +3,7 @@ open_employment;Open Employment List;;;;;;;;;;;;;x
 open_employment_desc;View a list of potential Retainers;;;;;;;;;;;;;x
 close_employment;Close Employment List;;;;;;;;;;;;;x
 close_employment_desc;Close the list of potential Retainers;;;;;;;;;;;;;x
+
+# Celebration
+invite_celebration;Invite Nobles;;;;;;;;;;;;;x
+invite_celebration_desc;Invite Nobles to partey wit u;;;;;;;;;;;;;x
