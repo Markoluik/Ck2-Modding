@@ -93,3 +93,4 @@ disable_cheats_desc;Disable cheats that let you play as any other ruler and chan
 ,
 ### Add Traits  ,
 EvtOptACheats.30;Add Virtues and Remove Sins;;;;;;;;;;;;;x,
+EvtOptBCheats.30;Custom Religion;;;;;;;;;;;;;x,
