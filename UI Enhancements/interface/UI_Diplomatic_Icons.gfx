@@ -6,82 +6,102 @@ spriteTypes = {
 		name = "GFX_REQUEST_SUPPORT_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_request_support.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_ABSORB_CLAN_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_absorb_clan.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_APPOINT_TO_OFFICE_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_councilor_appoint.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_ASSIGN_VOTER_TITLE_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_councilor_appoint.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_REVOKE_VOTER_TITLE_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_councilor_fire.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_ASK_FOR_CLAIM_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_request_claim.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_ASK_FOR_DIVORCE_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_ask_for_divorce.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_ASK_FOR_EXCOMMUNICATION_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_request_excomminication.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_request_excomminication.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_ASK_FOR_INVASION_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_ask_for_invasion.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_ASK_TO_RANSOM_CHARACTER_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_ransom.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_AWARD_HONORARY_TITLE_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_award_honorary_title.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_BUY_FAVOR_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_favor.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_CALL_IN_FAVOR_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_favor.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_CLAIM_TITLE_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_banish.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_DECLARE_WAR_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_diplomatic.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_DEMAND_RELIGIOUS_CONVERSION_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_demand_religious_conversion.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_DISMISS_CONSORT_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_concubine.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_DISSOLVE_ALLIANCE_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_dissolve_alliance.dds"
-	}	
+	}
+	
 	spriteType = {
 		name = "GFX_EDUCATE_CHARACTER_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_educate.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_EXECUTE_IMPRISONED_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_execute_decision.dds"
@@ -90,256 +110,320 @@ spriteTypes = {
 		name = "GFX_EXILE_IMPRISONED_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_banish.dds"
 	}	
+	
 	spriteType = {
 		name = "GFX_FORM_ALLIANCE_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_alliance.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_FORM_NON_AGGRESSION_PACT_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_pact.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_GIVE_ARTIFACT_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_give_artifact.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_GRANT_LANDED_TITLE_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_grant_land.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_IMPRISON_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_imprison.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_INVITE_TO_COURT_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_invite.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_MAKE_CONSORT_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_concubine.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_OFFER_CONSORT_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_concubine.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_OFFER_PEACE_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_offer_peace.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_OFFER_VASSALIZATION_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_vassalize.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_PREPARE_INVASION_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_prepare_invasion.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_RANSOM_CHARACTER_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_ransom.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_RELEASE_FROM_PRISON_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_release.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_RELEASE_VASSAL_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_grant_independence.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_REVOKE_HONORARY_TITLE_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_revoke_honorary_title.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_REVOKE_TITLE_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_vassal_retract.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_SEND_ASSASSIN_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_send_assassin.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_SEND_GIFT_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_wealth.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_TRANSFER_VASSAL_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_vassal_transfer.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_RETRACT_VASSAL_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_vassal_retract.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_ASK_FOR_VASSALIZATION_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_ask_for_vassalization.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_ASK_TO_JOIN_WAR_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_join_war.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_CALL_ALLY_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_join_war.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_SPLIT_CLAN_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_split_clan.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_RESIGN_FROM_OFFICE_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_councilor_fire.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_APPOINT_COMMANDER_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_commander_appoint.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_RESIGN_COMMANDER_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_commander_resign.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_NOMINATE_BISHOP_TO_POPE_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_nominate_bishop.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_ABANDON_AMBITION_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_invite_to_plot.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_STOP_BACKING_AMBITION_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_invite_to_plot.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_JOIN_AMBITION_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_invite_to_plot.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_ASK_TO_JOIN_AMBITION_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_invite_to_plot.dds"
 	}
+	
 	#######################
 	### Already in game ###
 	#######################
+	
 	spriteType = {
 		name = "GFX_mass_conversion"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_mass_conversion.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_send_into_hiding"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_hiding_send_into.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_diplo_action_negotiate_with_adventurer"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_negotiate_with_adventurer.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_take_out_of_hiding"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_hiding_take_out.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_legitimize_bastard_ui"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_legitimize_bastard.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_order_to_take_vows"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_order_to_take_vows.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_create_mercenary_company"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_mercenary_company_create.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_disband_mercenary_company"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_mercenary_company_disband.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_prisoner_torture"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_prisoner_torture.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_prisoner_mutilate"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_prisoner_mutilate.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_prisoner_read_poetry"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_prisoner_read_poetry.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_execute_eat"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_prisoner_eat.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_pact_dissolve"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_pact_dissolve.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_ask_to_leave_court"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_ask_to_leave_court.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_vassal_castrate_decision"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_prisoner_castrate.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_vassal_blind"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_prisoner_blind.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_prisoner_to_dungeon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_imprison.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_prisoner_to_suite"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_house_arrest.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_seduce_decision"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_seduce.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_change_council_job"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_change_council_job.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_change_wards_focus_to_faith"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_change_wards_focus_to_faith.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_commit_suicide_ui"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_commit_suicide.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_appoint_shieldmaiden"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_appoint_shieldmaiden.dds"
 	}
+	
 	############
 	### MEIN ###
 	############
+	
 	spriteType = {
 		name = "GFX_add_chastity_belt"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_chastity_belt.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_remove_chastity_belt"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_chastity_belt.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_adept_continence"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_continence.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_unadept_continence"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_continence.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_send_gold"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_send_gold.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_correct_dynasty"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_correct_dynasty.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_make_first_wife"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_make_first_wife.dds"
