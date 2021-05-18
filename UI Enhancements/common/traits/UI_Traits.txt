@@ -1,5 +1,4 @@
 continence = {
-	lifestyle = yes
 	random = no  
 	customizer = no
 	
@@ -17,13 +16,6 @@ continence = {
 chastity_belt = {
 	random = no  
 	customizer = no
-	
-	opposites =  {
-		hedonist
-		seducer
-		seductress
-		lustful
-	}
 	
 	fertility = -50
 	christian_church_opinion = 25
