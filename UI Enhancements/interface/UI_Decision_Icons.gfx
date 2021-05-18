@@ -1,16 +1,20 @@
 spriteTypes = {
+
 	spriteType = {
 		name = "GFX_open_employment"
 		texturefile = "gfx/interface/Decision_Icons/decision_submenu_employment_open.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_close_employment"
 		texturefile = "gfx/interface/Decision_Icons/decision_submenu_employment_close.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_cheats_menu"
 		texturefile = "gfx/interface/Decision_Icons/decision_icon_cheat_menu.dds"
 	}
+	
 	spriteType = {
 		name = "GFX_invite_celebration"
 		texturefile = "gfx/interface/Decision_Icons/decision_icon_wedding.dds"
