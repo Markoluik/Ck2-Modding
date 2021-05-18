@@ -1,7 +1,9 @@
 spriteTypes = {
+
 	#################
 	### HARDCODED ###
 	#################
+	
 	spriteType = {
 		name = "GFX_REQUEST_SUPPORT_INTERACTION_icon"
 		texturefile = "gfx/interface/Diplomatic_Icons/diplo_action_request_support.dds"
