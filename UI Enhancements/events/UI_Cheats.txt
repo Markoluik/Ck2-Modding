@@ -9,6 +9,10 @@ character_event = {
 	picture = GFX_evt_cheats
 	is_triggered_only = yes
 	
+	trigger = {
+		ai = no
+	}
+	
 	option = { #Event Troops
 		name = EvtOptACheats.1
 		character_event = { id = cheats.2 }
@@ -38,6 +42,10 @@ character_event = {
 	hide_from = yes
 	is_triggered_only = yes
 	
+	trigger = {
+		ai = no
+	}
+	
 	option = {	#Spawn Light Infantry
 		name = EvtOptACheats.2
 		character_event = { id = cheats.8 }
@@ -65,6 +73,10 @@ character_event = {
 	hide_from = yes
 	is_triggered_only = yes
 	
+	trigger = {
+		ai = no
+	}
+	
 	option = {	#Spawn Heavy Inf
 		name = EvtOptACheats.3
 		character_event = { id = cheats.14 }
@@ -91,6 +103,10 @@ character_event = {
 	hide_from = yes
 	is_triggered_only = yes
 	
+	trigger = {
+		ai = no
+	}
+	
 	option = {	#Spawn Horse Archers
 		name = EvtOptACheats.4
 		character_event = { id = cheats.20 }
@@ -116,6 +132,10 @@ character_event = {
 	picture = GFX_evt_cheats
 	hide_from = yes
 	is_triggered_only = yes
+	
+	trigger = {
+		ai = no
+	}
 	
 	option = {
 		name = EvtOptACheats.5
@@ -149,6 +169,10 @@ character_event = {
 	hide_from = yes
 	is_triggered_only = yes
 	
+	trigger = {
+		ai = no
+	}
+	
 	option = {
 		name = EvtOptDCheats.5
 		clr_character_flag = cheat_menu_open
@@ -181,6 +205,10 @@ character_event = {
 	hide_from = yes
 	is_triggered_only = yes
 	
+	trigger = {
+		ai = no
+	}
+	
 	option = {
 		name = EvtOptGCheats.5
 		clr_character_flag = cheat_menu_open
@@ -212,6 +240,10 @@ character_event = {
 	picture = GFX_evt_cheats
 	hide_from = yes
 	is_triggered_only = yes
+	
+	trigger = {
+		ai = no
+	}
 	
 	option = { #Spawn 1000
 		name = EvtOptACheats.6
@@ -397,6 +429,10 @@ character_event = {
 	hide_from = yes
 	is_triggered_only = yes
 	
+	trigger = {
+		ai = no
+	}
+	
 	option = { #Spawn 10000
 		name = EvtOptDCheats.6
 		clr_character_flag = cheat_menu_open
@@ -580,6 +616,10 @@ character_event = {
 	picture = GFX_evt_cheats
 	hide_from = yes
 	is_triggered_only = yes
+	
+	trigger = {
+		ai = no
+	}
 	
 	option = {
 		name = EvtOptACheats.6
@@ -765,6 +805,10 @@ character_event = {
 	hide_from = yes
 	is_triggered_only = yes
 	
+	trigger = {
+		ai = no
+	}
+	
 	option = {
 		name = EvtOptDCheats.6
 		clr_character_flag = cheat_menu_open
@@ -949,6 +993,10 @@ character_event = {
 	hide_from = yes
 	is_triggered_only = yes
 	
+	trigger = {
+		ai = no
+	}
+	
 	option = {
 		name = EvtOptACheats.6
 		clr_character_flag = cheat_menu_open
@@ -1132,6 +1180,10 @@ character_event = {
 	picture = GFX_evt_cheats
 	hide_from = yes
 	is_triggered_only = yes
+	
+	trigger = {
+		ai = no
+	}
 	
 	option = {
 		name = EvtOptDCheats.6
@@ -1318,6 +1370,10 @@ character_event = {
 	hide_from = yes
 	is_triggered_only = yes
 	
+	trigger = {
+		ai = no
+	}
+	
 	option = {
 		name = EvtOptACheats.6
 		clr_character_flag = cheat_menu_open
@@ -1501,6 +1557,10 @@ character_event = {
 	picture = GFX_evt_cheats
 	hide_from = yes
 	is_triggered_only = yes
+	
+	trigger = {
+		ai = no
+	}
 	
 	option = {
 		name = EvtOptDCheats.14
@@ -1686,6 +1746,10 @@ character_event = {
 	hide_from = yes
 	is_triggered_only = yes
 	
+	trigger = {
+		ai = no
+	}
+	
 	option = {
 		name = EvtOptACheats.6
 		clr_character_flag = cheat_menu_open
@@ -1869,6 +1933,10 @@ character_event = {
 	picture = GFX_evt_cheats
 	hide_from = yes
 	is_triggered_only = yes
+	
+	trigger = {
+		ai = no
+	}
 	
 	option = {
 		name = EvtOptDCheats.6
@@ -2054,6 +2122,10 @@ character_event = {
 	hide_from = yes
 	is_triggered_only = yes
 	
+	trigger = {
+		ai = no
+	}
+	
 	option = {
 		name = EvtOptACheats.6
 		clr_character_flag = cheat_menu_open
@@ -2237,6 +2309,10 @@ character_event = {
 	picture = GFX_evt_cheats
 	hide_from = yes
 	is_triggered_only = yes
+	
+	trigger = {
+		ai = no
+	}
 	
 	option = {
 		name = EvtOptDCheats.6
@@ -2422,6 +2498,10 @@ character_event = {
 	hide_from = yes
 	is_triggered_only = yes
 	
+	trigger = {
+		ai = no
+	}
+	
 	option = {
 		name = EvtOptACheats.6
 		clr_character_flag = cheat_menu_open
@@ -2605,6 +2685,10 @@ character_event = {
 	picture = GFX_evt_cheats
 	hide_from = yes
 	is_triggered_only = yes
+	
+	trigger = {
+		ai = no
+	}
 	
 	option = {
 		name = EvtOptDCheats.6
@@ -2790,6 +2874,10 @@ character_event = {
 	hide_from = yes
 	is_triggered_only = yes
 	
+	trigger = {
+		ai = no
+	}
+	
 	option = {
 		name = EvtOptACheats.22
 		clr_character_flag = cheat_menu_open
@@ -2863,6 +2951,10 @@ character_event = {
 	picture = GFX_evt_cheats
 	hide_from = yes
 	is_triggered_only = yes
+	
+	trigger = {
+		ai = no
+	}
 	
 	option = {
 		name = EvtOptDCheats.22
@@ -3000,6 +3092,10 @@ character_event = {
 	picture = GFX_evt_cheats
 	hide_from = yes
 	is_triggered_only = yes
+	
+	trigger = {
+		ai = no
+	}
 	
 	option = {
 		name = EvtOptACheats.6
@@ -3184,6 +3280,10 @@ character_event = {
 	picture = GFX_evt_cheats
 	hide_from = yes
 	is_triggered_only = yes
+	
+	trigger = {
+		ai = no
+	}
 	
 	option = {
 		name = EvtOptDCheats.6
@@ -3370,6 +3470,10 @@ character_event = {
 	picture = GFX_evt_cheats
 	is_triggered_only = yes
 	
+	trigger = {
+		ai = no
+	}
+	
 	#Feudal/Iqta/Monastic
 	option = {
 		name = EvtOptACheats.26
@@ -3437,6 +3541,10 @@ character_event = {
 	picture = GFX_evt_cheats
 	is_triggered_only = yes
 	
+	trigger = {
+		ai = no
+	}
+	
 	#Nomadic
 	option = {
 		name = EvtOptACheats.27
@@ -3488,6 +3596,10 @@ character_event = {
 	desc = EvtDescCheats.1
 	picture = GFX_evt_cheats
 	is_triggered_only = yes
+	
+	trigger = {
+		ai = no
+	}
 	
 	option = {
 		name = EvtOptACheats.30
