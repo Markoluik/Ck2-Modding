@@ -1,9 +1,9 @@
 targetted_decisions = {
 	
 	make_first_wife = {
-		only_playable = yes
 		filter = spouse
 		ai = no
+		only_playable = yes
 		diplomacy_icon = GFX_make_first_wife
 		
 		from_potential = {
@@ -19,7 +19,10 @@ targetted_decisions = {
 			}
 		}
 		
-		allow = { }
+		allow = { 
+			NOT = { is_incapable = yes }
+			NOT = { in_command = yes }
+		}
 		
 		effect = {
 			FROM = {
@@ -37,12 +40,6 @@ targetted_decisions = {
 			}
 			make_primary_spouse = yes
 		}
-		revoke_allowed = {
-			always = no
-		}
-		ai_will_do = {
-			factor = 0
-		}
 	}
 		
 	adept_continence = {
@@ -51,26 +48,23 @@ targetted_decisions = {
 		diplomacy_icon = GFX_adept_continence
 		
 		potential = {
-			ai = no
 			is_adult = yes
 			is_married = yes
-			NOT = { trait = celibate }
-			NOT = { trait = continence }
+			NOR = {
+				trait = celibate
+				trait = continence
+			}
 		}
 		
 		allow = {
 			prisoner = no
-			NOT = { trait = incapable }
+			NOT = { is_incapable = yes }
 		}	
 		
 		effect = {
 			piety = 10
 			prestige = -10
 			add_trait = continence
-		}
-		
-		ai_will_do = {
-			factor = 0
 		}
     }
 	
@@ -85,17 +79,13 @@ targetted_decisions = {
 		
 		allow = {
 		    prisoner = no
-			NOT = { trait = incapable }
+			NOT = { is_incapable = yes }
 		}
 		
 		effect = {
 			piety = -10
 			prestige = 10
 			remove_trait = continence
-		}
-		
-		ai_will_do = {
-			factor = 0
 		}
     }
 	
@@ -105,7 +95,6 @@ targetted_decisions = {
 		diplomacy_icon = GFX_add_chastity_belt
 		
 		from_potential = {
-			ai = no
 			is_ruler = yes
 		}
 		
@@ -119,18 +108,17 @@ targetted_decisions = {
 		}
 		
 		allow = {
-			is_female = yes # The target is female
+			ROOT = {
+				NOT = { is_incapable = yes }
+			}
+			is_female = yes
 			age = 12
 			is_married = no
-			in_command = no # The target shouldn't be off leading troops somewhere
+			in_command = no
 		}	
 		
 		effect = {
 			add_trait = chastity_belt
-		}
-		
-		ai_will_do = {
-			factor = 0
 		}
     }
 	
@@ -144,7 +132,7 @@ targetted_decisions = {
 			prisoner = no
 		}
 		
-		potential = {			
+		potential = {
 			liege = { character = FROM }
 			trait = chastity_belt
 			is_married = no	
@@ -153,14 +141,11 @@ targetted_decisions = {
 		allow = {
 			is_female = yes
 			trait = chastity_belt
+			NOT = { is_incapable = yes }
 		}	
 		
 		effect = {
 			remove_trait = chastity_belt
-		}
-		
-		ai_will_do = {
-			factor = 0
 		}
  	}
 	
@@ -181,7 +166,7 @@ targetted_decisions = {
 						has_character_flag = send_gold_action
 					}
 				}
-				ROOT = { 
+				ROOT = {
 					is_landed = yes 
 					is_within_diplo_range = FROM
 				}
@@ -197,10 +182,6 @@ targetted_decisions = {
 				character_event = { id = gold.1 }
 				set_character_flag = send_gold_action
 			}
-		}
-		
-		ai_will_do = {
-			factor = 0
 		}
 	}
 	
@@ -239,10 +220,6 @@ targetted_decisions = {
 			}
 			FROM = { recalc_succession = yes }
 			ROOT = { recalc_succession = yes }
-		}
-		
-		ai_will_do = {
-			factor = 0
 		}
 	}
 }
