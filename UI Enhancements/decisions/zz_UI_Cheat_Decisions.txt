@@ -4,10 +4,6 @@ targetted_decisions = {
 		filter = self
 		ai = no
 		
-		from_potential = {
-			ai = no
-		}
-		
         potential = {
 			has_game_rule = { name = Cheats value = yes }
 			NOT = { has_character_flag = cheats_enabled }
@@ -18,10 +14,6 @@ targetted_decisions = {
 		
 		effect = {
 			set_character_flag = cheats_enabled
-		}
-		
-		ai_will_do = {
-			factor = 0
 		}
 	}
 	
@@ -50,10 +42,6 @@ targetted_decisions = {
 				set_player_character = ROOT 
 			}
 		}
-		
-		ai_will_do = {
-			factor = 0
-		}
 	}
 	
 	rename_character = {
@@ -78,10 +66,6 @@ targetted_decisions = {
 				type = RENAME_CHARACTER_MESSAGE
 				name_list = culture
 			}
-		}
-		
-		ai_will_do = {
-			factor = 0
 		}
 	}
 	
@@ -108,16 +92,13 @@ targetted_decisions = {
 	
 	disable_cheats = {
 		filter = self
-		ai_target_filter = self
-		ai_check_interval = 12
-		
-		from_potential = {
-			has_character_flag = cheats_enabled
-		}
+		ai = no
 		
         potential = {
+			has_character_flag = cheats_enabled
 			has_game_rule = { name = Cheats value = yes }
-        }	
+        }
+		
 		allow = {
 			has_game_rule = { name = Cheats value = yes }
 		}
@@ -125,19 +106,15 @@ targetted_decisions = {
 		effect = {
 			clr_character_flag = cheats_enabled
 		}
-		
-		ai_will_do = {
-			factor = 100
-		}
 	}
 }
 
 title_decisions = {
     add_claim = {
 		filter = owned
+		ai = no
 		
 		from_potential = {
-			ai = no
 			has_character_flag = cheats_enabled
 		}
 		
@@ -156,10 +133,6 @@ title_decisions = {
 			hidden_tooltip = {	
 				add_claim = FROM
 			}
-		}
-		
-		ai_will_do = {
-			factor = 0
 		}
     }
 }
