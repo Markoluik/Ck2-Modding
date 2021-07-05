@@ -19,4 +19,29 @@ spriteTypes = {
 		name = "GFX_invite_celebration"
 		texturefile = "gfx/interface/Decision_Icons/decision_icon_wedding.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_employ_soldier"
+		texturefile = "gfx/interface/Decision_Icons/decision_recruit_soldier.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_employ_steward"
+		texturefile = "gfx/interface/Decision_Icons/decision_recruit_steward.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_employ_stewardess"
+		texturefile = "gfx/interface/Decision_Icons/decision_recruit_steward.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_employ_priest"
+		texturefile = "gfx/interface/Decision_Icons/decision_recruit_priest.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_employ_priestess"
+		texturefile = "gfx/interface/Decision_Icons/decision_recruit_priest.dds"
+	}
 }
