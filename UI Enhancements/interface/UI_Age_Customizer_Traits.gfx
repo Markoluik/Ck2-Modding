@@ -1,0 +1,147 @@
+#############################
+### Age Customizer Traits ###
+#############################
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_trait_plusOne"
+		texturefile = "gfx/traits/Age Customizer/agePlus1.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_plusTwo"
+		texturefile = "gfx/traits/Age Customizer/agePlus2.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_plusFour"
+		texturefile = "gfx/traits/Age Customizer/agePlus4.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_plusEight"
+		texturefile = "gfx/traits/Age Customizer/agePlus8.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_plusSixteen"
+		texturefile = "gfx/traits/Age Customizer/agePlus16.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_plusThirtyTwo"
+		texturefile = "gfx/traits/Age Customizer/agePlus32.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_plusSixtyFour"
+		texturefile = "gfx/traits/Age Customizer/agePlus64.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_plusOneTwentyEight"
+		texturefile = "gfx/traits/Age Customizer/agePlus128.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_plusTwoFiftySix"
+		texturefile = "gfx/traits/Age Customizer/agePlus256.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_plusFiveTwelve"
+		texturefile = "gfx/traits/Age Customizer/agePlus512.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_minusOne"
+		texturefile = "gfx/traits/Age Customizer/ageMinus1.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_minusTwo"
+		texturefile = "gfx/traits/Age Customizer/ageMinus2.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_minusFour"
+		texturefile = "gfx/traits/Age Customizer/ageMinus4.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_minusEight"
+		texturefile = "gfx/traits/Age Customizer/ageMinus8.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_minusSixteen"
+		texturefile = "gfx/traits/Age Customizer/ageMinus16.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_minusThirtyTwo"
+		texturefile = "gfx/traits/Age Customizer/ageMinus32.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_minusSixtyFour"
+		texturefile = "gfx/traits/Age Customizer/ageMinus64.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_minusOneTwentyEight"
+		texturefile = "gfx/traits/Age Customizer/ageMinus128.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_minusTwoFiftySix"
+		texturefile = "gfx/traits/Age Customizer/ageMinus256.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_minusFiveTwelve"
+		texturefile = "gfx/traits/Age Customizer/ageMinus512.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+}
